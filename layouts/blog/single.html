@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ if .Params.disable_banner }}
+<style>
+    div.page-banner {
+        display: none;
+    }
+</style>
+{{ end }}
+<div class="uk-section" id="blog-wrapper">
+    <div class="uk-container">
+        <div uk-grid>
+            <div class="uk-width-3-4">
+                <div class="uk-card uk-card-body">
+                    <h1>{{ .Title }}</h1>
+                    <ul class="uk-list">
+                        <li class="uk-display-inline-block accent-svg"><span uk-icon="icon: tag"></span></li>
+                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                      <li class="uk-display-inline-block">
+                        <a href="/categories{{ $name | urlize | relURL }}" class="uk-margin-small-left inherit-color">{{ $name | humanize }}</a>
+                      </li>
+                      {{end}}
+                    
+                    </ul>
+                    <div class="image-wrapper uk-margin-large">
+                        {{ if .Params.featured_image }}
+                        <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}">
+                        {{ end }}
+                    </div>
+                    <div class="blog-content">
+                        {{ .Content }}
+                    </div>
+                </div>
+
+            </div>
+            <div class="uk-width-expand">
+                <div class="uk-card uk-card-body">
+                    <h5>Categories</h5>
+                    <ul class="uk-list">
+                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                      <li>
+                        <a href="/categories{{ $name | urlize | relURL }}" class="uk-button uk-button-secondary accent-bg tags">{{ $name | humanize }}</a>
+                      </li>
+                      {{end}}
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,71 @@
+
+<footer class="footer">
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <div class="uk-width-1-2@s">
+                    <div class="uk-width-large">
+                        <h2>Perfect partner for success</h2>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-flex uk-flex-middle uk-flex-right">
+                        <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                        <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                        <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-grid-column-collapse uk-child-width-1-4@s" uk-grid>
+                <div>
+                    <h6 class="uk-text-bold">About</h6>
+                    <ul class="uk-list">
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                    </ul>                </div>
+                <div>
+                    <h6 class="uk-text-bold">Additional Links</h6>
+                    <ul class="uk-list">
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                    </ul>                </div>
+                <div>
+                    <h6 class="uk-text-bold">Projects</h6>
+                    <ul class="uk-list">
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                    </ul>           
+                </div>
+                <div>
+                    <div>
+                        <h6 class="uk-text-bold">Hungry Ram</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ab dignissimos natus, eveniet sapiente corrupti assumenda, nulla quas eos ad ipsum voluptatibus, sed fugiat aspernatur quod sunt obcaecati quam amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-container">
+        <div class="uk-grid">
+            <div class="uk-width-1-2@s">
+                <p class="uk-light uk-text-small">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a></p>
+                <ul class="hr-legals uk-padding-remove">
+                    {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+                    <li class="uk-light uk-text-small"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                  </ul>
+            </div>
+            <div class="uk-width-1-2@s uk-text-right">
+                {{ if .Site.Data.profile.social_media.instagram }}<a href="" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>{{ end }}
+                {{ if .Site.Data.profile.social_media.facebook }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>{{ end }}
+                {{ if .Site.Data.profile.social_media.pinterest }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="pinterest"></a>{{ end }}
+                {{ if .Site.Data.profile.social_media.twitter }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="twitter"></a>{{ end }}
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

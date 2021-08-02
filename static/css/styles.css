@@ -1,0 +1,172 @@
+/* TYPOGRAPHY */
+
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;    
+    font-weight: 400;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600!important;
+}
+
+/* OVERWRITE */
+
+button.uk-button.uk-button-primary,
+a.uk-button.uk-button-primary {
+    background: #44d7e9;
+}
+
+.uk-white {
+    color: #fff;
+}
+
+.accent {
+    color: #44d7e9!important;
+}
+
+svg {
+    color: #44d7e9;
+}
+
+.accent-bg {
+    background: #44d7e9!important;
+}
+
+.tags {
+    border-radius: 20px!important;
+}
+
+.inherit-color {
+    color: inherit;
+}
+
+div.uk-card-default {
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+}
+
+/* FORMS */
+
+form input.uk-input,
+form textarea.uk-textarea {
+    background-color: #fff!important;
+    color: #000!important;
+    font-family: 'Poppins', sans-serif!important;
+    padding: 25px;
+
+}
+
+form input.uk-input::placeholder,
+form textarea.uk-textarea::placeholder {
+    color: #000!important;
+    font-family: 'Poppins', sans-serif!important;
+
+}
+
+/* NAVBAR */
+
+div.top-navbar ul.uk-navbar-nav>li>a {
+    min-height: 50px;
+    font-weight: 400;
+}
+
+div.top-navbar {
+    border-bottom: 1px solid rgba(132,132,132,.15);
+    background: #fff;
+}
+
+div.top-navbar a {
+    border-right: 1px solid rgba(132,132,132,.15);
+}
+
+
+div.top-navbar ul {
+    border-left: 1px solid rgba(132,132,132,.15);
+}
+
+nav.uk-navbar-container.uk-navbar-sticky.uk-dark {
+    background: #FFF;
+}
+
+ul.uk-navbar-nav>li>a,
+ul.uk-navbar-dropdown-nav>li>a {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* ICONS SECTION */
+
+#icons-section h3.uk-card-title {
+    font-size: 20px;
+}
+
+/* HOME WORK SECTION */
+
+ul.portfolio img {
+    border: 20px solid white;
+}
+
+div.portfolio-page img {
+    border: 20px solid white;
+
+}
+
+/* PORTFOLIO */
+
+.more-projects h3 {
+    margin-top: 5px;
+}
+
+.project-category a {
+    color: #838383;
+    font-family: 'Poppins', sans-serif!important;
+    font-size: 15px;
+}
+
+a.link-black {
+    color: #000;
+}
+
+.project-category svg {
+    color: #44d7e9;
+}
+
+/* BLOG */
+
+#blog-wrapper h1 {
+    line-height: 70px;
+}
+
+#blog-wrapper img {
+    border-radius: 5px;
+}
+
+.blog-content a {
+    color: #44d7e9;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer.footer {
+    background: #1a1a1a;
+}
+
+footer.footer ul.uk-list li {
+    color: #fff;
+}
+
+footer.footer h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+footer.footer h6 {
+    color: #fff;
+}

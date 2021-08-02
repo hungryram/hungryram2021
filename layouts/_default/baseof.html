@@ -1,0 +1,12 @@
+  
+{{ partial "global/head" . }}
+{{ partial "global/navbar" . }}
+<div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle page-banner" style="background: url(https://www.ekko-wp.com/wp-content/uploads/2019/04/services-classic.jpg)">
+    <h1 class="uk-text-uppercase uk-white">{{ .Title }}</h1>
+</div>
+<main>
+{{ block "main" . }}
+
+{{ end }}
+</main>
+{{ partial "global/footer" . }}

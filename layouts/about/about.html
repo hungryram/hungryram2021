@@ -1,0 +1,96 @@
+{{ define "main" }}
+<div class="uk-section">
+    <div class="uk-container">
+        <div uk-grid>
+            <div class="uk-width-1-3@s">
+                <div class="uk-card">
+                    <h2>We create brand new corporate identities</h2>
+                </div>
+            </div>
+            <div class="uk-width-1-3@s">
+                <div class="uk-card">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam harum expedita nulla impedit quidem nemo facilis nam, culpa provident ea molestias minima ut atque velit sit iure distinctio quibusdam sunt.</div>
+            </div>
+            <div class="uk-width-1-3@s">
+                <div class="uk-card">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores pariatur voluptatem ad ex possimus, laborum animi quibusdam magnam alias ducimus, exercitationem labore deserunt eius molestiae esse, voluptas cupiditate. Ipsam, aperiam!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-card uk-grid-collapse uk-child-width-1-2@s uk-margin" style="background: #F5F5F5" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+            <img src="https://www.ekko-wp.com/static/wp-content/uploads/sites/3/2019/04/webdesign9.jpg" alt="" uk-cover>
+            <canvas height="500"></canvas>
+        </div>
+        <div class="uk-flex uk-flex-middle uk-flex-center">
+            <div class="uk-width-large">
+                <div class="uk-card-body">
+                    <h2>Build better business software a lot quicker with ekko theme.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <ul class="uk-list">
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>SSL security</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>Responsive Design</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>SSL security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-container uk-container-large">
+        <div class="uk-width-1-1 uk-flex uk-flex-center uk-margin-medium-bottom">
+            <div class="uk-width-large uk-text-center">
+                <h2 class="uk-margin-remove uk-text-bold">Client Testimonials</h2>
+                <p>We are very passionate and proud about the services we provide. Read our testimonials from happy clients</p>
+            </div>
+        </div>
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
+            <ul class="uk-slider-items uk-grid" uk-height-match="target: .uk-card">
+                {{ range shuffle (where .Site.RegularPages "Type" "portfolio") }}
+                {{ if .Params.review }}
+                <li class="uk-width-1-2@s">
+                    <div class="uk-panel">
+                        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" style="box-shadow: none;border:1px solid #ededed;border-radius:5px" uk-grid>
+                            <div class="uk-card-media-left uk-cover-container">
+                                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1608146880/hungryram/kaiyager_zpirvi.png" alt="{{ .Params.image_alt_tag }}" uk-cover>
+                                <canvas height="200"></canvas>
+                            </div>
+                            <div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title uk-margin-remove uk-h5">{{ .Params.client_name }}</h3>
+                                    <h4 class="uk-h5 uk-dark accent" style="margin-top: 5px;">{{ .Title }}</h4>
+                                    <p>{{ .Params.review }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        
+        </div>
+    </div>
+</div>
+<!-- CLOSING -->
+<div class="uk-section" style="background: #F5F5F5">
+    <div class="uk-container">
+        <div class="uk-width-1-1 uk-flex uk-flex-center">
+            <div class="uk-width-large uk-text-center">
+                <h6 class="uk-margin-remove">Match the feel of your business</h6>
+                <h2 class="uk-margin-remove uk-text-bold">Consult our experts about your project for free</h2>
+                <div class="uk-margin-medium-top">
+                    <a href="" class="uk-button uk-button-primary">Get a quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
