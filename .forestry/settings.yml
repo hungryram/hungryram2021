@@ -17,13 +17,6 @@ sections:
   label: Appearance
 - type: heading
   label: Pages
-- type: directory
-  path: content/portfolio
-  label: Portfolio
-  create: documents
-  match: "**/*"
-  templates:
-  - portfolio
 - type: document
   path: content/about/_index.md
   label: About
