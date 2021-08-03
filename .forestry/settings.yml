@@ -22,8 +22,6 @@ sections:
   label: Portfolio
   create: documents
   match: "**/*"
-  templates:
-  - customers
 - type: document
   path: content/about/_index.md
   label: About
