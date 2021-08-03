@@ -31,3 +31,5 @@ fields:
         format: markdown
     label: Body
   label: Footer
+pages:
+- data/appearance.yaml
