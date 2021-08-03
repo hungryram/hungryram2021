@@ -1,0 +1,138 @@
+---
+label: My Profile
+hide_body: true
+fields:
+- name: primary_photo
+  type: file
+  config:
+    maxSize: 64
+  label: Your Photo
+  description: Optional
+- name: primary_account
+  type: field_group
+  config: {}
+  fields:
+  - name: first_and_last_name
+    type: text
+    config:
+      required: false
+    label: First and Last Name
+  - name: primary_phone_number
+    type: text
+    config:
+      required: false
+    label: Phone Number
+  - name: fax
+    type: text
+    config:
+      required: false
+    label: Fax
+  - name: primary_email
+    type: text
+    config:
+      required: false
+    label: Email
+  - name: primary_company_name
+    type: text
+    config:
+      required: false
+    label: Company Name
+  label: Primary Account
+- name: address
+  type: field_group
+  config: {}
+  fields:
+  - name: street_address
+    type: text
+    config:
+      required: false
+    label: Street Address
+  - name: primary_city
+    type: text
+    config:
+      required: false
+    label: City
+  - name: primary_state
+    type: text
+    config:
+      required: false
+    label: State
+  - name: primary_zip_code
+    type: text
+    config:
+      required: false
+    label: Zip Code
+  - name: primary_country
+    type: text
+    config:
+      required: false
+    label: Country
+  - name: disable_address
+    type: boolean
+    label: Disable Address
+  label: Address
+- name: add_social_links
+  type: field_group
+  config: {}
+  fields:
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: yelp
+    type: text
+    config:
+      required: false
+    label: Yelp
+  label: Add Social Links
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
+- name: company_name
+  type: text
+  config:
+    required: false
+  label: Company Name
+- name: welcome
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Welcome
+pages:
+- data/profile.yaml

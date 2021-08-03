@@ -1,0 +1,23 @@
+---
+label: Legal
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: last_updated
+  type: text
+  config:
+    required: false
+  label: Last Updated
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/legal/accessibility.md
+- content/legal/privacy-policy.md
+- content/legal/terms-and-conditions.md

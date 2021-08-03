@@ -1,0 +1,81 @@
+---
+label: Portfolio
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Portfolio Name
+- name: review
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Review
+- name: short_description
+  type: text
+  config:
+    required: false
+  label: Short Description
+- name: client_name
+  type: text
+  config:
+    required: false
+  label: Client Name
+- name: date
+  type: datetime
+  label: Date Completed
+  description: ''
+  config:
+    required: false
+    date_format: MM/DD/YYYY
+    time_format: 
+    display_utc: false
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+- name: image_alt_tag
+  type: text
+  config:
+    required: false
+  label: Image Alt Tag
+- name: website_link
+  type: text
+  config:
+    required: false
+  label: Website Link
+- name: projects
+  type: tag_list
+  default: []
+  label: Projects
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/customers/beauty-hydration.md
+- content/customers/black-panther.md
+- content/customers/ck-kitchens-and-designs.md
+- content/customers/corwink-cosmetics.md
+- content/customers/faroe-island-concept.md
+- content/customers/frank-chavez-c21.md
+- content/customers/gwb-land.md
+- content/customers/karina-crisp-summit-realty.md
+- content/customers/launch-and-go-workspace.md
+- content/customers/lauren-renteria.md
+- content/customers/oc-generators.md
+- content/customers/pathfinders-carpet-cleaning.md
+- content/customers/pho-ha-plus.md
+- content/customers/real-estate-gateway.md
+- content/customers/someda-marketing.md
+- content/customers/swaye-realty.md
+- content/customers/team-yager.md
+- content/customers/the-batman.md
+- content/customers/wonder-woman-ww84.md

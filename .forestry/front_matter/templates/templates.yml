@@ -1,0 +1,31 @@
+---
+label: Templates
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: template
+  type: file
+  config:
+    maxSize: 64
+  label: Template
+- name: designs
+  type: tag_list
+  default: []
+  label: Designs
+- name: preview
+  type: text
+  config:
+    required: false
+  label: Preview
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
+pages:
+- content/templates/behold.md
+- content/templates/pad.md
