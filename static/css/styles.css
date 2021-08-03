@@ -1,8 +1,8 @@
 /* TYPOGRAPHY */
 
 body {
-    font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;    
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -126,10 +126,67 @@ div.full-nav-wrapper:hover {
     transition: .3s ease;
 }
 
+/* WHITE/BLACK LOGO */
+
+.uk-navbar-sticky .white-logo {
+    display: none;
+}
+
+.uk-navbar-sticky .dark-logo {
+    display: block;
+}
+
+.dark-logo {
+    display: none;
+}
+
+div.full-nav-wrapper:hover .dark-logo {
+    display: block;
+}
+
+div.full-nav-wrapper:hover .white-logo {
+    display: none;
+}
+
 /* ICONS SECTION */
 
 #icons-section h3.uk-card-title {
     font-size: 20px;
+}
+
+/* SECOND HOME / IMAGE AND TEXT BANNER */
+
+div.switcher ul li {
+    transition: .3s ease;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.switcher ul li.uk-active a {
+    background: #FFFFFF;
+    border-radius: 50px;
+    box-shadow: 0 2px 50px rgb(0 0 0 / 10%);
+    transition: .3s ease;
+    color: #2196f3;
+    padding: 20px; 
+    display: block;
+}
+
+div.switcher ul li a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-weight: 670;
+}
+
+@media screen and (min-width: 768px) {
+    div.switcher-image {
+        position: absolute;
+    }
 }
 
 /* HOME WORK SECTION */
