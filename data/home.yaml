@@ -5,16 +5,6 @@ hero:
     real estate and small business
   image: https://res.cloudinary.com/hungryram19/image/upload/v1627958655/hungryram/backdrop_pb13su.jpg
 featured_blocks:
-- heading: Search Engine Optimization
-  body: Your website will be optimized to help search engines on how they identify
-    your business.
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1628017034/hungryram/search-engine_rvslir.png
-  image_alt: magnifying glass gear icon
-- heading: Competitive Designs
-  body: There are specific designs for every industry. The overall feel of a website
-    needs to contribute to the message you are sending.
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1628017623/hungryram/designs_oqbyxi.png
-  image_alt: c
 - heading: Increased Security and Scalability
   body: Benefit from a site more secure than any other types of web development. How?
     All files are read-only meaning no vulnerabilities to exploit.
@@ -25,6 +15,16 @@ featured_blocks:
     website is served faster than traditional websites from anywhere.
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628018378/hungryram/faster-website_xo6mrv.png
   image_alt: plane in a browser
+- heading: Search Engine Optimization
+  body: Your website will be optimized to help search engines on how they identify
+    your business.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1628019060/hungryram/search-engine_oced1x.png
+  image_alt: magnifying glass gear icon
+- heading: Competitive Designs
+  body: There are specific designs for every industry. The overall feel of a website
+    needs to contribute to the message you are sending.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1628017623/hungryram/designs_oqbyxi.png
+  image_alt: c
 text_and_image:
   heading: The features your business needs
   body: Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque
