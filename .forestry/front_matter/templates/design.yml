@@ -7,9 +7,9 @@ fields:
   config: {}
   fields:
   - name: logo
-    type: text
+    type: file
     config:
-      required: false
+      maxSize: 64
     label: Logo
   label: Branding
 - name: footer
