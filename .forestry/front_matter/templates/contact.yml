@@ -45,3 +45,17 @@ fields:
       required: false
     label: Image Alt
   label: Blocks
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: paragraph
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Paragraph
