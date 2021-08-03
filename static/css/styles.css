@@ -183,9 +183,13 @@ div.switcher ul li a {
     font-weight: 670;
 }
 
+div.switcher-video video {
+    box-shadow: 0 2px 60px rgb(79 79 79 / 46%);
+    border-radius: 8px;
+}
+
 @media screen and (min-width: 768px) {
-    div.switcher-image,
-    div.bottom-switcher {
+    div.switcher-video {
         position: absolute;
     }
 }

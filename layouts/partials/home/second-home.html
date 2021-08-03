@@ -6,7 +6,9 @@
                 <div class="uk-width-large switcher">
                     <h2>{{ .Site.Data.home.text_and_image.heading }}</h2>
                     <div class="uk-margin-medium">
-                        <p>{{ .Site.Data.home.text_and_image.body }}</p>
+                        {{ range $switcher }}
+                        <p>{{ .body }}</p>
+                        {{ end }}                    
                     </div>
                     <ul class="uk-list uk-text-left" uk-switcher="connect: .right-switcher">
                         {{ range $switcher }}
@@ -16,10 +18,10 @@
                 </div>
             </div>
             <div class="uk-width-expand">
-                <div class="uk-card switcher-image">
+                <div class="uk-card switcher-video">
                     <ul class="uk-switcher uk-margin right-switcher">
                         {{ range $switcher }}
-                        <li><img src="{{ .image }}" alt="{{ .image_alt }}"></li>
+                        <video src="https://res.cloudinary.com/hungryram19/video/upload/v1628028679/hungryram/yagerre-home_d3ihg1.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
                         {{ end }}
                     </ul>
                 </div>
