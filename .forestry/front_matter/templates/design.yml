@@ -10,7 +10,12 @@ fields:
     type: file
     config:
       maxSize: 64
-    label: Logo
+    label: Dark Logo
+  - name: white_logo
+    type: file
+    config:
+      maxSize: 64
+    label: White Logo
   - name: favicon
     type: file
     config:
