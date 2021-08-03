@@ -59,23 +59,3 @@ fields:
   config: {}
   template: seo
   label: SEO
-pages:
-- content/customers/beauty-hydration.md
-- content/customers/black-panther.md
-- content/customers/ck-kitchens-and-designs.md
-- content/customers/corwink-cosmetics.md
-- content/customers/faroe-island-concept.md
-- content/customers/frank-chavez-c21.md
-- content/customers/gwb-land.md
-- content/customers/karina-crisp-summit-realty.md
-- content/customers/launch-and-go-workspace.md
-- content/customers/lauren-renteria.md
-- content/customers/oc-generators.md
-- content/customers/pathfinders-carpet-cleaning.md
-- content/customers/pho-ha-plus.md
-- content/customers/real-estate-gateway.md
-- content/customers/someda-marketing.md
-- content/customers/swaye-realty.md
-- content/customers/team-yager.md
-- content/customers/the-batman.md
-- content/customers/wonder-woman-ww84.md

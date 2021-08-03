@@ -26,6 +26,3 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
-pages:
-- content/templates/behold.md
-- content/templates/pad.md

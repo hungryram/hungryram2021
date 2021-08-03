@@ -10,6 +10,10 @@ sections:
 - type: heading
   label: Branding
 - type: document
+  path: data/home.yaml
+  label: Home Page
+  match: "**/*"
+- type: document
   path: data/appearance.yaml
   label: Appearance
 - type: heading

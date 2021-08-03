@@ -99,5 +99,3 @@ fields:
       maxSize: 64
     label: Second Intro Image
   label: Intro Section
-pages:
-- data/design.yaml
