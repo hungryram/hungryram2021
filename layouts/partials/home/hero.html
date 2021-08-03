@@ -1,10 +1,15 @@
 {{ partial "global/navbar" . }}
+{{ $hero := .Site.Data.home.hero }}
 
-<div class="uk-cover-container uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-bottom:20" style="background:url('https://www.ekko-wp.com/static/wp-content/uploads/sites/3/2019/04/webdesign-slide1.jpg') no-repeat center; background-size:cover" uk-grid>    
+<div class="uk-cover-container uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-bottom:20" style="background:url('{{ $hero.image }}') no-repeat center; background-size:cover" uk-grid>    
     
-    <div class="hero-text uk-dark uk-width-3-5@s">
-        <h1 class="uk-text-bold heading uk-margin-remove">Boost the growth of your business</h1>
-        <p class="uk-text-normal">We design, build and support websites. We make your website stand out</p>
+    <div class="hero-text uk-dark uk-width-3-5@s uk-margin-large" style="margin-left:20px;">
+        {{ if $hero.heading }}
+        <h1 class="uk-text-bold heading uk-margin-remove">{{ $hero.heading }}</h1>
+        {{ end }}
+        {{ if $hero.heading }}
+        <p class="uk-text-normal">{{ $hero.body }}</p>
+        {{ end }}
         <a href="/contact" class="uk-button-primary uk-button">Free Estimate</a>
     </div>
     

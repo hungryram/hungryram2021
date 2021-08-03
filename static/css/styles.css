@@ -158,8 +158,11 @@ footer.footer {
     background: #1a1a1a;
 }
 
-footer.footer ul.uk-list li {
+footer.footer ul.uk-list li,
+footer.footer ul li a,
+footer.footer div.footer-text {
     color: #fff;
+    transition: .3s ease;
 }
 
 footer.footer h2 {
@@ -169,4 +172,10 @@ footer.footer h2 {
 
 footer.footer h6 {
     color: #fff;
+}
+
+footer.footer ul li a:hover {
+    transition: .2s ease;
+    color: #44d7e9;
+    text-decoration: none;
 }

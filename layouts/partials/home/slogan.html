@@ -2,8 +2,11 @@
     <div class="uk-container">
         <div class="uk-width-1-1 uk-flex uk-flex-center">
             <div class="uk-width-large uk-text-center">
-                <h6 class="uk-margin-remove">Match the feel of your business</h6>
-                <h2 class="uk-margin-remove uk-text-bold">Consult our experts about your project for free</h2>
+                <h6 class="uk-margin-remove">{{ .Site.Data.home.closing.subtitle }}</h6>
+                <h2 class="uk-margin-remove uk-text-bold">{{ .Site.Data.home.closing.heading }}</h2>
+                {{ if .Site.Data.home.closing.body }}
+                <p>{{ .Site.Data.home.closing.body }}</p>
+                {{ end }}
                 <div class="uk-margin-medium-top">
                     <a href="" class="uk-button uk-button-primary">Get a quote</a>
                 </div>

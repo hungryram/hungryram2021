@@ -5,7 +5,7 @@
             <div class="uk-grid">
                 <div class="uk-width-1-2@s">
                     <div class="uk-width-large">
-                        <h2>Perfect partner for success</h2>
+                        <h2>{{ .Site.Data.appearance.footer.heading }}</h2>
                     </div>
                 </div>
                 <div class="uk-width-1-2@s">
@@ -18,31 +18,37 @@
             </div>
             <div class="uk-grid-column-collapse uk-child-width-1-4@s" uk-grid>
                 <div>
-                    <h6 class="uk-text-bold">About</h6>
+                    <h6 class="uk-text-bold accent">Quick Links</h6>
                     <ul class="uk-list">
-                        <li>List item 1</li>
-                        <li>List item 2</li>
-                        <li>List item 3</li>
-                    </ul>                </div>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>                
+                </div>
                 <div>
-                    <h6 class="uk-text-bold">Additional Links</h6>
+                    <h6 class="uk-text-bold accent">Real Estate Website</h6>
                     <ul class="uk-list">
-                        <li>List item 1</li>
-                        <li>List item 2</li>
-                        <li>List item 3</li>
-                    </ul>                </div>
+                        <li><a href="/blog">Agent Websites</a></li>
+                        <li><a href="/blog">Broker Websites</a></li>
+                        <li><a href="/blog">Single Property Websites</a></li>
+                        <li><a href="/blog">Agent IDX</a></li>
+                        <li><a href="/blog">Broker IDX</a></li>
+
+                    </ul>                
+                </div>
                 <div>
-                    <h6 class="uk-text-bold">Projects</h6>
+                    <h6 class="uk-text-bold accent">Small Business Website</h6>
                     <ul class="uk-list">
-                        <li>List item 1</li>
-                        <li>List item 2</li>
-                        <li>List item 3</li>
+                        <li><a href="/blog">Basic Website</a></li>
+                        <li><a href="/blog">Custom Website</a></li>
+                        <li><a href="/blog">Ecommerce Website</a></li>
                     </ul>           
                 </div>
                 <div>
-                    <div>
-                        <h6 class="uk-text-bold">Hungry Ram</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ab dignissimos natus, eveniet sapiente corrupti assumenda, nulla quas eos ad ipsum voluptatibus, sed fugiat aspernatur quod sunt obcaecati quam amet.</p>
+                    <div class="footer-text">
+                        <h6 class="uk-text-bold accent">Hungry Ram</h6>
+                        <p>{{ .Site.Data.appearance.footer.body }}</p>
                     </div>
                 </div>
             </div>

@@ -1,50 +1,19 @@
 <div class="uk-section" id="icons-section">
     <div class="uk-container">
         <div class="uk-child-width-1-4@m uk-text-center" uk-grid>
+            {{ range .Site.Data.home.featured_blocks }}
             <div>
                 <div class="uk-card">
                     <div class="uk-card-media-top">
-                        <img src="https://www.ekko-wp.com/static/wp-content/uploads/sites/3/2019/04/web-design1.png"  width="100" width="100">
+                        <img src="{{ .image }}" alt="{{ .image_alt }}"  width="100" width="100">
                     </div>
                     <div class="uk-card-body">
-                        <h3 class="uk-card-title">Media Top</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <h3 class="uk-card-title">{{ .heading }}</h3>
+                        <p>{{ .body }}</p>
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="uk-card">
-                    <div class="uk-card-media-top">
-                        <img src="https://www.ekko-wp.com/static/wp-content/uploads/sites/3/2019/04/web-design1.png"  width="100">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">Media Top</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card">
-                    <div class="uk-card-media-top">
-                        <img src="https://www.ekko-wp.com/static/wp-content/uploads/sites/3/2019/04/web-design1.png"  width="100">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">Media Top</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card">
-                    <div class="uk-card-media-top">
-                        <img src="https://www.ekko-wp.com/static/wp-content/uploads/sites/3/2019/04/web-design1.png"  width="100">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">Media Top</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
 </div>

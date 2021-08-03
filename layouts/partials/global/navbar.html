@@ -1,19 +1,19 @@
-
+{{ $social := .Site.Data.profile.add_social_links }}
+{{ $contact := .Site.Data.profile.primary_account }}
 <div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; cls-inactive: uk-navbar-transparent; top: 200">
     
 <div class="top-navbar">
     <nav class="uk-container uk-container-medium" uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
-                <li><a href="#">Fb</a></li>
-                <li><a href="#">Ig</a></li>
-                <li><a href="#">TT</a></li>
+                {{ if $social.facebook }}<li><a href="{{ $social.facebook }}" target="_blank">Fb</a></li>{{ end }}
+                {{ if $social.instagram }}<li><a href="{{ $social.instagram }}" target="_blank">Ig</a></li>{{ end }}
             </ul>
         </div>
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav">
-                <li><a href="#">951-454-2650</a></li>
-                <li><a href="#">ram@hungryram.com</a></li>
+                {{ if $contact.primary_phone_number }}<li><a href="tel:{{ $contact.primary_phone_number }}">{{ $contact.primary_phone_number }}</a></li>{{ end }}
+                {{ if $contact.primary_email }}<li><a href="mailto:{{ $contact.primary_email }}">{{ $contact.primary_email }}</a></li>{{ end }}
             </ul>
         </div>
     </nav>
@@ -22,7 +22,9 @@
         <div class="uk-container uk-container-medium" style="padding-top:10px;padding-bottom:10px;">
             <div uk-navbar="dropbar: true">
                 <div class="uk-navbar-left">
-                    <a href="{{ .Site.BaseURL }}"><h4>Hungry Ram</h4></a>
+                    <a href="{{ .Site.BaseURL }}">
+                        <img src="{{ .Site.Data.appearance.branding.logo }}" alt="" width="200">
+                    </a>
 
                 </div>
                 <div class="uk-navbar-right">
@@ -116,19 +118,54 @@
                 <li class="uk-nav-header">Hungry Ram</li>
 
                 <li class="uk-nav-header"></li>
-                <li><a href="#">Item</a></li>
                 <li class="uk-nav-header">Header</li>
-                <li><a href="#">Item</a></li>
+                <li><a href="{{ .Site.BaseURL }}">Home</a></li>
                 <li class="uk-parent">
-                    <a href="#">Parent</a>
+                    <a href="#">Products</a>
                     <ul class="uk-nav-sub">
-                        <li><a href="#">Sub item</a></li>
-                        <li><a href="#">Sub item</a></li>
+                        <li class="uk-nav-header">Real Estate Websites</li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="/real-estate-agent-websites">Agent websites</a></li>
+                        <li><a href="/real-estate-broker-websites">Broker websites</a></li>
+                        <li><a href="/single-property-page">Single Property page</a></li>
+                        <li class="uk-nav-header">IDX Websites</li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="/agent-idx-websites">Agent IDX</a></li>
+                        <li><a href="/broker-idx-websites">Broker IDX</a></li>
+                        <li class="uk-nav-header">Small Business Websites</li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="/basic-website-design">Basic Website</a></li>
+                        <li><a href="/custom-website-design">Custom Website</a></li>
+                        <li><a href="/ecommerce-website-design">Ecommerce website</a></li>
+                        <li class="uk-nav-header">Added Website Tools</li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="/google-analytics">Web Analytics</a></li>
+                        <li><a href="/google-console">Google console</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Item</a></li>
+                <li class="uk-parent">
+                    <a href="#">Resources</a>
+                    <ul class="uk-nav-sub">
+                        <li class="uk-nav-header">Hungry Ram</li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li class="uk-nav-header">Resources</li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/portfolio">Portfolio</a></li>
+                        <li class="uk-nav-header">Added Website Tools</li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="/google-analytics">Web Analytics</a></li>
+                        <li><a href="/google-console">Google console</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">Item</a></li>
+                <li class="uk-nav-header"></li>
+                {{ if $social.facebook }}<li class="uk-display-inline-block"><a href="{{ $social.facebook }}" target="_blank" uk-icon="facebook"></a></li>{{ end }}
+                {{ if $social.instagram }}<li class="uk-display-inline-block"><a href="{{ $social.instagram }}" target="_blank" uk-icon="instagram"></a></li>{{ end }}
             </ul>
         </div>
     </div>
