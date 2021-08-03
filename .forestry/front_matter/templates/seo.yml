@@ -16,6 +16,3 @@ fields:
     schema:
       format: markdown
   label: Meta Description
-pages:
-- content/about/_index.md
-- content/contact/_index.md

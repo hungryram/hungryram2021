@@ -17,81 +17,14 @@ sections:
   label: Appearance
 - type: heading
   label: Pages
-- type: directory
-  path: content/about
+- type: document
+  path: content/about/_index.md
   label: About
-  create: all
   match: "**/*"
-- type: directory
-  path: content/agent-idx-websites
-  label: Agent idx websites
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/basic-website-design
-  label: Basic website design
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/blog
-  label: Blog
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/broker-idx-websites
-  label: Broker idx websites
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/contact
+- type: document
+  path: content/contact/_index.md
   label: Contact
-  create: all
   match: "**/*"
-- type: directory
-  path: content/custom-website-design
-  label: Custom website design
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/ecommerce-website-design
-  label: Ecommerce website design
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/faq
-  label: Faq
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/portfolio
-  label: Portfolio
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/real-estate-agent-websites
-  label: Real estate agent websites
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/real-estate-broker-websites
-  label: Real estate broker websites
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/services
-  label: Services
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/single-property-page
-  label: Single property page
-  create: all
-  match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 upload_dir: hungryram
 public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
