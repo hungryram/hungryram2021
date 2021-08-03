@@ -18,7 +18,7 @@ sections:
 - type: heading
   label: Pages
 - type: directory
-  path: ''
+  path: content/portfolio
   label: Portfolio
   create: documents
   match: "**/*"
