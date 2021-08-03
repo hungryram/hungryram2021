@@ -9,6 +9,12 @@ sections:
   label: Profile
   match: "**/*"
 - type: heading
+  label: Branding
+- type: document
+  path: data/appearance.yaml
+  label: Appearance
+  match: "**/*"
+- type: heading
   label: Pages
 - type: directory
   path: content/about
