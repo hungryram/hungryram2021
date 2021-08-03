@@ -1,29 +1,30 @@
 ---
 hero:
   heading: Give your business a professional & trustworthy feel
-  body: Elevate the customer experience with professionally designed websites for real estate and small business
+  body: Elevate the customer experience with professionally designed websites for
+    real estate and small business
   image: https://res.cloudinary.com/hungryram19/image/upload/v1627958655/hungryram/backdrop_pb13su.jpg
 featured_blocks:
-- heading: Define
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt.
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1627952291/hungryram/web-design1_zlvda7.webp
-  image_alt: Computer
-- heading: Implement
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt.
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1627952291/hungryram/web-design1_zlvda7.webp
+- heading: Search Engine Optimization
+  body: Your website will be optimized to help search engines on how they identify
+    your business.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1628017034/hungryram/search-engine_rvslir.png
+  image_alt: magnifying glass gear icon
+- heading: Competitive Designs
+  body: There are specific designs for every industry. The overall feel of a website
+    needs to contribute to the message you are sending.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1628017623/hungryram/designs_oqbyxi.png
   image_alt: c
-- heading: Review
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt.
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1627952291/hungryram/web-design1_zlvda7.webp
-  image_alt: c
-- heading: Maintenance
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt.
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1627952291/hungryram/web-design1_zlvda7.webp
-  image_alt: cc
+- heading: Increased Security
+  body: Benefit from a site more secure than any other types of web development. How?
+    All files are read-only meaning no vulnerabilities to exploit.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1628017994/hungryram/security_flojsh.png
+  image_alt: Cloud security
+- heading: Higher Performance
+  body: Database adds another layer of request. By eliminating the database, your
+    website is served faster than traditional websites from anywhere.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1628018378/hungryram/faster-website_xo6mrv.png
+  image_alt: plane in a browser
 text_and_image:
   heading: The features your business needs
   body: Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque
