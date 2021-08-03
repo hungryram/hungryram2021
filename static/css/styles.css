@@ -184,7 +184,8 @@ div.switcher ul li a {
 }
 
 @media screen and (min-width: 768px) {
-    div.switcher-image {
+    div.switcher-image,
+    div.bottom-switcher {
         position: absolute;
     }
 }

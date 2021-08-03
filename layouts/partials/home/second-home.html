@@ -5,7 +5,9 @@
             <div class="uk-width-1-2@s uk-card uk-flex uk-flex-middle">
                 <div class="uk-width-large switcher">
                     <h2>{{ .Site.Data.home.text_and_image.heading }}</h2>
-                    <p>{{ .Site.Data.home.text_and_image.body }}</p>
+                    <div class="uk-margin-medium">
+                        <p>{{ .Site.Data.home.text_and_image.body }}</p>
+                    </div>
                     <ul class="uk-list uk-text-left" uk-switcher="connect: .right-switcher">
                         {{ range $switcher }}
                         <li><a href=""><span uk-icon="icon: check" class="uk-margin-small-right"></span>{{ .heading }}</a></li>

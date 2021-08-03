@@ -10,14 +10,14 @@ featured_blocks:
     All files are read-only meaning no vulnerabilities to exploit.
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628018480/hungryram/cloud-security_sdox85.png
   image_alt: Cloud security
-- heading: Higher Performance
+- heading: Higher Performance & Speed
   body: Database adds another layer of request. By eliminating the database, your
     website is served faster than traditional websites from anywhere.
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628018378/hungryram/faster-website_xo6mrv.png
   image_alt: plane in a browser
 - heading: Search Engine Optimization
   body: Your website will be optimized to help search engines on how they identify
-    your business.
+    your business by using structured data and meta tags
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628019175/hungryram/search-engine_mze9gk.png
   image_alt: magnifying glass gear icon
 - heading: Competitive Designs
@@ -31,13 +31,13 @@ text_and_image:
     ut optio debitis expedita neque consequuntur architecto corrupti dignissimos maiores
     doloribus.
   switcher:
-  - heading: The feature your business needs
+  - heading: Real Estate Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952379/hungryram/webdesign9_vwqt4o.jpg
     image_alt: iomg
-  - heading: Boost your website traffic
+  - heading: Small Business Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952398/hungryram/webdesign-tab1_ryn7th.jpg
     image_alt: df
-  - heading: Launch your project in style
+  - heading: Ecommerce Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952417/hungryram/webdesign8_srpdyg.jpg
     image_alt: df
 image_banner:
