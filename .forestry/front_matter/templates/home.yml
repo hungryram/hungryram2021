@@ -84,6 +84,15 @@ fields:
       config:
         required: false
       label: Heading
+    - name: body
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Body
     - name: image
       type: file
       config:
