@@ -49,9 +49,11 @@ text_and_image:
   - heading: Ecommerce Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952417/hungryram/webdesign8_srpdyg.jpg
     image_alt: df
-    body: ''
-    link: ''
-    video_link: ''
+    body: Built on the most popular ecommerce platform, Shopify offers a one stop
+      shop for merchants to sell their products easily. Fully equipped with a POS
+      that is manageable on any device.
+    link: "/ecommerce-website-design"
+    video_link: https://res.cloudinary.com/hungryram19/video/upload/v1628028679/hungryram/yagerre-home_d3ihg1.mp4
 image_banner:
   heading: Transform your ideas into a great product
   body: Customize the framework to match your small business processes using simple
