@@ -2,46 +2,26 @@
 label: Design
 hide_body: true
 fields:
-- name: logo
+- name: branding
   type: field_group
   config: {}
   fields:
   - name: logo
-    type: file
+    type: text
     config:
-      maxSize: 64
+      required: false
     label: Logo
-  - name: logo_alt_tag
-    type: text
-    config:
-      required: false
-    label: Logo Alt Tag
-  - name: company_name
-    type: text
-    config:
-      required: false
-    label: Company Name
-  - name: favicon
-    type: file
-    config:
-      maxSize: 64
-    label: Favicon
-  label: Logo
-- name: hero
+  label: Branding
+- name: footer
   type: field_group
   config: {}
   fields:
-  - name: hero_image
-    type: file
-    config:
-      maxSize: 64
-    label: Hero Image
-  - name: hero_title
+  - name: heading
     type: text
     config:
       required: false
-    label: Hero Title
-  - name: hero_subtitle
+    label: Heading
+  - name: body
     type: textarea
     default: ''
     config:
@@ -49,53 +29,5 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Hero Subtitle
-  label: Hero
-- name: sub_page_image
-  type: file
-  config:
-    maxSize: 64
-  label: Sub Page Image
-- name: intro_section
-  type: field_group
-  config: {}
-  fields:
-  - name: intro_heading
-    type: text
-    config:
-      required: false
-    label: Intro Heading
-  - name: introduction_body
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Introduction Body
-  - name: intro_image
-    type: file
-    config:
-      maxSize: 64
-    label: Intro Image
-  - name: second_intro_heading
-    type: text
-    config:
-      required: false
-    label: Second Intro Heading
-  - name: second_intro_body
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Second Intro Body
-  - name: second_intro_image
-    type: file
-    config:
-      maxSize: 64
-    label: Second Intro Image
-  label: Intro Section
+    label: Body
+  label: Footer
