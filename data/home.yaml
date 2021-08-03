@@ -2,6 +2,7 @@
 hero:
   heading: Boost the growth of your business
   body: We design, build and support websites. We make your website stand out
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1627958655/hungryram/backdrop_pb13su.jpg
 featured_blocks:
 - heading: Define
   body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
