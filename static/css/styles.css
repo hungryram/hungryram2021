@@ -20,7 +20,7 @@ body h6 {
 
 button.uk-button.uk-button-primary,
 a.uk-button.uk-button-primary {
-    background: #44d7e9;
+    background: #2196f3;
 }
 
 .uk-white {
@@ -28,15 +28,15 @@ a.uk-button.uk-button-primary {
 }
 
 .accent {
-    color: #44d7e9!important;
+    color: #2196f3!important;
 }
 
 svg {
-    color: #44d7e9;
+    color: #2196f3;
 }
 
 .accent-bg {
-    background: #44d7e9!important;
+    background: #2196f3!important;
 }
 
 .tags {
@@ -100,6 +100,32 @@ ul.uk-navbar-dropdown-nav>li>a {
     text-transform: uppercase;
 }
 
+nav.main-nav ul.uk-navbar-nav>li>a,
+nav.main-nav ul.uk-navbar-nav>li>a svg {
+    transition: .3s ease;
+    color: #fff;
+}
+
+.uk-navbar-sticky ul li a,
+.uk-navbar-sticky ul li a svg {
+    color: #000!important;
+}
+
+div.full-nav-wrapper:hover ul.uk-navbar-nav li a,
+div.full-nav-wrapper:hover ul.uk-navbar-nav li a svg {
+    transition: .3s ease;
+    color: #000;
+}
+
+div.full-nav-wrapper {
+    transition: .5s ease;
+}
+
+div.full-nav-wrapper:hover {
+    background: #fff!important;
+    transition: .3s ease;
+}
+
 /* ICONS SECTION */
 
 #icons-section h3.uk-card-title {
@@ -134,7 +160,7 @@ a.link-black {
 }
 
 .project-category svg {
-    color: #44d7e9;
+    color: #2196f3;
 }
 
 /* BLOG */
@@ -148,7 +174,7 @@ a.link-black {
 }
 
 .blog-content a {
-    color: #44d7e9;
+    color: #2196f3;
     text-decoration: underline;
 }
 
@@ -176,6 +202,6 @@ footer.footer h6 {
 
 footer.footer ul li a:hover {
     transition: .2s ease;
-    color: #44d7e9;
+    color: #2196f3;
     text-decoration: none;
 }

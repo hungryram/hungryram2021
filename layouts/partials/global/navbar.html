@@ -18,9 +18,9 @@
         </div>
     </nav>
 </div>
-    <nav class="uk-navbar-container uk-navbar-transparent"{{ if not .IsHome }} style="border-bottom: 1px solid rgb(213 213 213 / 20%);"{{ end }}>
+    <nav class="main-nav uk-navbar-container uk-navbar-transparent"{{ if not .IsHome }} style="border-bottom: 1px solid rgb(213 213 213 / 20%);"{{ end }}>
         <div class="uk-container uk-container-medium" style="padding-top:10px;padding-bottom:10px;">
-            <div uk-navbar="dropbar: true">
+            <div uk-navbar="dropbar: true" delay-hide="50">
                 <div class="uk-navbar-left">
                     <a href="{{ .Site.BaseURL }}">
                         <img src="{{ .Site.Data.appearance.branding.logo }}" alt="" width="200">

@@ -1,8 +1,8 @@
-{{ partial "global/navbar" . }}
 {{ $hero := .Site.Data.home.hero }}
-
-<div class="uk-cover-container uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-bottom:20" style="background:url('{{ $hero.image }}') no-repeat center; background-size:cover" uk-grid>    
-    
+<div class="uk-cover-container uk-flex uk-flex-center uk-flex-middle" uk-height-viewport style="background:url('{{ $hero.image }}') no-repeat center; background-size:cover" uk-grid>    
+    <div class="uk-position-top full-nav-wrapper" style="z-index: 1;">
+        {{ partial "global/navbar" . }}
+    </div>
     <div class="hero-text uk-dark uk-width-3-5@s uk-margin-large" style="margin-left:20px;">
         {{ if $hero.heading }}
         <h1 class="uk-text-bold heading uk-margin-remove">{{ $hero.heading }}</h1>
