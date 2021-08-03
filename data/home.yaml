@@ -33,13 +33,20 @@ text_and_image:
   switcher:
   - heading: Real Estate Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952379/hungryram/webdesign9_vwqt4o.jpg
-    image_alt: iomg
+    image_alt: Real Estate Agent Websites
+    body: Grow your real estate business with a website built differently than others.
+      Leverage built in IDX tools to manage your leads, listings, and more.
+    link: "/agent-idx-websites/"
   - heading: Small Business Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952398/hungryram/webdesign-tab1_ryn7th.jpg
     image_alt: df
+    body: ''
+    link: ''
   - heading: Ecommerce Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952417/hungryram/webdesign8_srpdyg.jpg
     image_alt: df
+    body: ''
+    link: ''
 image_banner:
   heading: Transform your ideas into a great product
   body: Customize the framework to match your small business processes using simple
