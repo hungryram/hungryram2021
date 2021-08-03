@@ -1,0 +1,53 @@
+---
+hero:
+  heading: Boost the growth of your business
+  body: We design, build and support websites. We make your website stand out
+featured_blocks:
+- heading: Define
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1627952291/hungryram/web-design1_zlvda7.webp
+  image_alt: Computer
+- heading: Implement
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1627952291/hungryram/web-design1_zlvda7.webp
+  image_alt: c
+- heading: Review
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1627952291/hungryram/web-design1_zlvda7.webp
+  image_alt: c
+- heading: Maintenance
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt.
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1627952291/hungryram/web-design1_zlvda7.webp
+  image_alt: cc
+text_and_image:
+  heading: The features your business needs
+  body: Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque
+    ut optio debitis expedita neque consequuntur architecto corrupti dignissimos maiores
+    doloribus.
+  switcher:
+  - heading: The feature your business needs
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1627952379/hungryram/webdesign9_vwqt4o.jpg
+    image_alt: iomg
+  - heading: Boost your website traffic
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1627952398/hungryram/webdesign-tab1_ryn7th.jpg
+    image_alt: df
+  - heading: Launch your project in style
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1627952417/hungryram/webdesign8_srpdyg.jpg
+    image_alt: df
+image_banner:
+  heading: Transform your ideas into a great product
+  body: Customize the framework to match your small business processes using simple
+    drag-and-drop tools.
+work:
+  heading: Recent Work
+  body: We design, build and support websites and apps for clients worldwide. We make
+    your business stand out. Interested? Let's chat.
+closing:
+  subtitle: Match the feel of your business
+  heading: Consult our experts about your project for free
+  body: We design, build and support websites and apps for clients worldwide. We make
+    your business stand out. Interested? Let's chat.

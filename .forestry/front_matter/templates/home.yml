@@ -157,3 +157,5 @@ fields:
         format: markdown
     label: Body
   label: Closing
+pages:
+- data/home.yaml
