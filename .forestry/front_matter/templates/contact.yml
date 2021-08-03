@@ -17,8 +17,7 @@ fields:
       format: markdown
   label: Body
 - name: blocks
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: heading
     type: text
@@ -44,6 +43,10 @@ fields:
     config:
       required: false
     label: Image Alt
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Blocks
 - name: heading
   type: text
