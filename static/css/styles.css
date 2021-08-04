@@ -1,7 +1,7 @@
 /* TYPOGRAPHY */
 
 body {
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -11,16 +11,22 @@ body h2,
 body h3,
 body h4,
 body h5,
-body h6 {
+body h6,
+body .uk-h1, body .uk-h2, body .uk-h3, body .uk-h4, body .uk-h5, body .uk-h6, body .uk-heading-2xlarge, body .uk-heading-large, body .uk-heading-medium, body .uk-heading-small, body .uk-heading-xlarge {
     font-family: 'Poppins', sans-serif;
     font-weight: 600!important;
 }
 
 /* OVERWRITE */
 
+div.uk-modal-header {
+    background: transparent;
+}
+
 button.uk-button.uk-button-primary,
 a.uk-button.uk-button-primary {
     background: #2196f3;
+    color: #fff;
 }
 
 .uk-white {
@@ -48,7 +54,26 @@ svg {
 }
 
 div.uk-card-default {
+    transition: .3s ease;
     box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}
+
+div.uk-card-default:hover {
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 30%);
+    transition: .3s ease;
+}
+
+/* MODAL */
+
+.uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical {
+    border-radius: 8px;
+}
+
+button.modal-button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* FORMS */
@@ -165,7 +190,7 @@ div.switcher ul li {
     margin-bottom: 10px;
 }
 
-div.switcher ul li.uk-active a {
+div.switcher ul li.uk-active a:not(.more-info) {
     background: #FFFFFF;
     border-radius: 50px;
     box-shadow: 0 2px 50px rgb(0 0 0 / 10%);
@@ -175,12 +200,18 @@ div.switcher ul li.uk-active a {
     display: block;
 }
 
-div.switcher ul li a {
+div.switcher ul li a:not(.more-info){
     color: inherit;
     text-decoration: none;
     display: block;
     padding: 20px;
     font-weight: 670;
+}
+
+a.more-info {
+    transition: .3s ease;
+    font-weight: 700;
+    text-decoration: none!important;
 }
 
 div.switcher-video video {

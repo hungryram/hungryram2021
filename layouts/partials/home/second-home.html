@@ -10,7 +10,12 @@
                             {{ range $switcher }}
                             <li>{{ .body }}</li>
                             {{ end }}
-                        </ul>          
+                        </ul>
+                        <ul class="uk-switcher uk-margin-remove right-switcher">
+                            {{ range $switcher }}
+                            <li><a href="{{ .link }}" class="more-info" uk-icon="icon: chevron-right">Learn more</a></li>
+                            {{ end }}
+                        </ul>       
                     </div>
                     <ul class="uk-list uk-text-left text-switch" uk-switcher="connect: .right-switcher">
                         {{ range $switcher }}

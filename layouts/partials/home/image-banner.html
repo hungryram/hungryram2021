@@ -1,12 +1,15 @@
 <div class="uk-section uk-section-small"></div>
 <div class="uk-child-width-1-1 uk-light" uk-grid>
     <div>
-        <div class="uk-background-cover uk-height-large uk-flex uk-flex-center uk-flex-middle" style="background-image: url(https://www.ekko-wp.com/wp-content/uploads/sites/3/2019/04/business4.jpg);" uk-parallax="bgy: -300; easing: 0">
-            <div class="uk-grid">
+        <div class="uk-background-blend-overlay uk-background-cover uk-height-large uk-flex uk-flex-center uk-flex-middle" style="background-image: url(https://res.cloudinary.com/hungryram19/image/upload/v1628046996/hungryram/parallax-background_b2vsuk.jpg); background-position:top" uk-parallax="bgy: -300; easing: 0">
+            <div>
                 <div class="uk-width-1-1 uk-text-center">
                     <div>
                         <h3>{{ .Site.Data.home.image_banner.heading }}</h3>
-                        <p>{{ .Site.Data.home.image_banner.body }}</p>
+                        <p class="uk-text-default">{{ .Site.Data.home.image_banner.body }}</p>
+                        <a href="#modal-signup" class="uk-button uk-button-primary" uk-toggle
+                        >Get Started</a>
+                        
                     </div>
                 </div>
             </div>
@@ -14,3 +17,4 @@
     </div>
 </div>
 <div class="uk-section uk-section-small"></div>
+{{ partial "templates/modal" . }}

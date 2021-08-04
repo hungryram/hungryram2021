@@ -1,0 +1,30 @@
+<!-- MODAL -->
+<div id="modal-signup" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-text-center uk-dark uk-margin-medium">
+            <h2 class="uk-h4">Power your website with modern web technology. Equipped with fast load time and security</h2>
+            <p>Discover how your business can scale with a professional online presence</p>
+        </div>
+        <form name="Modal Sign Up" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
+            <input name="bot-field" type="hidden" />
+            <input type="hidden" name="Subject" value="Website Contact Form">
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="Name" name="Name">
+            </div>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="Phone" name="Phone">
+            </div>
+            <div class="uk-width-1-1">
+                <input class="uk-input" type="text" placeholder="Email" name="Email">
+            </div>
+            <div class="uk-width-1-1">
+                <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
+            </div>
+            <div class="uk-width-1-1">
+                <button class="uk-button uk-button-secondary modal-button">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
