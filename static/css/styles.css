@@ -1,7 +1,7 @@
 /* TYPOGRAPHY */
 
 body {
-    font-size: 15px;
+    font-size: 15.2px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -173,6 +173,18 @@ div.full-nav-wrapper:hover .white-logo {
     display: none;
 }
 
+/* HERO */
+
+@media screen and (max-width: 768px) {
+    div.hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    div.hero-text p {
+        font-size: 14px;
+    }
+}
+
 /* ICONS SECTION */
 
 #icons-section h3.uk-card-title {
@@ -214,7 +226,8 @@ a.more-info {
     text-decoration: none!important;
 }
 
-div.switcher-video video {
+div.switcher-video video,
+div.switcher-video img {
     box-shadow: 0 2px 60px rgb(79 79 79 / 46%);
     border-radius: 8px;
 }
@@ -224,6 +237,7 @@ div.switcher-video video {
         position: absolute;
     }
 }
+
 
 /* HOME WORK SECTION */
 

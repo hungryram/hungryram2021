@@ -1,7 +1,7 @@
 +++
 client_name = "Andrea Ellery"
 date = 2020-07-10T07:00:00Z
-featured_image = "/uploads/andreaellery2.png"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628098587/hungryram/real-estate-gateway-house_i0pf84.jpg"
 image_alt_tag = "Real Estate Web Design in California"
 meta_description = ""
 meta_title = ""

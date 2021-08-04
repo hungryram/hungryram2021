@@ -1,21 +1,20 @@
 {{ define "main" }}
-<div class="uk-section">
+<div class="uk-section uk-margin-medium-top">
     <div class="uk-container">
         <div uk-grid>
             <div class="uk-width-1-3@s">
                 <div class="uk-card">
-                    <h2>How your website is built matters a lot</h2>
+                    <h2>How your website is built matters <span class="accent">a lot</span></h2>
                 </div>
             </div>
             <div class="uk-width-1-3@s">
                 <div class="uk-card">
-                    <p>With a decade of experience in web development, your website is built using JAMstack - a new architecture for developing super fast, scalable, and secured websites.</p>
-                    <p>While everyone is on Wordpress, upgrade your site to the newest web technology</p>
+                    <p class="uk-text-default">Located in Orange County, California - Hungry Ram started with a vision of delivering high-performance websites to businesses at affordable prices, while maintaining superior support.</p>
                 </div>
             </div>
             <div class="uk-width-1-3@s">
                 <div class="uk-card">
-                    <p>Hungry Ram provides professional built websites from the ground up. Why Hungry Ram? It all started with a need to buy domain names and hungryram.com was available. Ram Dettmer, founder of Hungry Ram used the name as an alias while freelancing.</p>
+                    <p class="uk-text-default">Real estate web design was the initial focus. But many client referrals crossed nationwide through various businesses, so the decision to help other industries expanded our reach.</p>
                 </div>
             </div>
         </div>
@@ -24,18 +23,19 @@
 <div class="uk-section">
     <div class="uk-card uk-grid-collapse uk-child-width-1-2@s uk-margin" style="background: #F5F5F5" uk-grid>
         <div class="uk-card-media-left uk-cover-container">
-            <img src="https://www.ekko-wp.com/static/wp-content/uploads/sites/3/2019/04/webdesign9.jpg" alt="" uk-cover>
+            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628096113/hungryram/groot2_emgwxf.jpg" alt="" uk-cover>
             <canvas height="500"></canvas>
         </div>
         <div class="uk-flex uk-flex-middle uk-flex-center">
             <div class="uk-width-large">
                 <div class="uk-card-body">
-                    <h2>Build better business software a lot quicker with ekko theme.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h2>Following important web industry standards</h2>
+                    <p>As technology and Googles search algorithm changes, so should your website. While there are many factors in website development, these are the most crucial</p>
                     <ul class="uk-list">
-                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>SSL security</li>
-                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>Responsive Design</li>
-                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>SSL security</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>SEO for search engines</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>Responsive Design for any device</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>Schema to help Google identify your business</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>SSL certificate for security</li>
                     </ul>
                 </div>
             </div>
@@ -47,7 +47,7 @@
         <div class="uk-width-1-1 uk-flex uk-flex-center uk-margin-medium-bottom">
             <div class="uk-width-large uk-text-center">
                 <h2 class="uk-margin-remove uk-text-bold">Client Testimonials</h2>
-                <p>We are very passionate and proud about the services we provide. Read our testimonials from happy clients</p>
+                <p>Clients nationwide spreading referrals and positive feedback!</p>
             </div>
         </div>
         <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
@@ -58,7 +58,7 @@
                     <div class="uk-panel">
                         <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" style="box-shadow: none;border:1px solid #ededed;border-radius:5px" uk-grid>
                             <div class="uk-card-media-left uk-cover-container">
-                                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1608146880/hungryram/kaiyager_zpirvi.png" alt="{{ .Params.image_alt_tag }}" uk-cover>
+                                <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}" uk-cover>
                                 <canvas height="200"></canvas>
                             </div>
                             <div>
@@ -81,18 +81,7 @@
         </div>
     </div>
 </div>
-<!-- CLOSING -->
-<div class="uk-section" style="background: #F5F5F5">
-    <div class="uk-container">
-        <div class="uk-width-1-1 uk-flex uk-flex-center">
-            <div class="uk-width-large uk-text-center">
-                <h6 class="uk-margin-remove">Match the feel of your business</h6>
-                <h2 class="uk-margin-remove uk-text-bold">Consult our experts about your project for free</h2>
-                <div class="uk-margin-medium-top">
-                    <a href="" class="uk-button uk-button-primary">Get a quote</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+{{ partial "home/closing" . }}
+
 {{ end }}

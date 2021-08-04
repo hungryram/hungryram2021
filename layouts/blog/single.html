@@ -1,17 +1,9 @@
 {{ define "main" }}
-{{ if .Params.disable_banner }}
-<style>
-    div.page-banner {
-        display: none;
-    }
-</style>
-{{ end }}
-<div class="uk-section" id="blog-wrapper">
+<div class="uk-section uk-section-small" id="blog-wrapper">
     <div class="uk-container">
         <div uk-grid>
             <div class="uk-width-3-4">
                 <div class="uk-card uk-card-body">
-                    <h1>{{ .Title }}</h1>
                     <ul class="uk-list">
                         <li class="uk-display-inline-block accent-svg"><span uk-icon="icon: tag"></span></li>
                         {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
@@ -26,6 +18,7 @@
                         <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}">
                         {{ end }}
                     </div>
+                    <h1 class="uk-h3">{{ .Title }}</h1>
                     <div class="blog-content">
                         {{ .Content }}
                     </div>

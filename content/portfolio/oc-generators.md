@@ -1,7 +1,7 @@
 +++
 client_name = "Janie Patison"
 date = ""
-featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1625025862/hungryram/ocgenerators_b5cgb5.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628099085/hungryram/ocgenerators_whauip.jpg"
 image_alt_tag = ""
 meta_description = ""
 meta_title = ""

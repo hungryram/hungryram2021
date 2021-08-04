@@ -1,7 +1,7 @@
 +++
 client_name = "Shelley Lashley"
 date = 2020-09-11T07:00:00Z
-featured_image = "/uploads/beautyhydration.png"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628098152/hungryram/beautyhydration_w9zzng.jpg"
 image_alt_tag = "Medspa website design"
 meta_description = ""
 meta_title = ""

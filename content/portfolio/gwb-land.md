@@ -1,7 +1,7 @@
 +++
 client_name = "Lavarres Lynch"
 date = 2020-02-07T08:00:00Z
-featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1625025146/hungryram/gwb_loixnw.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628099165/hungryram/gwb_tehv6r.jpg"
 image_alt_tag = ""
 meta_description = ""
 meta_title = ""
