@@ -134,5 +134,3 @@ fields:
     max: 
     labelField: 
   label: Welcome
-pages:
-- data/profile.yaml
