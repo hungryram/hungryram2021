@@ -1,6 +1,8 @@
 <form name="Modal Sign Up" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
     <input name="bot-field" type="hidden" />
     <input type="hidden" name="Subject" value="Website Contact Form">
+    <input name="Link" type="hidden" value="{{ .Permalink }}" />
+
     <div class="uk-width-1-2@s">
         <input class="uk-input" type="text" placeholder="Name" name="Name">
     </div>
