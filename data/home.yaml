@@ -38,6 +38,7 @@ text_and_image:
       Leverage built in IDX tools to manage your leads, listings, and more.
     link: "/agent-idx-websites/"
     video_link: https://res.cloudinary.com/hungryram19/video/upload/v1628028679/hungryram/yagerre-home_d3ihg1.mp4
+    title: A different type of real estate website
   - heading: Small Business Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952398/hungryram/webdesign-tab1_ryn7th.jpg
     image_alt: df
@@ -46,6 +47,7 @@ text_and_image:
       as it can negatively impact your load time. Get a quote for a custom web design!
     link: "/custom-website-design"
     video_link: https://res.cloudinary.com/hungryram19/video/upload/v1628030374/hungryram/oc-generator_wqpo99.mp4
+    title: Make your small business website faster
   - heading: Ecommerce Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952417/hungryram/webdesign8_srpdyg.jpg
     image_alt: df
@@ -54,6 +56,7 @@ text_and_image:
       that is manageable on any device.
     link: "/ecommerce-website-design"
     video_link: https://res.cloudinary.com/hungryram19/video/upload/v1628031193/hungryram/ka-intimacy_sgo1pk.mp4
+    title: 'Partnered with the the #1 ecommerce platform'
 image_banner:
   heading: Scale your online presence with thoughtfully crafted designs
   body: First impressions matter. By offering professional user experience and interface,
