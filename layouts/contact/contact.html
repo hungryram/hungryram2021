@@ -7,7 +7,7 @@
                 <div class="uk-card uk-card-default">
                     {{ if .image }}
                     <div class="uk-card-media-top uk-margin-medium-left">
-                        <img src="{{ .image }}" alt="" width="100" width="100">
+                        <img src="{{ .image }}" alt="" width="100" width="100" class="uk-margin-small-top">
                     </div>
                     {{ end }}
                     <div class="uk-card-body">
@@ -30,13 +30,13 @@
                             <input name="bot-field" type="hidden" />
                             <input type="hidden" name="Subject" value="Website Contact Form">
                             <div class="uk-width-1-2@s">
-                                <input class="uk-input" type="text" placeholder="Name" name="Name">
+                                <input class="uk-input" type="text" placeholder="Name*" name="Name" required>
                             </div>
                             <div class="uk-width-1-2@s">
-                                <input class="uk-input" type="text" placeholder="Phone" name="Phone">
+                                <input class="uk-input" type="text" placeholder="Phone*" name="Phone" required>
                             </div>
                             <div class="uk-width-1-1">
-                                <input class="uk-input" type="text" placeholder="Email" name="Email">
+                                <input class="uk-input" type="text" placeholder="Email*" name="Email" required>
                             </div>
                             <div class="uk-width-1-1">
                                 <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>

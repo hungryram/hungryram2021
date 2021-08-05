@@ -14,9 +14,7 @@
             </div>
             <div class="uk-width-1-2@s">
                 <div class="uk-card">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate numquam qui minima aliquam placeat veniam adipisci sunt, optio sapiente atque quibusdam saepe delectus magnam enim molestias porro maiores vero? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis minus earum voluptates veritatis repellat reprehenderit commodi itaque incidunt blanditiis eaque, doloribus nobis esse sunt aliquam officia tempore fugit, dolorum nisi?
-                    </p>
+                    {{ .Content }}
                 </div>
             </div>
             <div>
@@ -32,6 +30,8 @@
         </div>
     </div>
 </div>
+<!--
+
 <div class="uk-section uk-section-small">
     <div class="uk-visible-toggle uk-dark" uk-slider="center: true">
         <ul class="uk-slider-items uk-grid uk-grid-large">
@@ -65,14 +65,23 @@
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
     </div>
 </div>
+
+
+
+
+
+
+-->
 <div class="uk-section">
     <div class="uk-container">
+        <hr>
         <div class="uk-width-1-1 uk-flex uk-flex-center">
             <div class="uk-width-large uk-text-center">
                 <h6 class="uk-margin-remove">Match the feel of your business</h6>
                 <h2 class="uk-margin-remove uk-text-bold">Consult our experts about your project for free</h2>
                 <div class="uk-margin-medium-top">
-                    <a href="" class="uk-button uk-button-primary">Get a quote</a>
+                    <a href="#modal-signup" class="uk-button uk-button-primary" uk-toggle>Get a quote</a>
+                    {{ partial "templates/modal" . }}
                 </div>
             </div>
         </div>

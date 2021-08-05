@@ -20,6 +20,12 @@ body .uk-h1, body .uk-h2, body .uk-h3, body .uk-h4, body .uk-h5, body .uk-h6, bo
 
 /* OVERWRITE */
 
+@media screen and (max-width: 768px) {
+    div.page-banner h1 {
+        font-size: 1.5rem;
+    }
+}
+
 div.uk-modal-header {
     background: transparent;
 }

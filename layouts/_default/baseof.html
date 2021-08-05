@@ -1,11 +1,13 @@
   
 {{ partial "global/head" . }}
 
-<div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle page-banner" style="background: url(https://www.ekko-wp.com/wp-content/uploads/2019/04/services-classic.jpg)">
+<div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle page-banner" style="background: url(https://res.cloudinary.com/hungryram19/image/upload/v1628200056/hungryram/desktop2_igppbt.jpg)no-repeat center;background-size:cover">
     <div class="uk-position-top full-nav-wrapper">
         {{ partial "global/navbar" . }}
     </div>
-    <h1 class="uk-text-uppercase uk-white">{{ .Title }}</h1>
+    <div class="uk-padding">
+    <h1 class="uk-text-uppercase uk-white uk-text-center">{{ .Title }}</h1>
+    </div>
 </div>
 <main>
 {{ block "main" . }}
