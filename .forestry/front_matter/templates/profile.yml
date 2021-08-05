@@ -1,4 +1,72 @@
 ---
 label: Profile
 hide_body: true
-fields: []
+fields:
+- name: photo
+  type: text
+  config:
+    required: false
+  label: Photo
+- name: company_name
+  type: text
+  config:
+    required: false
+  label: Company Name
+- name: profile
+  type: field_group
+  config: {}
+  fields:
+  - name: phone
+    type: text
+    config:
+      required: false
+    label: Phone
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  label: Profile
+- name: social
+  type: field_group
+  config: {}
+  fields:
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  label: Social
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+- name: welcome
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Welcome
