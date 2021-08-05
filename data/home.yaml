@@ -44,7 +44,7 @@ text_and_image:
     body: Small business websites should take full advantage of speed and performance.
       Basic info sites with no special features should not rely on large databases
       as it can negatively impact your load time. Get a quote for a custom web design!
-    link: "/basic-website-design"
+    link: "/custom-website-design"
     video_link: https://res.cloudinary.com/hungryram19/video/upload/v1628030374/hungryram/oc-generator_wqpo99.mp4
   - heading: Ecommerce Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952417/hungryram/webdesign8_srpdyg.jpg
@@ -56,11 +56,14 @@ text_and_image:
     video_link: https://res.cloudinary.com/hungryram19/video/upload/v1628031193/hungryram/ka-intimacy_sgo1pk.mp4
 image_banner:
   heading: Scale your online presence with thoughtfully crafted designs
-  body: First impressions matter. By offering professional user experience and interface, you'll have a higher chance of reaching out to your audiences.
+  body: First impressions matter. By offering professional user experience and interface,
+    you'll have a higher chance of reaching out to your audiences.
 work:
   heading: Recent Work
-  body: Building lasting relationships with clients by providing quality support and designs. View the most recent work below.
+  body: Building lasting relationships with clients by providing quality support and
+    designs. View the most recent work below.
 closing:
   subtitle: Let's start a project
   heading: Free website consultation
-  body: Get a website that will dominate your competitors and utilize to help scale your business.
+  body: Get a website that will dominate your competitors and utilize to help scale
+    your business.
