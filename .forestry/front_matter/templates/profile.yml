@@ -2,11 +2,11 @@
 label: Profile
 hide_body: true
 fields:
-- name: photo
-  type: text
+- name: primary_photo
+  type: file
   config:
-    required: false
-  label: Photo
+    maxSize: 64
+  label: Primary Photo
 - name: company_name
   type: text
   config:
