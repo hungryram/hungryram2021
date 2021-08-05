@@ -31,8 +31,8 @@
 
 <!-- BEGIN SEO -->
 {{- if $.IsHome -}}
-    <title>{{ $seo.title_tag }}</title>
-    <meta name="description" content="{{ $seo.meta_description }}">
+    <title>{{ .Site.Data.profile.title_tag }}</title>
+    <meta name="description" content="{{ .Site.Data.profile.meta_description }}">
 {{ else }}
     {{ with .Params.title_tag | default .Params.search_engine_optimization.title_tag }}
     <title>{{ . }}</title>

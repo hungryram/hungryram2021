@@ -1,3 +1,4 @@
+{{ $social := .Site.Data.profile.social }}
 
 <footer class="footer">
     <div class="uk-section">
@@ -10,9 +11,10 @@
                 </div>
                 <div class="uk-width-1-2@s">
                     <div class="uk-flex uk-flex-middle uk-flex-right">
-                        <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
-                        <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
-                        <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+                        {{ if $social.instagram }}<a href="" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>{{ end }}
+                        {{ if $social.facebook }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>{{ end }}
+                        {{ if $social.pinterest }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="pinterest"></a>{{ end }}
+                        {{ if $social.twitter }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="twitter"></a>{{ end }}
                     </div>
                 </div>
             </div>
@@ -61,12 +63,6 @@
                     <li class="uk-light uk-text-small"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                     {{ end }}
                   </ul>
-            </div>
-            <div class="uk-width-1-2@s uk-text-right">
-                {{ if .Site.Data.profile.social_media.instagram }}<a href="" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>{{ end }}
-                {{ if .Site.Data.profile.social_media.facebook }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>{{ end }}
-                {{ if .Site.Data.profile.social_media.pinterest }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="pinterest"></a>{{ end }}
-                {{ if .Site.Data.profile.social_media.twitter }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="twitter"></a>{{ end }}
             </div>
         </div>
     </div>
