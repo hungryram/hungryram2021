@@ -79,6 +79,11 @@ fields:
   - name: switcher
     type: field_group_list
     fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
     - name: heading
       type: text
       config:
