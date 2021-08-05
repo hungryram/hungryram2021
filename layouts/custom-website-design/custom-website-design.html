@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="uk-section uk-margin-medium-top">
+    <div class="uk-container">
+        <div class="uk-text-left uk-grid-large" uk-grid>
+            <div class="uk-width-1-2@s">
+                <div class="uk-card">
+                    <h2>Custom web design <span class="accent">100%</span> unique to your business</h2>
+                    <div class="uk-margin-medium">
+                        <p>Incorporate the goals of your company into a visually captivating state that can be displayed on any device. The design is a direct reflection of your overall business.</p>
+                        <a href="#modal-signup" class="uk-button uk-button-primary">Get started</a>
+                    </div>
+                </div>
+                <div class="uk-child-width-1-2 uk-text-center" uk-grid>
+                    <div>
+                            <ul class="uk-list uk-text-left">
+                                <li class="uk-text-bold"><span uk-icon="icon: check" class="uk-margin-small-right"></span>Brand identity</li>
+                                <li class="uk-text-bold"><span uk-icon="icon: check" class="uk-margin-small-right"></span>Custom functionality</li>
+                                <li class="uk-text-bold"><span uk-icon="icon: check" class="uk-margin-small-right"></span>Search engine optimized</li>
+                            </ul>
+                    </div>
+                    <div>
+                        <ul class="uk-list uk-text-left">
+                            <li class="uk-text-bold"><span uk-icon="icon: check" class="uk-margin-small-right"></span>User friendly</li>
+                            <li class="uk-text-bold"><span uk-icon="icon: check" class="uk-margin-small-right"></span>Responsive design</li>
+                            <li class="uk-text-bold"><span uk-icon="icon: check" class="uk-margin-small-right"></span>No templates</li>
+                        </ul>
+                </div>
+                </div>
+            </div>
+            <div class="uk-width-1-2@s">
+                <div class="uk-card box-shadow">
+                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628143481/hungryram/custom-web-development_satvzb.png" alt="" class="border">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="uk-card uk-grid-collapse uk-child-width-1-2@s uk-margin" style="background: #F5F5F5" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628096113/hungryram/groot2_emgwxf.jpg" alt="" uk-cover>
+            <canvas height="500"></canvas>
+        </div>
+        <div class="uk-flex uk-flex-middle uk-flex-center">
+            <div class="uk-width-large">
+                <div class="uk-card-body">
+                    <h2>Following important web industry standards</h2>
+                    <p>As technology and Googles search algorithm changes, so should your website. While there are many factors in website development, these are the most crucial</p>
+                    <ul class="uk-list">
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>SEO for search engines</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>Responsive Design for any device</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>Schema to help Google identify your business</li>
+                        <li><span uk-icon="icon: check" class="uk-margin-small-right"></span>SSL certificate for security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ partial "global/closing" . }}
+{{ end }}
