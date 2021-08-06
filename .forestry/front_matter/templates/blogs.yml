@@ -35,3 +35,5 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
+pages:
+- content/blog/google-analytics.md
