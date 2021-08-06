@@ -101,40 +101,17 @@
 </div>
 
 <!-- BANNER -->
-<div class="uk-child-width-1-1 uk-light" uk-grid>
-    <div>
-        <div class="uk-background-cover uk-height-large uk-flex uk-flex-center uk-flex-middle" style="background-image: url(https://www.ekko-wp.com/wp-content/uploads/sites/3/2019/04/business4.jpg);" uk-parallax="bgy: -300; easing: 0">
-            <div class="uk-container uk-container-medium">
-                <div class="uk-grid">
-                    <div class="uk-width-1-2@s uk-flex uk-flex-middle">
-                        <div>
-                            <h2>Transform your ideas into a great product</h2>
-                            <p>Customize the framework to match your small business processes using simple drag-and-drop tools.</p>
-                        </div>
-                    </div>
-                    <div class="uk-width-1-2@s">
-                        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
-                            <input name="bot-field" type="hidden" />
-                            <input name="Link" type="hidden" value="{{ .Permalink }}" />
-                            <input type="hidden" name="Subject" value="Website Contact Form">
-                            <div class="uk-width-1-2@s">
-                                <input class="uk-input" type="text" placeholder="Name" name="Name">
-                            </div>
-                            <div class="uk-width-1-2@s">
-                                <input class="uk-input" type="text" placeholder="Phone" name="Phone">
-                            </div>
-                            <div class="uk-width-1-1">
-                                <input class="uk-input" type="text" placeholder="Email" name="Email">
-                            </div>
-                            <div class="uk-width-1-1">
-                                <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
-                            </div>
-                            <div class="uk-width-1-1">
-                                <button class="uk-button uk-button-secondary">Submit</button>
-                            </div>
-                        </form>
-                    </div>
+<div style="background: url(https://res.cloudinary.com/hungryram19/image/upload/v1628046996/hungryram/parallax-background_b2vsuk.jpg) no-repeat center;padding-top:40px;padding-bottom:40px;" uk-parallax="bgy: -200">
+    <div class="uk-container">
+        <div class="uk-flex uk-flex-middle" uk-grid>
+            <div class="uk-width-1-2@s">
+                <div>
+                    <h3 class="uk-white">Ready to grow your brokerage site on top of modern technology?</h3>
+                    <p class="uk-white">Save hours of valuable time and money and trust that your website will be the right solution for you.</p>
                 </div>
+            </div>
+            <div class="uk-width-1-2@s">
+                {{ partial "templates/form" . }}
             </div>
         </div>
     </div>
