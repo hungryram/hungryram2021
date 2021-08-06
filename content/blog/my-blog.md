@@ -1,10 +1,13 @@
 +++
 blog_date_published = "2020-05-29T07:00:00.000+00:00"
+categories = ["Wordpress", "JAMstack"]
 date = 2020-04-16T07:00:00Z
-featured_image = "/uploads/wordpress.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628214605/hungryram/custom-web-development_sdbeo0.png"
+image_alt_tag = "Coding on a computer"
 meta_description = "Wordpress has been the foundation for many small business owners when it comes to developing websites. Many agencies have built their business through Wordpress such as myself."
 meta_title = "Hungry Ram - No More Wordpress"
 title = "Moving Away From Wordpress"
+title_tag = "Moving Away From Wordpress"
 
 +++
 Wordpress has been the foundation for many small business owners when it comes to developing websites. Many agencies have built their business through Wordpress such as myself.
