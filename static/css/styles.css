@@ -18,6 +18,10 @@ body .uk-h1, body .uk-h2, body .uk-h3, body .uk-h4, body .uk-h5, body .uk-h6, bo
     font-weight: 600!important;
 }
 
+body em {
+    color: #666;
+}
+
 /* OVERWRITE */
 
 ul.uk-subnav-pill>.uk-active>a {

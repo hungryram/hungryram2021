@@ -19,20 +19,28 @@
             </div>
             <div>
                 <div class="uk-card">
-                    <h5 class="uk-margin-remove uk-text-bold">Client</h5>
+                    <h5 class="uk-margin-remove uk-text-bold">Type</h5>
                     <ul class="uk-list">
-                        <li>Web development</li>
-                        <li>Marketing</li>
-                        <li>SEO</li>
+                        <li>Web Development</li>
+                        <li>Web Design</li>
+                        <li>Branding</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!--
 
-<div class="uk-section uk-section-small">
+<div class="section">
+    <div class="uk-container uk-container-small">
+        <div class="uk-text-center">
+            <h2>Client Review</h2>
+            <em>"{{ .Params.review }}"</em>
+        </div>
+    </div>
+</div>
+
+<!--  <div class="uk-section uk-section-small">
     <div class="uk-visible-toggle uk-dark" uk-slider="center: true">
         <ul class="uk-slider-items uk-grid uk-grid-large">
             <li class="uk-width-3-5">
@@ -64,14 +72,9 @@
         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
     </div>
-</div>
+</div>  -->
 
 
-
-
-
-
--->
 <div class="uk-section">
     <div class="uk-container">
         <hr>
@@ -101,9 +104,6 @@
                                 <img src="{{ .Params.featured_image }}" alt="" uk-cover>
                             </div>
                             <div class="uk-card-body more-projects">
-                                <div class="project-category">
-                                    <a href=""><span href="#" uk-icon="icon: folder" class="uk-margin-small-right"></span><span class="uk-text-middle">Affordable</span></a>
-                                </div>
                                 <h3 class="uk-h4">{{ .Title }}</h3>
                                 <a href="{{ .Permalink }}" class="link-black"><span class="uk-text-middle uk-text-bold">View project</span><span href="#" uk-icon="icon: chevron-right" class="uk-margin-small-right"></span></a>
                             </div>
