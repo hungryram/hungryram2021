@@ -16,7 +16,7 @@ fields:
     schema:
       format: markdown
   label: Body
-- name: faq
+- name: real_estate_faq
   type: field_group_list
   fields:
   - name: question
@@ -37,6 +37,50 @@ fields:
     min: 
     max: 
     labelField: 
-  label: FAQ
+  label: Real Estate FAQ
+- name: small_business_faq
+  type: field_group_list
+  fields:
+  - name: question
+    type: text
+    config:
+      required: false
+    label: Question
+  - name: answer
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Answer
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Small Business FAQ
+- name: general_faq
+  type: field_group_list
+  fields:
+  - name: question
+    type: text
+    config:
+      required: false
+    label: Question
+  - name: answer
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Answer
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: General FAQ
 pages:
 - content/faq/_index.md
