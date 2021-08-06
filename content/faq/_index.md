@@ -53,7 +53,7 @@ question = "What is IDX? Do I need it?"
 answer = "The website is built on a proprietary  system. You could own the content, but the site will need to be maintained with us."
 question = "Do you host the website"
 [[real_estate_faq]]
-answer = "Yes! Most agencies never customize their admin for clients because it will update globally for everyone. Depending on the feature, it's very likely it can be  build it out. For example, a client needed a \"featured communities\", we were able to build out custom page templates that draw in communities he added in the admin."
+answer = "Yes! Most agencies never customize their admin for clients because it will update globally for everyone. Depending on the feature, it's very likely it can be  built out. For example, a client needed a \"featured communities\". we were able to build out custom page templates that draw in communities he added in the admin."
 question = "If I don't see a feature in the admin, are you able to build it out?"
 [[real_estate_faq]]
 answer = "Agents and brokers have their own type of sites, especially if IDX is needed. IDX will always be the more expensive option due to fees on the data feed, and charges from your MLS. Please get in touch with us to find out an accurate price."
