@@ -3,3 +3,35 @@
   to = "/portfolio"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/free-site-setup/*"
+  to = "/contact"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/real-estate-websites/"
+  to = "/agent-idx-websites"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/projects/*"
+  to = "/portfolio"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/pricing/"
+  to = "/faq"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/jamstack-website-design/"
+  to = "/custom-website-design"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+
