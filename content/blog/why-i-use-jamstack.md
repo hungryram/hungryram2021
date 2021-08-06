@@ -1,6 +1,7 @@
 +++
 date = 2020-05-14T07:00:00Z
-featured_image = "/uploads/develop.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628214718/hungryram/contact-hungry-ram_antytx.jpg"
+image_alt_tag = "Lady holding phone"
 meta_description = "What is Jamstack? Why is JAMstack better than traditional websites? This blog explains why freelancers should start using JAMstack."
 meta_title = "Why Use JAMstack - Hungry Ram"
 title = "Why I use JAMstack"
