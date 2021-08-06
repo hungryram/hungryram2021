@@ -15,6 +15,13 @@ sections:
 - type: document
   path: data/appearance.yaml
   label: Appearance
+- type: directory
+  path: content/blog
+  label: Posts
+  create: documents
+  match: "**/*"
+  templates:
+  - blogs
 - type: heading
   label: Pages
 - type: directory
