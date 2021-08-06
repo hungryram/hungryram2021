@@ -20,6 +20,10 @@ body .uk-h1, body .uk-h2, body .uk-h3, body .uk-h4, body .uk-h5, body .uk-h6, bo
 
 /* OVERWRITE */
 
+ul.uk-subnav-pill>.uk-active>a {
+    background: #2196f3;
+}
+
 @media screen and (max-width: 768px) {
     div.page-banner h1 {
         font-size: 1.5rem;
@@ -145,7 +149,7 @@ nav.main-nav ul.uk-navbar-nav>li>a svg {
     color: #fff;
 }
 
-.uk-navbar-sticky ul li a,
+.uk-navbar-sticky ul li a:not(.uk-button),
 .uk-navbar-sticky ul li a svg {
     color: #000!important;
 }

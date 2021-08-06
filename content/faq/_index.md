@@ -1,15 +1,6 @@
 +++
 body = "Find some answers about web design and development through the frequently asked questions."
 title = "Frequently asked Questions"
-[[faq]]
-answer = ""
-question = ""
-[[faq]]
-answer = ""
-question = ""
-[[faq]]
-answer = ""
-question = ""
 [[general_faq]]
 answer = "Your site is built on the new JAMstack architecture. Meaning your site will be a fortress unlike others on Wordpress. Our sites are built to last!"
 question = "How long will my site last?"

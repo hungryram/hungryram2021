@@ -1,53 +1,52 @@
 {{ define "main" }}
-<div class="uk-section">
+<div class="uk-section uk-section-small uk-margin-medium-top">
     <div class="uk-container uk-container-small">
-        <h2 class="uk-h2">Real Estate Web Design FAQ</h2>
+        <h2 class="uk-h4">Real Estate Web Design FAQ</h2>
         <hr>
-        <ul uk-accordion="multiple: true">
-            <li class="uk-open">
-                <a class="uk-accordion-title" href="#">Item 1</a>
-                <div class="uk-accordion-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-            </li>
+        <ul uk-accordion>
+            {{ range .Params.real_estate_faq }}
             <li>
-                <a class="uk-accordion-title" href="#">Item 2</a>
+                <a class="uk-accordion-title" href="#">{{ .question }}</a>
                 <div class="uk-accordion-content">
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    <p class="uk-margin-small-left">{{ .answer }}</p>
                 </div>
             </li>
-            <li>
-                <a class="uk-accordion-title" href="#">Item 3</a>
-                <div class="uk-accordion-content">
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
-                </div>
-            </li>
+            {{ end }}
         </ul>
     </div>
 </div>
-<div class="uk-section">
+
+
+<div class="uk-section uk-section-small">
     <div class="uk-container uk-container-small">
-        <h2 class="uk-h2">General FAQ</h2>
+        <h2 class="uk-h4">Small Business FAQ</h2>
         <hr>
-        <ul uk-accordion="multiple: true">
-            <li class="uk-open">
-                <a class="uk-accordion-title" href="#">Item 1</a>
-                <div class="uk-accordion-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-            </li>
+        <ul uk-accordion>
+            {{ range .Params.small_business_faq }}
             <li>
-                <a class="uk-accordion-title" href="#">Item 2</a>
+                <a class="uk-accordion-title" href="#">{{ .question }}</a>
                 <div class="uk-accordion-content">
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    <p class="uk-margin-small-left">{{ .answer }}</p>
                 </div>
             </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+<div class="uk-section uk-section-small">
+    <div class="uk-container uk-container-small">
+        <h2 class="uk-h4">General FAQ</h2>
+        <hr>
+        <ul uk-accordion>
+            {{ range .Params.general_faq }}
             <li>
-                <a class="uk-accordion-title" href="#">Item 3</a>
+                <a class="uk-accordion-title" href="#">{{ .question }}</a>
                 <div class="uk-accordion-content">
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    <p class="uk-margin-small-left">{{ .answer }}</p>
                 </div>
             </li>
+            {{ end }}
         </ul>
     </div>
 </div>
