@@ -37,3 +37,4 @@ fields:
   label: Search Engine Optimization
 pages:
 - content/blog/google-analytics.md
+- content/blog/google-console.md
