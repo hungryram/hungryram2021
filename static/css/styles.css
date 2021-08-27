@@ -106,7 +106,13 @@ form textarea.uk-textarea {
     color: #000!important;
     font-family: 'Poppins', sans-serif!important;
     padding: 25px;
+}
 
+form select.uk-select {
+    background-color: #fff!important;
+    color: #000!important;
+    font-family: 'Poppins', sans-serif!important;
+    padding-left: 25px;
 }
 
 form input.uk-input::placeholder,
