@@ -12,4 +12,4 @@ title = "Swaye Realty"
 website_link = "https://swayerealty.netlify.app/"
 
 +++
-In progress...
+Coming soon!
