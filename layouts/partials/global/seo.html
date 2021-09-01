@@ -46,3 +46,13 @@
     <meta name="description" content="{{ .Summary | truncate 170 }}">
     {{ end }}
 {{- end -}}
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="{{ .Title }}"/>
+{{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description | default $bodyDesc  }}
+<meta name="twitter:description" content="{{ . }}"/>
+{{ else }}
+<meta name="twitter:description" content="{{ .Summary | truncate 170 }}"/>
+{{ end }}
+<meta name="twitter:image" content="{{ .Site.Data.appearance.branding.favicon }}"/>
