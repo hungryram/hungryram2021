@@ -1,7 +1,7 @@
 +++
 categories = ["Web Design"]
 date = 2021-09-01T07:00:00Z
-featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1630515122/hungryram/homepage_md40qw.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1630523544/hungryram/kaiyager_wflxxb.png"
 image_alt_tag = "wordpress website design"
 meta_description = ""
 title = "The Guide to Building a Real Estate Website with IDX"
