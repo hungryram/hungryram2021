@@ -38,9 +38,6 @@ welcome:
 - heading: How I Build My Websites
   link: "/about"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
-- heading: Contact me
-  link: "/contact"
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
 title_tag: Hungry Ram | Web Design for Real Estate and Small Businesses
 profile:
   phone: 657-549-5082
