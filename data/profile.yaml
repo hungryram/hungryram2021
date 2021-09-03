@@ -22,7 +22,7 @@ add_social_links:
 meta_title: 'Hungry Ram: Improved Web Design Using Modern Tools'
 meta_description: Based in Orange County, specializing in modern development structure
   for the web. Providing the best websites for real estate and small businesses.
-company_name: Hungry Ram
+company_name: Hungry Ram Web Design
 welcome:
 - links:
   - {}
@@ -38,7 +38,7 @@ welcome:
 - heading: How I Build My Websites
   link: "/about"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
-title_tag: Hungry Ram | Web Design for Real Estate and Small Businesses
+title_tag: Hungry Ram Web Design | Web Design for Real Estate and Small Businesses
 profile:
   phone: 657-549-5082
   email: ram@hungryram.com
