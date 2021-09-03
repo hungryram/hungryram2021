@@ -40,6 +40,10 @@ sections:
 - type: document
   path: content/contact/_index.md
   label: Contact
+- type: document
+  path: netlify.toml
+  label: Redirects
+  match: "**/*"
 upload_dir: hungryram
 public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
