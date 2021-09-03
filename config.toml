@@ -1,2 +1,3 @@
 baseURL = "https://www.hungryram.com/"
 languageCode = "en-us"
+enableRobotsTXT = "true"
