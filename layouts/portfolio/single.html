@@ -4,10 +4,10 @@
         <div class="uk-child-width-expand uk-grid-large" uk-grid>
             <div>
                 <div class="uk-card">
-                    <h5 class="uk-margin-remove uk-text-bold">Client</h5>
+                    <h2 class="uk-margin-remove uk-text-bold uk-h5">Client</h2>
                     <p class="uk-margin-remove">{{ .Params.client_name }}</p>
                     <div class="uk-margin-medium-top">
-                        <h5 class="uk-margin-remove uk-text-bold">Project</h5>
+                        <h2 class="uk-margin-remove uk-text-bold uk-h5">Project</h2>
                         <p class="uk-margin-remove">{{ .Params.projects }}</p>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
             </div>
             <div>
                 <div class="uk-card">
-                    <h5 class="uk-margin-remove uk-text-bold">Type</h5>
+                    <h2 class="uk-margin-remove uk-text-bold uk-h5">Type</h2>
                     <ul class="uk-list">
                         <li>Web Development</li>
                         <li>Web Design</li>
@@ -31,6 +31,7 @@
     </div>
 </div>
 
+{{ if .Params.review }}
 <div class="section">
     <div class="uk-container uk-container-small">
         <div class="uk-text-center">
@@ -39,45 +40,11 @@
         </div>
     </div>
 </div>
-
-<!--  <div class="uk-section uk-section-small">
-    <div class="uk-visible-toggle uk-dark" uk-slider="center: true">
-        <ul class="uk-slider-items uk-grid uk-grid-large">
-            <li class="uk-width-3-5">
-                <div class="uk-panel">
-                    <img src="https://www.ekko-wp.com/wp-content/uploads/sites/3/2019/04/portfolio6.jpg" alt="">
-                </div>
-            </li>
-            <li class="uk-width-3-5">
-                <div class="uk-panel">
-                    <img src="https://www.ekko-wp.com/wp-content/uploads/sites/3/2019/04/portfolio6.jpg" alt="">
-                </div>
-            </li>
-            <li class="uk-width-3-5">
-                <div class="uk-panel">
-                    <img src="https://www.ekko-wp.com/wp-content/uploads/sites/3/2019/04/portfolio6.jpg" alt="">
-                </div>
-            </li>
-            <li class="uk-width-3-5">
-                <div class="uk-panel">
-                    <img src="https://www.ekko-wp.com/wp-content/uploads/sites/3/2019/04/portfolio6.jpg" alt="">
-                </div>
-            </li>
-            <li class="uk-width-3-5">
-                <div class="uk-panel">
-                    <img src="https://www.ekko-wp.com/wp-content/uploads/sites/3/2019/04/portfolio6.jpg" alt="">
-                </div>
-            </li>
-        </ul>
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-    </div>
-</div>  -->
-
+{{ end }}
 <div class="uk-section">
     <div class="uk-container uk-container-small">
         <div class="border">
-            <img src="{{ .Params.featured_image }}" alt="">
+            <img src="{{ .Params.featured_image }}" alt="{{ .Title }} web design">
         </div>
     </div>
 </div>
@@ -94,7 +61,7 @@
                         <div class="uk-card uk-card-default" style="box-shadow:none">
                             <div class="uk-card-media-top uk-cover-container">
                                 <canvas height="300"></canvas>
-                                <img src="{{ .Params.featured_image }}" alt="" uk-cover>
+                                <img src="{{ .Params.featured_image }}" alt="{{ .Title }} web design" uk-cover>
                             </div>
                             <div class="uk-card-body more-projects">
                                 <h3 class="uk-h4">{{ .Title }}</h3>

@@ -1,5 +1,5 @@
 
-{{ $seo := .Site.Data.profile.search_engine_optimization }}
+{{ $seo := .Site.Data.profile }}
 {{ $profile := .Site.Data.profile.company_name }}
 {{ $logo := .Site.Data.appearance.branding.logo }}
 
@@ -9,7 +9,7 @@
 
 {{- if $.IsHome -}}
 <meta property="og:image" content="{{ $logo | absURL }}"/>
-<meta property="og:title" content="{{ $seo.title_tag }}"/>
+<meta property="og:title" content="{{ $seo.meta_title }}"/>
 <meta property="og:description" content="{{ $seo.meta_description }}"/>
 <meta property="og:type" content="website" />
 {{ else }}
@@ -51,7 +51,7 @@
 <!-- TWITTER CARD -->
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="{{ .Title }}"/>
-{{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description | default $bodyDesc  }}
+{{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description | default $bodyDesc | default .Site.Data.profile.meta_description  }}
 <meta name="twitter:description" content="{{ . }}"/>
 {{ else }}
 <meta name="twitter:description" content="{{ .Summary | truncate 170 }}"/>

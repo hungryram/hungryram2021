@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,16 @@
     <link rel="shortcut icon" href="{{ .Site.Data.appearance.branding.favicon }}" />
     <link rel="canonical" href="{{ .Permalink }}" />
     {{ partial "global/seo" . }}
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.Data.appearance.branding.favicon }}" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ .Site.Data.appearance.branding.favicon }}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ .Site.Data.appearance.branding.favicon }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ .Site.Data.appearance.branding.favicon }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Data.appearance.branding.favicon }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.Data.appearance.branding.favicon }}" />
+    <link rel="apple-touch-icon" href="{{ .Site.Data.appearance.branding.favicon }}" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="{{ .Site.Data.appearance.branding.favicon }}" />
+    <meta name="application-name" content="{{ .Site.Data.profile.company_name }}">
 
     {{ if .IsHome }}
     {{ partial "global/schema" . }}
