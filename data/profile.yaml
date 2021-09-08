@@ -1,48 +1,22 @@
 ---
-primary_photo: https://res.cloudinary.com/hungryram19/image/upload/v1608584611/hungryram/ramdettmer_yhmxnu.jpg
-primary_account:
-  first_and_last_name: Ram Dettmer
-  primary_phone_number: 657-549-5082
-  primary_email: ram@hungryram.com
-  primary_company_name: Hungry Ram
-  fax: ''
-address:
-  street_address: ''
-  primary_city: ''
-  primary_state: ''
-  primary_zip_code: ''
-  primary_country: ''
-  disable_address: true
-add_social_links:
-  instagram: https://www.instagram.com/hungry_ram/
-  linkedin: ''
-  facebook: https://www.facebook.com/HungryRam/
-  twitter: https://twitter.com/RamDettmer
-  yelp: https://www.yelp.com/biz/hungry-ram-yorba-linda
-meta_title: 'Hungry Ram: Improved Web Design Using Modern Tools'
-meta_description: Based in Orange County, specializing in modern development structure
-  for the web. Providing the best websites for real estate and small businesses.
 company_name: Hungry Ram Web Design
-welcome:
-- links:
-  - {}
-  heading: Visit my Website
-  link: https://hungryram.com
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
-- image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
-  heading: Real Estate Website
-  link: "/real-estate-agent-web-design"
-- heading: Small Business Websites
-  link: "/jamstack-website-design/"
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
-- heading: How I Build My Websites
-  link: "/about"
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
-title_tag: Hungry Ram Web Design | Web Design for Real Estate and Small Businesses
-profile:
-  phone: 657-549-5082
+social_media:
+  instagram: er
+  twitter: er
+  facebook: er
+  pinterest: ''
+  yelp: ''
+  linkedin: ''
+  tiktok: ''
+contact_information:
+  phone: ''
+  name: Ram Dettmer
+  cell: 657-549-5082
+  address: 
   email: ram@hungryram.com
-social:
-  instagram: https://www.instagram.com/ramdettmer/
-  facebook: https://www.facebook.com/HungryRam/
-photo: ''
+  city: Yorba Linda
+  state: California
+  zip_code: "92886"
+search_engine_optimization:
+  title_tag: Orange County Website Design - Hungry Ram Web Design
+  meta_description: Based in Orange County, specializing in modern development for the web. Providing the best websites for real estate and small businesses.

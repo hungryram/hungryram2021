@@ -7,6 +7,7 @@ meta_description = "How to establish a real estate online presence different fro
 meta_title = ""
 title = "Making your Real Estate Website Stand Out From Big Agency Sites"
 disable_banner = true
+is_post = true
 +++
 Majority of the world has gone virtual now due to the coronavirus pandemic. I've had a lot of real estate professionals contact me for websites and it surprised me during these tough times. But it makes sense that it's important to establish an online presence.
 

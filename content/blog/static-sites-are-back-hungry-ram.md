@@ -4,7 +4,7 @@ featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v162821478
 meta_description = "Stop using Wordpress and move over to a static website generator. Get better ranking, speed, and SEO. Get rid of additional plugins from Wordpress."
 meta_title = "Static Sites Are Back - Hungry Ram"
 title = "Static Sites Are Back"
-
+is_post = true
 +++
 ### Why Go Back in Time?
 

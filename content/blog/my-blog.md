@@ -8,6 +8,7 @@ meta_description = "Wordpress has been the foundation for many small business ow
 meta_title = "Hungry Ram - No More Wordpress"
 title = "Moving Away From Wordpress"
 title_tag = "Moving Away From Wordpress"
+is_post = true
 
 +++
 Wordpress has been the foundation for many small business owners when it comes to developing websites. Many agencies have built their business through Wordpress such as myself.
