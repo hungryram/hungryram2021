@@ -1,29 +1,20 @@
 ---
 hero:
   heading: Give your business a professional & trustworthy website
-  body: Elevate the customer experience with professionally designed websites for
-    real estate and small business
+  body: An Orange County web design studio building modern websites for real estate professionals and small businesses
   image: https://res.cloudinary.com/hungryram19/image/upload/v1627958655/hungryram/backdrop_pb13su.jpg
 featured_blocks:
-- heading: Increased Security and Scalability
-  body: Benefit from a site more secure than any other types of web development. How?
-    All files are read-only meaning no vulnerabilities to exploit.
+- heading: More Secure Than Traditional Websites
+  body: Benefit from a site more secure and safer than Wordpress. Our websites are accessed only through secure connections
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628018480/hungryram/cloud-security_sdox85.png
   image_alt: Cloud security
-- heading: Higher Performance & Speed
-  body: Database adds another layer of request. By eliminating the database, your
-    website is served faster than traditional websites from anywhere.
+- heading: Increased Website Performance and Speed
+  body: Unlike most websites, we took out the need for a database.. now your website is served faster than sites with database.
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628018378/hungryram/faster-website_xo6mrv.png
   image_alt: plane in a browser
-- heading: Search Engine Optimization
-  body: Your website will be optimized to help search engines on how they identify
-    your business by using structured data and meta tags
+- heading: Website Designed for Search Engines
+  body: Your website will be fully optimized for search engines where they can easily identify your business for someone who needs your service.
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628019175/hungryram/search-engine_mze9gk.png
-  image_alt: magnifying glass gear icon
-- heading: Competitive Designs
-  body: There are specific designs for every industry. The overall feel of a website
-    needs to contribute to the message you are sending.
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1628017623/hungryram/designs_oqbyxi.png
   image_alt: c
 text_and_image:
   heading: The features your business needs
