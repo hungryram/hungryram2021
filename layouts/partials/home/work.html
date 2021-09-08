@@ -1,9 +1,13 @@
 {{ $work := .Site.Data.home.work }}
 <div class="uk-section">
     <div class="uk-container">
-        <div class="uk-text-center">
-            <h2>{{ $work.heading }}</h2>
-            <p>{{ $work.body }}</p>
+        <div class="uk-flex uk-flex-center">
+            <div class="uk-width-2xlarge">
+                <div class="uk-text-center">
+                    <h2>{{ $work.heading }}</h2>
+                    <p>{{ $work.body }}</p>
+                </div>
+            </div>
         </div>
 
         <div class="uk-margin-large-top" uk-filter="target: .js-filter">
