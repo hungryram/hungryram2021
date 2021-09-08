@@ -38,7 +38,7 @@
 {{- with .Params.title_tag | default .Params.search_engine_optimization.title_tag }}
 <title>{{ . }}</title>
 {{- else }}
-<title>{{ .Params.Title }} - {{ $profile }}</title>
+<title>{{ .Title }} - {{ $profile }}</title>
 {{- end }}
 
 {{- with .Params.meta_description | default .Params.search_engine_optimization.meta_description | default $bodyDesc  }}
