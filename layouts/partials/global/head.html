@@ -5,33 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{.Site.BaseURL}}css/styles.min.css">
-    
     {{ partial "global/seo2" . }}
-
     {{ if .IsHome }}
     {{ partial "global/schema" . }}
     {{ end }}
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.8/dist/css/uikit.min.css" />
-
- 
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4X5X3V34Y3"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-4X5X3V34Y3');
     </script>
-
   <!-- Facebook Pixel Code -->
-  <script>
+  <!-- <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -45,36 +36,35 @@
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=372514063562316&ev=PageView&noscript=1"
-    /></noscript>
+    /></noscript> -->
     <!-- End Facebook Pixel Code -->
 <meta name="p:domain_verify" content="b15e511810919a03ae9922c7a08289b4"/>
-
 </head>
 <body id="body">
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "218269202354135");
-      chatbox.setAttribute("attribution", "biz_inbox");
+<script>
+var chatbox = document.getElementById('fb-customer-chat');
+chatbox.setAttribute("page_id", "218269202354135");
+chatbox.setAttribute("attribution", "biz_inbox");
 
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v11.0'
-        });
-      };
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v11.0'
+  });
+};
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
