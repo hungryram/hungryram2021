@@ -1,19 +1,22 @@
-{{ $social := .Site.Data.profile.social }}
-{{ $contact := .Site.Data.profile.primary_account }}
+{{ $social := .Site.Data.profile.social_media }}
+{{ $contact := .Site.Data.profile.contact_information }}
 <div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; cls-inactive: uk-navbar-transparent; top: 200">
     
 <div class="top-navbar">
     <nav class="uk-container uk-container-medium" uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
-                {{ if $social.facebook }}<li><a href="{{ $social.facebook }}" target="_blank">Fb</a></li>{{ end }}
-                {{ if $social.instagram }}<li><a href="{{ $social.instagram }}" target="_blank">Ig</a></li>{{ end }}
+                {{ if $social.facebook }}<li><a href="{{ $social.facebook }}" target="_blank" title="Facebook">Fb</a></li>{{ end }}
+                {{ if $social.instagram }}<li><a href="{{ $social.instagram }}" target="_blank" title="Instagram">Ig</a></li>{{ end }}
+                {{ if $social.pinterest }}<li><a href="{{ $social.pinterest }}" target="_blank" title="Pinterest">Pin</a></li>{{ end }}
+                {{ if $social.twitter }}<li><a href="{{ $social.twitter }}" target="_blank" title="Twitter">Tw</a></li>{{ end }}
+                {{ if $social.yelp }}<li><a href="{{ $social.yelp }}" target="_blank" title="Yelp">Yp</a></li>{{ end }}
             </ul>
         </div>
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav">
-                {{ if $contact.primary_phone_number }}<li><a href="tel:{{ $contact.primary_phone_number }}">{{ $contact.primary_phone_number }}</a></li>{{ end }}
-                {{ if $contact.primary_email }}<li><a href="mailto:{{ $contact.primary_email }}">{{ $contact.primary_email }}</a></li>{{ end }}
+                {{ if $contact.cell }}<li><a href="tel:{{ $contact.cell }}">{{ $contact.cell }}</a></li>{{ end }}
+                {{ if $contact.email }}<li><a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a></li>{{ end }}
             </ul>
         </div>
     </nav>
@@ -163,6 +166,7 @@
                 <li class="uk-nav-header"></li>
                 {{ if $social.facebook }}<li class="uk-display-inline-block"><a href="{{ $social.facebook }}" target="_blank" uk-icon="facebook"></a></li>{{ end }}
                 {{ if $social.instagram }}<li class="uk-display-inline-block"><a href="{{ $social.instagram }}" target="_blank" uk-icon="instagram"></a></li>{{ end }}
+                {{ if $social.yelp }}<li class="uk-display-inline-block"><a href="{{ $social.yelp }}" target="_blank" uk-icon="yelp"></a></li>{{ end }}
             </ul>
         </div>
     </div>

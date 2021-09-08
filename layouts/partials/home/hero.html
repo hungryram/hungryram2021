@@ -1,5 +1,5 @@
 {{ $hero := .Site.Data.home.hero }}
-<div class="uk-cover-container uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-bottom:25" style="background: #090909" uk-grid>    
+<div class="uk-cover-container uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-bottom:30" style="background: #090909" uk-grid>    
     <div class="uk-position-top full-nav-wrapper" style="z-index: 1;">
         {{ partial "global/navbar" . }}
     </div>
@@ -9,7 +9,7 @@
             <h1 class="uk-text-bold heading uk-margin-remove uk-white">{{ $hero.heading }}</h1>
             {{ end }}
             {{ if $hero.heading }}
-            <p class="uk-text-normal uk-text-default">{{ $hero.body }}</p>
+            <h2 class="uk-text-normal uk-text-default uk-white">{{ $hero.body }}</h2>
             {{ end }}
             <a href="#modal-signup" class="uk-button-primary uk-button" uk-toggle>Free Estimate</a>
         </div>

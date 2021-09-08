@@ -1,4 +1,4 @@
-{{ $social := .Site.Data.profile.social }}
+{{ $social := .Site.Data.profile.social_media }}
 
 <footer class="footer">
     <div class="uk-section">
@@ -15,6 +15,7 @@
                         {{ if $social.facebook }}<a href="{{ $social.facebook }}" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook" target="_blank"></a>{{ end }}
                         {{ if $social.pinterest }}<a href="{{ $social.pinterest }}" class="uk-icon-button  uk-margin-small-right" uk-icon="pinterest" target="_blank"></a>{{ end }}
                         {{ if $social.twitter }}<a href="{{ $social.twitter }}" class="uk-icon-button  uk-margin-small-right" uk-icon="twitter" target="_blank"></a>{{ end }}
+                        {{ if $social.yelp }}<a href="{{ $social.yelp }}" class="uk-icon-button  uk-margin-small-right" uk-icon="yelp" target="_blank"></a>{{ end }}
                     </div>
                 </div>
             </div>
