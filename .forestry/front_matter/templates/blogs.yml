@@ -35,6 +35,11 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
+- name: is_post
+  type: boolean
+  default: true
+  label: Is Post
+  hidden: true
 pages:
 - content/blog/google-analytics.md
 - content/blog/google-console.md
