@@ -12,7 +12,7 @@ to = "/portfolio"
 force = true
 from = "/free-site-setup/*"
 status = "301"
-to = "/services/ecommerce-website-design/"
+to = "/blog"
 [[redirects]]
 force = true
 from = "/real-estate-websites/"
