@@ -1,19 +1,23 @@
 ---
 hero:
   heading: Orange County web design for real estate professionals and small businesses
-  body: Give your business a professional & trustworthy website and grow a successful business online
+  body: Give your business a professional & trustworthy website and grow a successful
+    business online
   image: https://res.cloudinary.com/hungryram19/image/upload/v1627958655/hungryram/backdrop_pb13su.jpg
 featured_blocks:
 - heading: More Secure Than Traditional Websites
-  body: Benefit from a site more secure and safer than Wordpress. Our websites are accessed only through secure connections and static files.
+  body: Benefit from a site more secure and safer than Wordpress. Our websites are
+    accessed only through secure connections and static files.
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628018480/hungryram/cloud-security_sdox85.png
   image_alt: Cloud security
 - heading: Increased Website Performance and Speed
-  body: Unlike most websites, we took out the need for a database.. now your website is served faster than sites with database.
+  body: Unlike most websites, we took out the need for a database.. now your website
+    is served faster than sites with database.
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628018378/hungryram/faster-website_xo6mrv.png
   image_alt: plane in a browser
 - heading: Powerful Websites Built for Search Engines
-  body: Your website will be fully optimized for search engines. This helps them identify your business for someone who needs your services.
+  body: Your website will be fully optimized for search engines. This helps them identify
+    your business for someone who needs your services.
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628019175/hungryram/search-engine_mze9gk.png
   image_alt: c
 text_and_image:
@@ -36,7 +40,7 @@ text_and_image:
     body: Small business websites should take full advantage of speed and performance.
       Basic info sites with no special features should not rely on large databases
       as it can negatively impact your load time. Get a quote for a custom web design!
-    link: "/custom-website-design"
+    link: "/services/small-business-website-design/"
     video_link: https://res.cloudinary.com/hungryram19/video/upload/v1628030374/hungryram/oc-generator_wqpo99.mp4
     title: Make your small business website faster
   - heading: Ecommerce Website Design
@@ -50,10 +54,14 @@ text_and_image:
     title: 'Partnered with the the #1 ecommerce platform'
 image_banner:
   heading: Scale your business with a website design that is thoughtfully crafted
-  body: Hungry Ram provides exceptional customer support, reliable web hosting, and maintenance for your website. Our website is designed to deliver a better user experience for your customers.
+  body: Hungry Ram provides exceptional customer support, reliable web hosting, and
+    maintenance for your website. Our website is designed to deliver a better user
+    experience for your customers.
 work:
   heading: Recent Work
-  body: We've designed websites for clients all over United States. There are many reason our clients refer their friends and family to us. View our recent web design case studies for various businesses ranging from real estate to franchised restuarants.
+  body: We've designed websites for clients all over United States. There are many
+    reason our clients refer their friends and family to us. View our recent web design
+    case studies for various businesses ranging from real estate to franchised restuarants.
 closing:
   subtitle: Let's start a project
   heading: Sign up for a free website consultation
