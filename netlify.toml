@@ -10,7 +10,7 @@ status = "301"
 to = "/services/broker-idx-websites/"
 [[redirects]]
 force = true
-from = "/ecommerce-website-design"
+from = "/ecommerce-website-design/"
 status = "301"
 to = "/services/ecommerce-website-design/"
 [[redirects]]
