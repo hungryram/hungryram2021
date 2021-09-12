@@ -25,6 +25,11 @@ sections:
 - type: heading
   label: Pages
 - type: directory
+  path: content/services
+  label: Services
+  create: all
+  match: "**/*"
+- type: directory
   path: content/portfolio
   label: Portfolio
   create: documents
