@@ -1,55 +1,35 @@
 [[redirects]]
-force = true
-from = "/real-estate-agent-websites"
-status = "301"
-to = "/services/real-estate-agent-websites/"
+  from = "/customers/*"
+  to = "/portfolio"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/broker-idx-websites"
-status = "301"
-to = "/services/broker-idx-websites/"
+  from = "/free-site-setup/*"
+  to = "/contact"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = false
-from = "/ecommerce-website-design/"
-status = "301"
-to = "/services/ecommerce-website-design/"
+  from = "/real-estate-websites/"
+  to = "/agent-idx-websites"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/agent-idx-websites/"
-status = "301"
-to = "/services/agent-idx-websites/"
+  from = "/projects/*"
+  to = "/portfolio"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/real-estate-broker-websites"
-status = "301"
-to = "/services/real-estate-broker-websites/"
+  from = "/pricing/"
+  to = "/faq"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/customers/*"
-status = "301"
-to = "/portfolio"
-[[redirects]]
-force = true
-from = "/free-site-setup/*"
-status = "301"
-to = "/contact"
-[[redirects]]
-force = true
-from = "/real-estate-websites/"
-status = 301
-to = "/agent-idx-websites"
-[[redirects]]
-force = true
-from = "/projects/*"
-status = 301
-to = "/portfolio"
-[[redirects]]
-force = true
-from = "/pricing/"
-status = 301
-to = "/faq"
-[[redirects]]
-force = true
-from = "/jamstack-website-design/"
-status = 301
-to = "/custom-website-design"
+  from = "/jamstack-website-design/"
+  to = "/custom-website-design"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
