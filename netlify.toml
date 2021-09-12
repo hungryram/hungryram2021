@@ -28,8 +28,3 @@ force = true
 from = "/pricing/"
 status = 301
 to = "/faq"
-[[redirects]]
-force = true
-from = "/jamstack-website-design/"
-status = 301
-to = "/custom-website-design"
