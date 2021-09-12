@@ -1,8 +1,8 @@
 [[redirects]]
 force = true
-from = "/custom-website-design/"
+from = "/ecommerce-website-design/"
 status = "301"
-to = "/services/small-business-website-design/"
+to = "/services/ecommerce-website-design/"
 [[redirects]]
 force = true
 from = "/customers/*"
