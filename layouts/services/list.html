@@ -4,7 +4,7 @@
         <h2>Our services</h2>
         <p>Our website solutions to help grow your business online. Whether you have an existing website or need one to start, Hungry Ram is dedicated to providing you the best website for your business.</p>
         <div class="uk-child-width-1-3@s uk-text-left uk-grid-collapse uk-margin-large-top" uk-grid>
-            {{ range .RegularPages }}
+            {{ range .Pages }}
             {{ if .Params.featured }}
             <div class="service__list">
                 <a href="{{ .Permalink }}" class="uk-link-text">
