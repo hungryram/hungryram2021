@@ -1,10 +1,5 @@
 [[redirects]]
 force = true
-from = "/real-estate-broker-websites/"
-status = "301"
-to = "/services/real-estate-broker-websites/"
-[[redirects]]
-force = true
 from = "/customers/*"
 status = 301
 to = "/portfolio"
@@ -43,3 +38,8 @@ force = true
 from = "/ecommerce-website-design/"
 status = 301
 to = "/services/ecommerce-website-design/"
+[[redirects]]
+force = true
+from = "/real-estate-broker-websites/"
+status = "301"
+to = "/services/real-estate-broker-websites/"
