@@ -1,30 +1,47 @@
 [[redirects]]
-force = true
-from = "/ecommerce-website-design/*"
-status = "301"
-to = "/services/ecommerce-website-design/"
+  from = "/customers/*"
+  to = "/portfolio"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/customers/*"
-status = 301
-to = "/portfolio"
+  from = "/free-site-setup/*"
+  to = "/contact"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/free-site-setup/*"
-status = "301"
-to = "/website-special"
+  from = "/real-estate-websites/"
+  to = "/agent-idx-websites"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/real-estate-websites/"
-status = 301
-to = "/agent-idx-websites"
+  from = "/projects/*"
+  to = "/portfolio"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/projects/*"
-status = 301
-to = "/portfolio"
+  from = "/pricing/"
+  to = "/faq"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 [[redirects]]
-force = true
-from = "/pricing/"
-status = 301
-to = "/faq"
+  from = "/jamstack-website-design/"
+  to = "/custom-website-design"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+  [[redirects]]
+  from = "/jamstack-website-design/"
+  to = "/custom-website-design"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+  [[redirects]]
+  from = "/ecommerce-website-design/"
+  to = "/services/ecommerce-website-design/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
