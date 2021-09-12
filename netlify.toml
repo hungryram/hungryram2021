@@ -1,6 +1,6 @@
 [[redirects]]
 force = true
-from = "/ecommerce-website-design/"
+from = "/ecommerce-website-design/*"
 status = "301"
 to = "/services/ecommerce-website-design/"
 [[redirects]]
@@ -11,7 +11,7 @@ to = "/portfolio"
 [[redirects]]
 force = true
 from = "/free-site-setup/*"
-status = 301
+status = "301"
 to = "/website-special"
 [[redirects]]
 force = true
