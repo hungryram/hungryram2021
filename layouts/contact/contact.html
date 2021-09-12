@@ -1,31 +1,49 @@
 {{ define "main" }}
+{{ $contact := .Site.Data.profile.contact_information }}
+{{ $social := .Site.Data.profile.social_media }}
+
 <div class="uk-section uk-section-small">
     <div class="uk-container">
-        <div class="uk-grid-column-medium uk-grid-row-large uk-child-width-1-3@s uk-text-left" uk-grid uk-height-match="target: .uk-card">
-            {{ range .Params.blocks }}
-            <div>
-                <div class="uk-card uk-card-default">
-                    {{ if .image }}
-                    <div class="uk-card-media-top uk-margin-medium-left">
-                        <img src="{{ .image }}" alt="" width="100" width="100" class="uk-margin-small-top">
-                    </div>
-                    {{ end }}
-                    <div class="uk-card-body">
-                        <h3 class="uk-h4 uk-text-bold">{{ .heading }}</h3>
-                        <p>{{ .body }}</p>
-                    </div>
+        <div class="uk-grid-large" uk-grid>
+            <div class="uk-width-1-2@s">
+                <div class="uk-width-large">
+                    <h2 class="uk-h3">Give us a call, email or text and find out how we can help you</h2>
+                    <p>Whether you're an existing client or someone who needs help getting started, we'll walk you through everything you may need to get your website running.</p>
                 </div>
             </div>
-            {{ end }}
+            <div class="uk-width-1-2@s">
+                <h2 class="uk-h3">Contact Information</h2>
+                <div>
+                    <ul class="uk-list">
+                        <li><a href="mailto:{{ $contact.email }}" class="uk-link-text"><strong>Email: </strong>{{ $contact.email }}</a></li>
+                        <li><a href="tel:{{ $contact.phone }}" class="uk-link-text"><strong>Office: </strong>{{ $contact.phone }}</a></li>
+                        <li><a href="tel:{{ $contact.cell }}" class="uk-link-text"><strong>Direct: </strong>{{ $contact.cell }}</a></li>
+                        <li><a href="https://www.google.com/maps/place/{{ $contact.address }} {{ $contact.city }} {{ $contact.state }} {{ $contact.zip_code }}" target="_blank" class="uk-link-text">{{ $contact.address }}, {{ $contact.city }}, {{ $contact.state }} {{ $contact.zip_code }}</a></li>
+                    </ul>
+                    <a href="sms:{{ $contact.phone }}" class="uk-button uk-button-primary">Send us a text</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <div class="uk-section">
     <div class="uk-container">
-        <div class="uk-section uk-section-small">
-            <div class="uk-container">
-                <div class="uk-grid-large" uk-grid>
-                    <div class="uk-width-expand">
+        <div class="uk-padding accent-bg">
+            <div class="uk-grid-large" uk-grid>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-width-large uk-white">
+                        <h2 class="uk-h3" style="color: #fff;">{{ .Params.heading }}</h2>
+                        <p>{{ .Params.paragraph }}</p>
+                        {{ if $social.instagram }}<a href="{{ $social.instagram }}" class="uk-icon-button uk-margin-small-right" uk-icon="instagram" target="_blank"></a>{{ end }}
+                        {{ if $social.facebook }}<a href="{{ $social.facebook }}" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook" target="_blank"></a>{{ end }}
+                        {{ if $social.pinterest }}<a href="{{ $social.pinterest }}" class="uk-icon-button  uk-margin-small-right" uk-icon="pinterest" target="_blank"></a>{{ end }}
+                        {{ if $social.twitter }}<a href="{{ $social.twitter }}" class="uk-icon-button  uk-margin-small-right" uk-icon="twitter" target="_blank"></a>{{ end }}
+                        {{ if $social.yelp }}<a href="{{ $social.yelp }}" class="uk-icon-button  uk-margin-small-right" uk-icon="yelp" target="_blank"></a>{{ end }}
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s">
+                    <h2 class="uk-h3" style="color: #fff;">Send an email</h2>
+                    <div>
                         <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
                             <input name="bot-field" type="hidden" />
                             <input type="hidden" name="Subject" value="Website Contact Form">
@@ -45,12 +63,6 @@
                                 <button class="uk-button uk-button-secondary">Submit</button>
                             </div>
                         </form>
-                    </div>
-                    <div class="uk-width-1-3@s uk-flex uk-flex-middle">
-                        <div class="uk-width-large">
-                            <h2>{{ .Params.heading }}</h2>
-                            <p>{{ .Params.paragraph }}</p>
-                        </div>
                     </div>
                 </div>
             </div>

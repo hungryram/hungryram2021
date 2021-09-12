@@ -1,7 +1,7 @@
 +++
 body = ""
 heading = "The online presence your business needs"
-paragraph = "Your business deserves the best online presence. For the best website design and development for real estate, small business, and ecommerce websites, please fill out the form. Your time is valuable and will be a priority to get back to you ASAP."
+paragraph = "Your business deserves the best online presence. Please fill out the form and let's talk about your project. Your time is valuable and will be a priority to get back to you ASAP."
 title = "Contact"
 meta_description = "Ready to build your real estate business with modern technology? Let's get in touch!"
 [[blocks]]

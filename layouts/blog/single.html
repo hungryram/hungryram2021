@@ -30,7 +30,7 @@
                     <ul class="uk-list">
                         {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
                       <li>
-                        <a href="/categories{{ $name | urlize | relURL }}" class="uk-button uk-button-secondary accent-bg tags">{{ $name | humanize }}</a>
+                        <a href="/categories{{ $name | urlize | relURL }}" class="tags accent">{{ $name | humanize }} <span href="#" uk-icon="icon: arrow-right" class="uk-margin-small-left"></span></a>
                       </li>
                       {{end}}
                     </ul>

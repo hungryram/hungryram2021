@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="uk-section">
+    <div class="uk-container">
+        <h2>Our services</h2>
+        <p>Our website solutions to help grow your business online. Whether you have an existing website or need one to start, Hungry Ram is dedicated to providing you the best website for your business.</p>
+        <div class="uk-child-width-1-3@s uk-text-left uk-grid-collapse uk-margin-large-top" uk-grid>
+            {{ range .RegularPages }}
+            {{ if .Params.featured }}
+            <div class="service__list">
+                <a href="{{ .Permalink }}" class="uk-link-text">
+                    <div class="uk-card uk-card-body">
+                        <h3 class="uk-text-default">{{ .Title }} <span uk-icon="icon:arrow-right; ratio: 1.5"></span></h3>
+                        <p>{{ .Params.description }}</p>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

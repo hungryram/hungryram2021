@@ -1,0 +1,29 @@
+
+
+<!-- MODAL -->
+<div id="site-audit" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-text-center uk-dark uk-margin-medium">
+            <h2 class="uk-h4">Want to know how your site is doing? Use our site audit tool below</h2>
+        </div>
+<!-- semrush siteaudit widget -->
+<div id="ssa-widget"></div>
+<script type="text/javascript">
+(function() {
+var p = "https://www.semrush.com/leadgen/static/js/widget.min.js";
+var d = document, s = d.createElement("script");
+s.src = p + "?v=" + Math.random();
+(d.head || d.body).appendChild(s);
+s.onload = function() {
+    new SEMRUSH.SiteauditWidget({
+        widgetApiKey: "613255c016bc456e18b513c2"
+    });
+}
+})();
+
+</script>
+<!-- /semrush siteaudit widget -->
+    </div>
+</div>

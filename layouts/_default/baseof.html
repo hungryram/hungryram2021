@@ -1,12 +1,13 @@
   
 {{ partial "global/head" . }}
 
-<div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle page-banner" style="background: url(https://res.cloudinary.com/hungryram19/image/upload/v1628200056/hungryram/desktop2_igppbt.jpg)no-repeat center;background-size:cover">
+<div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle page-banner" style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://res.cloudinary.com/hungryram19/image/upload/v1628200056/hungryram/desktop2_igppbt.jpg)no-repeat center;background-size:cover">
     <div class="uk-position-top full-nav-wrapper">
         {{ partial "global/navbar" . }}
     </div>
-    <div class="uk-padding uk-margin-large-top">
-    <h1 class="uk-text-uppercase uk-white uk-text-center">{{ .Title }}</h1>
+    <div class="uk-padding uk-margin-large-top uk-text-left">
+    <h1 class="uk-text-uppercase uk-white uk-text-center uk-h2 uk-margin-medium-top" style="color: #fff;">{{ .Title }}</h1>
+    {{ partial "templates/breadcrumbs" . }}
     </div>
 </div>
 <main>

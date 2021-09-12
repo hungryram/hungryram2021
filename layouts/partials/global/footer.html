@@ -1,5 +1,5 @@
 {{ $social := .Site.Data.profile.social_media }}
-
+{{ $contact := .Site.Data.profile.contact_information }}
 <footer class="footer">
     <div class="uk-section">
         <div class="uk-container">
@@ -19,31 +19,31 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-grid-column-collapse uk-child-width-1-4@s" uk-grid>
+            <div class="uk-grid-column-small uk-child-width-1-4@s" uk-grid>
                 <div>
-                    <h2 class="uk-text-bold accent uk-h6">Quick Links</h2>
+                    <h2 class="uk-text-bold accent uk-h6">Contact Information</h2>
                     <ul class="uk-list">
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a></li>
+                        <li><a href="tel:{{ $contact.phone }}"><strong>Office: </strong>{{ $contact.phone }}</a></li>
+                        <li><a href="tel:{{ $contact.cell }}"><strong>Direct: </strong>{{ $contact.cell }}</a></li>
+                        <li><a href="https://www.google.com/maps/place/{{ $contact.address }} {{ $contact.city }} {{ $contact.state }} {{ $contact.zip_code }}" target="_blank">{{ $contact.address }}, {{ $contact.city }}, {{ $contact.state }} {{ $contact.zip_code }}</a></li>
                     </ul>                
                 </div>
                 <div>
                     <h2 class="uk-text-bold accent uk-h6">Real Estate Website</h2>
                     <ul class="uk-list">
-                        <li><a href="/real-estate-agent-websites">Agent Websites</a></li>
-                        <li><a href="/real-estate-broker-websites">Broker Websites</a></li>
-                        <li><a href="/agent-idx-websites">Agent IDX</a></li>
-                        <li><a href="/broker-idx-websites">Broker IDX</a></li>
+                        <li><a href="/services/real-estate-agent-websites/">Agent Websites</a></li>
+                        <li><a href="/services/real-estate-broker-websites/">Broker Websites</a></li>
+                        <li><a href="/services/agent-idx-websites/">Agent IDX</a></li>
+                        <li><a href="/services/broker-idx-websites/">Broker IDX</a></li>
 
                     </ul>                
                 </div>
                 <div>
                     <h2 class="uk-text-bold accent uk-h6">Small Business Website</h2>
                     <ul class="uk-list">
-                        <li><a href="/custom-website-design">Custom Website</a></li>
-                        <li><a href="/ecommerce-website-design">Ecommerce Website</a></li>
+                        <li><a href="/services/small-business-website-design/">Small Business Website Design</a></li>
+                        <li><a href="/services/ecommerce-website-design/">Ecommerce Website</a></li>
                     </ul>           
                 </div>
                 <div>
@@ -57,7 +57,7 @@
     </div>
     <div class="uk-container uk-padding">
         <div class="uk-grid">
-            <div class="uk-width-1-2@s">
+            <div class="uk-width-1-1@s">
                 <p class="uk-light uk-text-small">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}</p>
                 <ul class="hr-legals uk-padding-remove">
                     {{ range where $.Site.Pages.ByWeight "Type" "legal" }}

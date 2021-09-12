@@ -15,13 +15,13 @@
         </div>
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav">
-                {{ if $contact.cell }}<li><a href="tel:{{ $contact.cell }}">{{ $contact.cell }}</a></li>{{ end }}
+                {{ if $contact.phone }}<li><a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a></li>{{ end }}
                 {{ if $contact.email }}<li><a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a></li>{{ end }}
             </ul>
         </div>
     </nav>
 </div>
-    <nav class="main-nav uk-navbar-container uk-navbar-transparent"{{ if not .IsHome }} style="border-bottom: 1px solid rgb(213 213 213 / 20%);"{{ end }}>
+    <nav class="main-nav uk-navbar-container uk-navbar-transparent">
         <div class="uk-container uk-container-medium" style="padding-top:10px;padding-bottom:10px;">
             <div uk-navbar="dropbar: true" delay-hide="50">
                 <div class="uk-navbar-left">
@@ -35,38 +35,34 @@
                     <ul class="uk-navbar-nav uk-text-bold">
                         <li><a href="/">Home</a></li>
                         <li>
-                            <a href="#">Products<span class="uk-icon uk-margin-small-left" uk-icon="icon: chevron-down"></span></a>
+                            <a href="#">Web Design<span class="uk-icon uk-margin-small-left" uk-icon="icon: chevron-down"></span></a>
                             <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
                                 <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
                                     <div>
                                         <ul class="uk-nav uk-navbar-dropdown-nav">
                                             <li class="uk-nav-header accent">Real Estate Websites</li>
                                             <li class="uk-nav-divider"></li>
-                                            <li><a href="/real-estate-agent-websites">Agent websites</a></li>
-                                            <li><a href="/real-estate-broker-websites">Broker websites</a></li>
+                                            <li><a href="/services/real-estate-agent-websites/">Agent websites</a></li>
+                                            <li><a href="/services/real-estate-broker-websites/">Broker websites</a></li>
                                             <li class="uk-nav-header accent">IDX Websites</li>
                                             <li class="uk-nav-divider"></li>
-                                            <li><a href="/agent-idx-websites">Agent IDX</a></li>
-                                            <li><a href="/broker-idx-websites">Broker IDX</a></li>
+                                            <li><a href="/services/agent-idx-websites/">Agent IDX</a></li>
+                                            <li><a href="/services/broker-idx-websites/">Broker IDX</a></li>
                                         </ul>
                                     </div>
                                     <div>
                                         <ul class="uk-nav uk-navbar-dropdown-nav">
                                             <li class="uk-nav-header accent">Small Business Websites</li>
                                             <li class="uk-nav-divider"></li>
-                                            <li><a href="/custom-website-design">Custom Website</a></li>
-                                            <li><a href="/ecommerce-website-design">Ecommerce website</a></li>
-                                            <li class="uk-nav-header accent">Added Website Tools</li>
-                                            <li class="uk-nav-divider"></li>
-                                            <li><a href="/blog/google-analytics/">Web Analytics</a></li>
-                                            <li><a href="/blog/google-console/">Google console</a></li>
+                                            <li><a href="/services/ecommerce-website-design/">Ecommerce website</a></li>
+                                            <li><a href="/services/small-business-website-design/">Small business website</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="#">Resources<span class="uk-icon uk-margin-small-left" uk-icon="icon: chevron-down"></span></a>
+                            <a href="#">About<span class="uk-icon uk-margin-small-left" uk-icon="icon: chevron-down"></span></a>
                             <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
                                 <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
                                     <div>
@@ -92,8 +88,8 @@
                         <li><a href="/services">Services</a></li>
                         <li><a href="/contact">Contact</a></li>
                         <div class="uk-navbar-item">
-                                <li><a class="uk-button uk-button-primary" href="#modal-signup" uk-toggle>Free Site Audit</a></li>
-                                {{ partial "templates/modal" . }}
+                                <li><a class="uk-button uk-button-primary" href="#site-audit" uk-toggle>Free Site Audit</a></li>
+                                {{ partial "templates/audit" . }}
                         </div>                    
                     </ul>
                 </div>
@@ -126,28 +122,28 @@
                 <li class="uk-nav-header"></li>
                 <li><a href="{{ .Site.BaseURL }}">Home</a></li>
                 <li class="uk-parent">
-                    <a href="#">Products</a>
+                    <a href="#">Web Design</a>
                     <ul class="uk-nav-sub">
                         <li class="uk-nav-header">Real Estate Websites</li>
                         <li class="uk-nav-divider"></li>
-                        <li><a href="/real-estate-agent-websites">Agent websites</a></li>
-                        <li><a href="/real-estate-broker-websites">Broker websites</a></li>
+                        <li><a href="/services/real-estate-agent-websites/">Agent websites</a></li>
+                        <li><a href="/services/real-estate-broker-websites/">Broker websites</a></li>
                         <li class="uk-nav-header">IDX Websites</li>
                         <li class="uk-nav-divider"></li>
-                        <li><a href="/agent-idx-websites">Agent IDX</a></li>
-                        <li><a href="/broker-idx-websites">Broker IDX</a></li>
+                        <li><a href="/services/agent-idx-websites/">Agent IDX</a></li>
+                        <li><a href="/services/broker-idx-websites/">Broker IDX</a></li>
                         <li class="uk-nav-header">Small Business Websites</li>
                         <li class="uk-nav-divider"></li>
-                        <li><a href="/custom-website-design">Custom Website</a></li>
-                        <li><a href="/ecommerce-website-design">Ecommerce website</a></li>
-                        <li class="uk-nav-header">Added Website Tools</li>
+                        <li><a href="/services/ecommerce-website-design/">Ecommerce website</a></li>
+                        <li><a href="/services/small-business-website-design/">Small business website</a></li>
+                        <!-- <li class="uk-nav-header">Added Website Tools</li>
                         <li class="uk-nav-divider"></li>
                         <li><a href="/blog/google-analytics/">Web Analytics</a></li>
-                        <li><a href="/blog/google-console/">Google console</a></li>
+                        <li><a href="/blog/google-console/">Google console</a></li> -->
                     </ul>
                 </li>
                 <li class="uk-parent">
-                    <a href="#">Resources</a>
+                    <a href="#">About</a>
                     <ul class="uk-nav-sub">
                         <li class="uk-nav-header">Hungry Ram</li>
                         <li class="uk-nav-divider"></li>
