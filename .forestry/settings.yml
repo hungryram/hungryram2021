@@ -29,6 +29,8 @@ sections:
   label: Services
   create: all
   match: "**/*"
+  templates:
+  - services
 - type: directory
   path: content/portfolio
   label: Portfolio
