@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $optBlock := dict "display" "block" }}
 <div class="uk-section uk-margin-medium-top">
     <div class="uk-container">
         <div class="uk-text-left uk-grid-large" uk-grid>
@@ -9,7 +10,7 @@
                         {{ end }}
                         <h2>{{ .Params.intro.heading }}</h2>
                         <div class="uk-margin-medium">
-                            <p>{{ .Params.intro.body }}</p>
+                            {{ .Params.intro.body | $.Page.RenderString $optBlock }}
                             <a href="#modal-signup" class="uk-button uk-button-primary" uk-toggle>Get started</a>
                         </div>
                     </div>
@@ -47,16 +48,16 @@
             <div class="uk-width-1-2@s">
                 <div class="uk-card">
                     <div>
-                        <p>{{ .Params.second_intro.body }}</p>
+                        {{ .Params.second_intro.body | $.Page.RenderString $optBlock }}
                     </div>
                 </div>
             </div>
             <div class="uk-width-1-2@s uk-visible@s">
                 <div class="uk-card">
                     <ul class="uk-list uk-text-left">
-                        <li class="uk-text-bold accent"><span uk-icon="icon: check" class="uk-margin-small-right"></span>Design 100% unique for your business</li>
-                        <li class="uk-text-bold accent"><span uk-icon="icon: check" class="uk-margin-small-right"></span>Affordable than most</li>
-                        <li class="uk-text-bold accent"><span uk-icon="icon: check" class="uk-margin-small-right"></span>Request custom features</li>
+                        {{ range .Params.feature_list }}
+                        <li class="uk-text-bold accent"><a href="{{ .link }}"><span uk-icon="icon: check" class="uk-margin-small-right"></span>{{ .heading }}</a></li>
+                        {{ end }}
                     </ul>
                 </div>
             </div>
