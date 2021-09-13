@@ -3,12 +3,13 @@ client_name = "Shelley Lashley"
 date = 2020-09-11T07:00:00Z
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628098152/hungryram/beautyhydration_w9zzng.jpg"
 image_alt_tag = "Medspa website design"
-meta_description = ""
+meta_description = "View our case study for Beauty Hydration owned by Shelley Lashley, located in Los Angeles, CA."
 meta_title = ""
 projects = ["Small Business"]
 review = "I fired my web designer who took 5 months for the site. I found Ram through a referral and he completed my site in 2 weeks! He's very knowledgeable and helped me save $200 per month by doing some research on tools I needed."
 short_description = ""
 title = "Beauty Hydration"
+title_tag = "Beauty Hydration Web Design by Hungry Ram"
 website_link = "https://beautyhydration.com"
 
 +++
