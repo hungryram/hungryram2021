@@ -11,17 +11,17 @@ title = "Making your Real Estate Website Stand Out From Big Agency Sites"
 title_tag = "Make Your Real Estate Website Stand Out | Hungry Ram Web Design"
 
 +++
-Majority of the world has gone virtual now due to the coronavirus pandemic. I've had a lot of real estate professionals contact me for websites and it surprised me during these tough times. But it makes sense that it's important to establish an online presence.
+The majority of the world has gone virtual now due to the coronavirus pandemic. I've had a lot of real estate professionals contact me for websites and it surprised me during these tough times. But it makes sense that it's important to establish an online presence.
 
-This post is to outline how I can help make your real estate website stand out without providing advice on the typical "use high-quality photos", or "Write valuable content". Instead I'm going to dive into the back end of the website and make it different from the inside than appearance.
+This post is to outline how I can help make your real estate website stand out without providing advice on the typical "use high-quality photos", or "Write valuable content". Instead, I'm going to dive into the back end of the website and make it different from the inside than appearance.
 
 ##### Websites from the big players
 
-There are so many real estate websites out there that are built by big agencies such as [Agent Image](https://www.agentimage.com/) and [Luxury Presence](). They are big players in the web design for the real estate industry and I have to admit, their designs are outstanding.
+There are so many real estate websites out there that are built by big agencies such as [Agent Image](https://www.agentimage.com/) and [Luxury Presence](). They are big players in web design for the real estate industry and I have to admit, their designs are outstanding.
 
-There is just one thing they have in common for their web design. It both runs on database.  But don't you need a database to have a fully functioning website?! Nope.
+There is just one thing they have in common for their web design. It both runs on a database.  But don't you need a database to have a fully functioning website?! Nope.
 
-Some of their sites are built using Wordpress which I am not a fan of. I won't get into it in this post but if you're curious, read it here.
+Some of their sites are built using WordPress which I am not a fan of. I won't get into it in this post but if you're curious, read it here.
 
 ##### Technical vs Design
 
@@ -29,7 +29,7 @@ Anybody can create a beautiful design and a great design can be visually appeali
 
 ##### Enter JAMstack
 
-JAMstack is the new modern way to web development. Note the word development instead of design. While most web designers rely on website builders such as [Wix](https://www.wix.com/), [Squarespace](https://www.squarespace.com/), and [WordPress](). JAMstack developers code from the ground up.
+JAMstack is the new modern way of web development. Note the word development instead of design. While most web designers rely on website builders such as [Wix](https://www.wix.com/), [Squarespace](https://www.squarespace.com/), and [WordPress](). JAMstack developers code from the ground up.
 
 Is it more time-consuming? Sometimes... it really depends on the experience of the developer. But why is this better? JAMstack provides better performance, security, better scaling, and better experience for us developers and programmers. We also have control of what resources the website uses so there is no bloat to the website to slow it down.
 
