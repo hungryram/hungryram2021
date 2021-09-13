@@ -3,10 +3,11 @@ categories = ["Web Design"]
 date = 2021-09-01T07:00:00Z
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1630523544/hungryram/kaiyager_wflxxb.png"
 image_alt_tag = "wordpress website design"
-meta_description = ""
-title = "The Guide to Building a Real Estate Website with IDX"
-title_tag = ""
 is_post = true
+meta_description = "Learn how to build a real estate website using Divi and iHomefinder."
+title = "The Guide to Building a Real Estate Website with IDX"
+title_tag = "The Guide to Building a Real Estate Website | Hungry Ram"
+
 +++
 So you want to learn how to build a real estate website with a working IDX to save money. This guide is aimed to give real estate professionals the chance to try and build their own site. There are other options available and this is no longer how I build websites. This method works for people who are not tech savvy. I’ll try to keep it short so let’s get started.
 
