@@ -69,3 +69,9 @@ force = true
 from = "/real-estate-broker-websites/"
 status = 301
 to = "/services/real-estate-broker-websites/"
+
+[[redirects]]
+force = true
+from = "/custom-website-design"
+status = 301
+to = "/services/custom-website-design/"
