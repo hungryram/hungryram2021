@@ -10,7 +10,7 @@
                         {{ end }}
                         <h2>{{ .Params.intro.heading }}</h2>
                         <div class="uk-margin-medium">
-                            {{ .Params.intro.body | .Page.RenderString $optBlock }}
+                            {{ .Params.intro.body | markdownify }}
                             <a href="#modal-signup" class="uk-button uk-button-primary" uk-toggle>Get started</a>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
             <div class="uk-width-1-2@s">
                 <div class="uk-card">
                     <div>
-                        {{ .Params.second_intro.body | .Page.RenderString $optBlock }}
+                        <p>{{ .Params.second_intro.body | markdownify }}</p>
                     </div>
                 </div>
             </div>
