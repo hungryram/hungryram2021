@@ -1,18 +1,23 @@
 +++
-title = "Custom Website Design"
 description = "Website designed unique to your own business"
 draft = true
-[intro]
-heading = "IDX websites for real estate agents"
-body = "A more powerful online presence for your real estate business. Get a website that allows your visitors to engage and find the information they need. Integrated with iHomefinder - one of the most used IDX on the market."
+featured = false
+image = ""
+title = "Custom Website Design"
 [banner]
-heading = "Affordable websites for real estate agents"
 body = "Powerfully built websites engineered to help real estate agents scale their business."
+heading = "Affordable websites for real estate agents"
+[intro]
+body = "A more powerful online presence for your real estate business. Get a website that allows your visitors to engage and find the information they need. Integrated with iHomefinder - one of the most used IDX on the market."
+heading = "IDX websites for real estate agents"
+[search_engine_optimization]
+meta_description = ""
+title_tag = ""
 [second_intro]
-heading = "Built in tools for lead generation"
 body = "IDX websites offers robust tools from search features, lead management, and property organizers. Hungry Ram provides the best IDX solutions for your real estate website."
-+++
+heading = "Built in tools for lead generation"
 
++++
 ## heading
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
