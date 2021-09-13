@@ -1,10 +1,10 @@
 {{ $hero := .Site.Data.home.hero }}
-<div class="uk-cover-container uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-bottom:30" style="background: #090909" uk-grid>    
+<div class="uk-cover-container uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-bottom:25" style="background: #090909" uk-grid>    
     <div class="uk-position-top full-nav-wrapper" style="z-index: 1;">
         {{ partial "global/navbar" . }}
     </div>
-    <div class="hero-text uk-white uk-width-3-5@s uk-text-center uk-flex uk-flex-center" style="margin-left:20px;margin-right: 20px;">
-        <div class="uk-width-@s">
+    <div class="hero-text uk-white uk-width-3-5@s uk-text-center uk-flex uk-flex-center uk-margin-large-top" style="margin-left:15px;margin-right: 15px;">
+        <div class="uk-width-1-1@s">
             {{ if $hero.heading }}
             <h1 class="uk-text-bold heading uk-margin-remove uk-white uk-h2" style="color: #fff;">{{ $hero.heading }}</h1>
             {{ end }}

@@ -10,7 +10,7 @@
                         {{ end }}
                         <h2>{{ .Params.intro.heading }}</h2>
                         <div class="uk-margin-medium">
-                            {{ .Params.intro.body | markdownify }}
+                            <p>{{ .Params.intro.body | markdownify }}</p>
                             <a href="#modal-signup" class="uk-button uk-button-primary" uk-toggle>Get started</a>
                         </div>
                     </div>
