@@ -12,4 +12,4 @@ title = "GWB Land"
 website_link = "https://www.gwbland.com/"
 
 +++
-Case study coming soon!
+Lavarres Lynch found us online and was looking for a website that would be able to list his lands for sale in South Carolina. After a few emails on his decision, we created a demo account for Lavarres and he ended up being happy with the website.
