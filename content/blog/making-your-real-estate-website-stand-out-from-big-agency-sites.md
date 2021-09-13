@@ -29,17 +29,17 @@ Anybody can create a beautiful design and a great design can be visually appeali
 
 ##### Enter JAMstack
 
-JAMstack is the new modern way to web development. Note the word development instead of design. While most web designers rely on website builders such as [Wix](https://www.wix.com/), [Squarespace](https://www.squarespace.com/), and [Wordpress](). JAMstack developers code from the ground up.
+JAMstack is the new modern way to web development. Note the word development instead of design. While most web designers rely on website builders such as [Wix](https://www.wix.com/), [Squarespace](https://www.squarespace.com/), and [WordPress](). JAMstack developers code from the ground up.
 
-Is it more time consuming? Sometimes... it really depends on the experience of the developer. But why is this better? JAMstack provides better performance, security, better scaling, and better experience for us developers and programmers. We also have control of what resources the website uses so there is no bloat to the website to slow it down.
+Is it more time-consuming? Sometimes... it really depends on the experience of the developer. But why is this better? JAMstack provides better performance, security, better scaling, and better experience for us developers and programmers. We also have control of what resources the website uses so there is no bloat to the website to slow it down.
 
 ##### Let's make your site stand out
 
-1. **Eliminating Database:** By eliminating this one thing, your site will already pick up in load time that no website with database can beat. While majority traditional websites run on database now, I focus on building a full static website that loads from the CDN. Which leads to the next topic.
+1. **Eliminating Database:** By eliminating this one thing, your site will already pick up in load time that no website with the database can beat. While the majority of traditional websites run on a database, I focus on building a fully static website that loads from the CDN. This leads to the next topic.
 2. **CDN Delivery:** Your JAMstack website will be served over a CDN with pre-built files. This helps in load time tremendously.
-3. **Maintainability:** I think we all know the downside to hosting websites. Especially with shared servers. All of the hosting complexity is reduced by just eliminating the servers and load the client over CDN. So you can sleep peacefully knowing your website won't be effected by other sites on a shared server.
+3. **Maintainability:** I think we all know the downside to hosting websites. Especially with shared servers. All of the hosting complexity is reduced by just eliminating the servers and load the client over CDN. So you can sleep peacefully knowing your website won't be affected by other sites on a shared server.
 4. **Security:** Security is a big thing especially if you're collecting information from your visitors. Luckily a JAMstack websites serve pre-generated files which is essentially read-only, in return reduces attacks and database injections that can corrupt your data.
 
 It's not all about design
 
-Picking out your next website is tough, especially when most agencies focus on providing the same website structure. Here, I try to make my websites different by switching everyone to the JAMstack route, while most websites are still using Wordpress and website builders. Contact me and let's see what I can do to help.
+Picking out your next website is tough, especially when most agencies focus on providing the same website structure. Here, I try to make my websites different by switching everyone to the JAMstack route, while most websites are still using WordPress and website builders. Contact me and let's see what I can do to help.
