@@ -1,13 +1,15 @@
 +++
 categories = ["Web design"]
 date = 2020-11-13T08:00:00Z
+disable_banner = true
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1605336010/hungryram/idx_qpqe5l.png"
 image_alt_tag = "Modern real estate website design"
+is_post = true
 meta_description = "How to establish a real estate online presence different from everybody else. Real estate website design focused on higher performance and security."
 meta_title = ""
 title = "Making your Real Estate Website Stand Out From Big Agency Sites"
-disable_banner = true
-is_post = true
+title_tag = "Make Your Real Estate Website Stand Out | Hungry Ram Web Design"
+
 +++
 Majority of the world has gone virtual now due to the coronavirus pandemic. I've had a lot of real estate professionals contact me for websites and it surprised me during these tough times. But it makes sense that it's important to establish an online presence.
 
