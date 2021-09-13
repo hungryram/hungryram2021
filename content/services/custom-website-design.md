@@ -1,28 +1,30 @@
 +++
 description = "Website designed unique to your own business"
-draft = true
-featured = false
-image = ""
+featured = true
+image = "https://res.cloudinary.com/hungryram19/image/upload/v1628098039/hungryram/karina-crisp_xlhli4.jpg"
 title = "Custom Website Design"
 [banner]
 body = "Powerfully built websites engineered to help real estate agents scale their business."
 heading = "Affordable websites for real estate agents"
 [intro]
-body = "A more powerful online presence for your real estate business. Get a website that allows your visitors to engage and find the information they need. Integrated with iHomefinder - one of the most used IDX on the market."
-heading = "IDX websites for real estate agents"
+body = "A custom web design helps your business stand out from the crowd. Most businesses on a budget will rely on a prebuilt template from WordPress or Wix. It's a good starting point but later on, you might need something more customized so customers know your brand from your website.\n\nHungry Ram is dedicated to helping you build your brand so visitors can easily identify your business. Have more questions? Let's talk about how we can help."
+heading = "Choosing a custom web design over templates"
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""
 [second_intro]
-body = "IDX websites offers robust tools from search features, lead management, and property organizers. Hungry Ram provides the best IDX solutions for your real estate website."
-heading = "Built in tools for lead generation"
+body = "Custom coded and built to be reliable and tailored to your business. Not only do we focus on the design of your site but also the importance of SEO. "
+heading = "Hand-crafted websites from scratch"
 
 +++
-## heading
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+## Professionally designed and built
 
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+A competitive industry like real estate is crucial when it comes to getting a unique design for your branding. If the site is not appealing to a user and difficult to navigate, you'll risk losing your visitors to your competitors.
 
-## heading
+By having us design your website, you'll work with a professional on features and tools you may need to succeed in the online world. A developer will know the best practices to incorporate into your website to present easy access and establish a strong online presence.
 
-Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+## Get a website that works
+
+While most agencies deliver templated designs using WordPress and Squarespace, Hungry Ram will give you the most robust website that is coded from scratch. We deliver the fastest and most secure websites to our clients by coding on the Jamstack architecture.
+
+Jamstack is a collection of tools developers use to build a high-performance website. We have adopted this method in our business and have given clients the upper hand when it comes to page speed and security. Ready to get started? Let's [get in touch](/contact) with a professional developer.
