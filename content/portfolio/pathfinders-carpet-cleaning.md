@@ -12,4 +12,4 @@ title = "Pathfinders Carpet Cleaning"
 website_link = "https://www.pathfinderscarpetcleaning.com/"
 
 +++
-Case study coming soon!
+Ed, owner of Pathfinders Carpet Cleaning was referred to us by a partner and has been working with Hungry Ram for the past 3 years. Pathfinders Carpet Cleaning is one of the largest carpet cleaners in Texas since 1976. Throughout the years, we have helped Pathfinders Carpet Cleaning scale their website and grow their online presence.
