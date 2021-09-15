@@ -32,6 +32,13 @@ sections:
   templates:
   - services
 - type: directory
+  path: content/locations
+  label: Locations
+  create: all
+  match: "**/*"
+  templates:
+  - locations
+- type: directory
   path: content/portfolio
   label: Portfolio
   create: documents
