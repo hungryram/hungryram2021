@@ -26,6 +26,10 @@ html body {
     color: #5a5a5a;
 }
 
+p:empty {
+    display: none;
+}
+
 .md__content a {
     color: #2196f3;
     text-decoration: underline;

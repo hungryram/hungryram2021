@@ -6,14 +6,14 @@
                 <div class="uk-width-3-4@s uk-flex uk-flex-center">
                         <div class="uk-card uk-card-body">
                             <h2>{{ .Params.first_intro.heading }}</h2>
-                            <p>{{ .Params.first_intro.body }}</p>
+                            <p>{{ .Params.first_intro.body | markdownify }}</p>
                         </div>
                 </div>
             </div>
         </div>
         <div class="uk-grid uk-margin-large-top uk-grid-large uk-margin-large-bottom">
             <div class="uk-width-expand@s">
-                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628214718/hungryram/contact-hungry-ram_antytx.jpg" alt="">
+                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628214718/hungryram/contact-hungry-ram_antytx.jpg" alt="{{ .Params.second_intro.image_alt_tag }}">
 
             </div>
             <div class="uk-width-3-5@s">
