@@ -4,23 +4,29 @@ social_media:
   instagram: https://www.instagram.com/ramdettmer/
   twitter: ''
   facebook: https://www.facebook.com/HungryRam/
-  pinterest: 
+  pinterest: ''
   yelp: https://www.yelp.com/biz/hungry-ram-yorba-linda
   linkedin: ''
   tiktok: ''
+  youtube: ''
 contact_information:
   phone: 657-549-5082
   name: Ram Dettmer
   cell: 951-454-2650
-  address: 5511 Mirage Street
+  address: '5511 Mirage Street #1007'
   email: ram@hungryram.com
   city: Yorba Linda
   state: California
-  zip_code: '92886'
+  zip_code: "92886"
+  license: ''
 search_engine_optimization:
   title_tag: Orange County Website Design - Hungry Ram Web Design
   meta_description: Based in Orange County, specializing in modern development for
     the web. Providing the best websites for real estate and small businesses.
+  twitter_card:
+    twitter_username: ''
+  facebook:
+    app_id: ''
 primary_photo: ''
 profile:
   phone: ''

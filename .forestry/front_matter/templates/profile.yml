@@ -133,4 +133,4 @@ fields:
     label: Facebook
   label: Search Engine Optimization
 pages:
-- data/profile.yml
+- data/profile.yaml
