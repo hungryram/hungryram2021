@@ -1,26 +1,81 @@
 ---
 label: Profile
-hide_body: true
+hide_body: false
 fields:
-- name: primary_photo
-  type: file
-  config:
-    maxSize: 64
-  label: Primary Photo
 - name: company_name
   type: text
   config:
     required: false
   label: Company Name
-- name: profile
+- name: social_media
   type: field_group
   config: {}
   fields:
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  - name: pinterest
+    type: text
+    config:
+      required: false
+    label: Pinterest
+  - name: yelp
+    type: text
+    config:
+      required: false
+    label: Yelp
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  - name: tiktok
+    type: text
+    config:
+      required: false
+    label: TikTok
+  - name: youtube
+    type: text
+    config:
+      required: false
+    label: Youtube
+  label: Social Media
+- name: contact_information
+  type: field_group
+  config: {}
+  fields:
+  - name: license
+    type: text
+    config:
+      required: false
+    label: License Number
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
   - name: phone
     type: text
     config:
       required: false
     label: Phone
+  - name: cell
+    type: text
+    config:
+      required: false
+    label: Cell
   - name: email
     type: text
     config:
@@ -31,74 +86,51 @@ fields:
     config:
       required: false
     label: Address
-  - name: state
-    type: text
-    config:
-      required: false
-    label: State
   - name: city
     type: text
     config:
       required: false
     label: City
-  - name: zip
+  - name: state
     type: text
     config:
       required: false
-    label: Zip
-  label: Profile
-- name: social_media
+    label: State
+  - name: zip_code
+    type: text
+    config:
+      required: false
+    label: Zip Code
+  label: Contact Information
+- name: search_engine_optimization
   type: field_group
   config: {}
   fields:
-  - name: instagram
-    type: text
-    config:
-      required: false
-    label: Instagram
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: SEO
+  - name: twitter_card
+    type: field_group
+    config: {}
+    fields:
+    - name: twitter_username
+      type: text
+      config:
+        required: false
+      label: Twitter Username
+    label: Twitter Card
   - name: facebook
-    type: text
-    config:
-      required: false
+    type: field_group
+    config: {}
+    fields:
+    - name: app_id
+      type: text
+      config:
+        required: false
+      label: App ID
     label: Facebook
-  - name: twitter
-    type: text
-    config:
-      required: false
-    label: Twitter
-  - name: yelp
-    type: text
-    config:
-      required: false
-    label: Yelp
-  label: Social
-- name: seo
-  type: include
-  config: {}
-  template: seo
-  label: SEO
-- name: welcome
-  type: field_group_list
-  fields:
-  - name: heading
-    type: text
-    config:
-      required: false
-    label: Heading
-  - name: link
-    type: text
-    config:
-      required: false
-    label: Link
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: Image
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Welcome
+  label: Search Engine Optimization
 pages:
-- data/profile.yaml
+- data/profile.yml
