@@ -2,7 +2,7 @@
 company_name: Hungry Ram Web Design
 social_media:
   instagram: https://www.instagram.com/ramdettmer/
-  twitter: 
+  twitter: ''
   facebook: https://www.facebook.com/HungryRam/
   pinterest: 
   yelp: https://www.yelp.com/biz/hungry-ram-yorba-linda
@@ -16,7 +16,19 @@ contact_information:
   email: ram@hungryram.com
   city: Yorba Linda
   state: California
-  zip_code: "92886"
+  zip_code: '92886'
 search_engine_optimization:
   title_tag: Orange County Website Design - Hungry Ram Web Design
-  meta_description: Based in Orange County, specializing in modern development for the web. Providing the best websites for real estate and small businesses.
+  meta_description: Based in Orange County, specializing in modern development for
+    the web. Providing the best websites for real estate and small businesses.
+primary_photo: ''
+profile:
+  phone: ''
+  email: ram@hungryram.com
+  address: ''
+  state: ''
+  city: ''
+  zip: ''
+title_tag: ''
+meta_description: ''
+welcome: []
