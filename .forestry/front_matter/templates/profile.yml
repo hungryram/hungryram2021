@@ -26,8 +26,28 @@ fields:
     config:
       required: false
     label: Email
+  - name: address
+    type: text
+    config:
+      required: false
+    label: Address
+  - name: state
+    type: text
+    config:
+      required: false
+    label: State
+  - name: city
+    type: text
+    config:
+      required: false
+    label: City
+  - name: zip
+    type: text
+    config:
+      required: false
+    label: Zip
   label: Profile
-- name: social
+- name: social_media
   type: field_group
   config: {}
   fields:
@@ -41,6 +61,16 @@ fields:
     config:
       required: false
     label: Facebook
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: yelp
+    type: text
+    config:
+      required: false
+    label: Yelp
   label: Social
 - name: seo
   type: include
