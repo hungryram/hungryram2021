@@ -1,5 +1,5 @@
 +++
-description = "Affordable websites for REALTORS® and agents who do not need IDX."
+description = "Affordable websites for REALTORS® and agents who do not need IDX"
 featured = true
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1631426864/hungryram/real-estate-theme.jpg"
 title = "Real Estate Agent Websites"
