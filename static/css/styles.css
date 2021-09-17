@@ -30,7 +30,7 @@ p:empty {
     display: none;
 }
 
-.md__content a {
+.md__content a:not(.uk-button) {
     color: #2196f3;
     text-decoration: underline;
 }

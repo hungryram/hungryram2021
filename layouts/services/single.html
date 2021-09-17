@@ -4,7 +4,7 @@
     <div class="uk-container">
         <div class="uk-text-left uk-grid-large" uk-grid>
             <div class="{{ if .Params.image }}uk-width-1-2@s{{ else }}uk-width-1-3@s{{ end }}">
-                    <div class="uk-card">
+                    <div class="uk-card md__content">
                         {{ if .Params.intro.shopify }}
                         <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628136652/hungryram/shopify-partner_gyjw3i.png" alt="Shopify Partner" width="300">
                         {{ end }}
@@ -44,7 +44,7 @@
 <div class="uk-section uk-section-small uk-margin-large-bottom">
     <div class="uk-container">
         <h2>{{ .Params.second_intro.heading }}</h2>
-        <div class="uk-text-left uk-grid-large" uk-grid>
+        <div class="uk-text-left uk-grid-large md__content" uk-grid>
             <div class="uk-width-1-2@s">
                 <div class="uk-card">
                     <div>
