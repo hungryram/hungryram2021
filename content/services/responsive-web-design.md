@@ -1,7 +1,7 @@
 +++
 description = "Websites that adapt to any screen size and devices."
 featured = false
-image = ""
+image = "https://res.cloudinary.com/hungryram19/image/upload/v1630523544/hungryram/kaiyager_wflxxb.png"
 title = "Responsive Web Design"
 [banner]
 body = ""
