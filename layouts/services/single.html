@@ -18,7 +18,7 @@
             <div class="{{ if .Params.image }}uk-width-1-2@s{{ else }}uk-width-expand@s{{ end }}">
                 <div class="uk-card box-shadow">
                     {{ if .Params.image }}
-                    <img src="{{ .Params.image }}" alt="">
+                    <img src="{{ .Params.image }}" alt="{{ .Params.image_alt_tag }}">
                     {{ else }}
                     <div uk-lightbox>
                         <a href="{{ .Params.video }}"><video src="{{ .Params.video }}" loop="" muted="" playsinline="" uk-video="autoplay: inview" preload="none"></video></a>

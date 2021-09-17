@@ -19,11 +19,11 @@ body .uk-h1, body .uk-h2, body .uk-h3, body .uk-h4, body .uk-h5, body .uk-h6, bo
 }
 
 body em {
-    color: #666;
+    color: #333;
 }
 
 html body {
-    color: #5a5a5a;
+    color: #333;
 }
 
 p:empty {
@@ -37,6 +37,7 @@ p:empty {
 
 ul.uk-breadcrumb>*>* {
     color: #fff;
+    font-size: .675rem;
 }
 
 /* OVERWRITE */
