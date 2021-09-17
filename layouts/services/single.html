@@ -44,9 +44,9 @@
 <div class="uk-section uk-section-small uk-margin-large-bottom">
     <div class="uk-container">
         <h2>{{ .Params.second_intro.heading }}</h2>
-        <div class="uk-text-left uk-grid-large md__content" uk-grid>
+        <div class="uk-text-left uk-grid-large" uk-grid>
             <div class="uk-width-1-2@s">
-                <div class="uk-card">
+                <div class="uk-card md__content">
                     <div>
                         <p>{{ .Params.second_intro.body | markdownify }}</p>
                     </div>
@@ -54,10 +54,10 @@
             </div>
             <div class="uk-width-1-2@s uk-visible@s">
                 <div class="uk-card">
+                    <h3 class="uk-margin-small-top">All our sites follow important web standards</h3>
                     <ul class="uk-list uk-text-left">
-                        {{ range .Params.feature_list }}
-                        <li class="uk-text-bold accent"><a href="{{ .link }}"><span uk-icon="icon: check" class="uk-margin-small-right"></span>{{ .heading }}</a></li>
-                        {{ end }}
+                        <li class="uk-text-bold accent"><a href="/services/websites-with-ssl-certificates/"><span uk-icon="icon: arrow-right;ratio: 1.5" class="uk-margin-small-right"></span>Fully installed and secured with SSL certificate</a></li>
+                        <li class="uk-text-bold accent"><a href="/services/responsive-web-design/"><span uk-icon="icon: arrow-right;ratio: 1.5" class="uk-margin-small-right"></span>Responsive web design for all devices</a></li>
                     </ul>
                 </div>
             </div>
