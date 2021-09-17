@@ -2,6 +2,7 @@
 description = "Providing a layer of security to your website."
 featured = false
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1631866947/hungryram/ssl-secured-websites_ngocx3.jpg"
+image_alt_tag = "A secure website image"
 title = "Websites with SSL Certificates"
 [banner]
 body = ""
