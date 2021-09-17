@@ -1,5 +1,5 @@
 +++
-description = "Most affordable for businesses that need 3 to 4 pages on their site."
+description = "Most affordable for businesses that need 3 to 4 pages on their site"
 featured = true
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1631428715/hungryram/rn-insurance-design.png"
 title = "Small Business Website Design"

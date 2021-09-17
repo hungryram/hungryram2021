@@ -1,5 +1,5 @@
 +++
-description = "Websites that adapt to any screen size and devices."
+description = "Websites that adapt to any screen size and devices"
 featured = false
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1630523544/hungryram/kaiyager_wflxxb.png"
 image_alt_tag = "Mobile and desktop responsive web design"

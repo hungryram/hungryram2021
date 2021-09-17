@@ -19,4 +19,24 @@
         </div>
     </div>
 </div>
+<div class="uk-section">
+    <div class="uk-container">
+        <h2>Important things your site needs</h2>
+        <p>All our websites comes with SSL certificates to secure your site and a responsive design for your site to adapt to any screen size. At Hungry Ram, we always implement standard web rules that Google prefers to ensure your site is performing at its best. Learn more by viewing these services.</p>
+        <div class="uk-child-width-1-3@s uk-text-left uk-grid-collapse uk-margin-large-top" uk-grid>
+            {{ range .Pages }}
+            {{ if not .Params.featured }}
+            <div class="service__list">
+                <a href="{{ .Permalink }}" class="uk-link-text">
+                    <div class="uk-card uk-card-body">
+                        <h3 class="uk-text-default">{{ .Title }} <span uk-icon="icon:arrow-right; ratio: 1.5"></span></h3>
+                        <p>{{ .Params.description }}</p>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
 {{ end }}
