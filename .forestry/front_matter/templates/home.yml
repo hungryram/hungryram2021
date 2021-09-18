@@ -53,6 +53,15 @@ fields:
     config:
       required: false
     label: Image Alt
+  - name: svg
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: SVG
   config:
     min: 
     max: 
