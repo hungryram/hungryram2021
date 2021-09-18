@@ -1,7 +1,7 @@
 +++
 client_name = "Frank Chavez"
 date = 2021-02-02T08:00:00Z
-featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628014441/hungryram/frank_dhmt3g.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1631942390/hungryram/frank-chavez-design.jpg"
 image_alt_tag = "Frank Chavez Century21 web design"
 meta_description = "Frank Chavez is a Century21 real estate agent in Southern California. Read how we helped build his site."
 meta_title = ""

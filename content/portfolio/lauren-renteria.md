@@ -1,7 +1,7 @@
 +++
 client_name = "Lauren Renteria"
 date = 2020-12-21T08:00:00Z
-featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1628014636/hungryram/lauren_k18218.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1631942389/hungryram/lauren-renteria.jpg"
 image_alt_tag = "Lauren Renteria Web Design"
 meta_description = "Find out how we moved Laurens website from Shopify to Snipcart using HUGO and Forestry for managing her website."
 meta_title = ""
