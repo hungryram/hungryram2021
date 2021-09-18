@@ -75,3 +75,9 @@ force = true
 from = "/custom-website-design"
 status = 301
 to = "/services/custom-website-design/"
+
+[[redirects]]
+force = true
+from = "/portfolio/karina-crisp-summit-realty/"
+status = 301
+to = "/portfolio/karina-crisp/"

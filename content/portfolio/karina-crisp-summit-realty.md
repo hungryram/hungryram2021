@@ -8,8 +8,9 @@ meta_title = "Karina Crisp Website Design by Hungry Ram"
 projects = ["Real Estate"]
 review = "I've worked with several web designers in the past and Ram is by far the best I've ever worked with. He's quick, in constant communication, professional, and the quality of his work is phenomenal. I couldn't be happier with the outcome of my website!"
 short_description = ""
-title = "Karina Crisp Summit Realty"
+title = "Karina Crisp"
 website_link = "https://karinacrisp.com"
+url = "/portfolio/karina-crisp"
 
 +++
 Case study coming soon!
