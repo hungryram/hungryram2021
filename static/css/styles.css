@@ -238,6 +238,10 @@ div.full-nav-wrapper:hover .white-logo {
     font-size: 20px;
 }
 
+#icons-section svg {
+    width: 80px;
+}
+
 /* SECOND HOME / IMAGE AND TEXT BANNER */
 
 div.switcher ul li {

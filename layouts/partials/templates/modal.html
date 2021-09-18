@@ -1,11 +1,10 @@
 <!-- MODAL -->
 <div id="modal-signup" class="uk-flex-top" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" style="padding: 10px 15px;">
 
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <div class="uk-text-center uk-dark uk-margin-medium">
-            <h2 class="uk-h4">Power your website with modern web technology. Equipped with fast load time and security</h2>
-            <p>Discover how your business can scale with a professional online presence</p>
+            <h2 class="uk-h3">Overtake your competitors with blazing-fast websites!</h2>
         </div>
         <form name="Modal Sign Up" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
             <input name="bot-field" type="hidden" />
@@ -20,10 +19,13 @@
                 <input class="uk-input" type="text" placeholder="Email" name="Email">
             </div>
             <div class="uk-width-1-1">
-                <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
+                <textarea class="uk-textarea" rows="3" placeholder="Your Message" name="Message"></textarea>
             </div>
             <div class="uk-width-1-1">
                 <button class="uk-button uk-button-secondary modal-button">Submit</button>
+            </div>
+            <div class="uk-width-1-1 md__content">
+                <small>By submitting this form you agree to our <a href="/legal/privacy-policy">privacy policy</a> and <a href="legal/terms-and-conditions">terms and condition.</a></small>
             </div>
         </form>
     </div>

@@ -16,8 +16,8 @@
             {{ range .Site.Data.home.featured_blocks }}
             <div>
                 <div class="uk-card">
-                    <div class="uk-card-media-top">
-                        <img src="{{ .image }}" alt="{{ .image_alt }}" style="object-fit: contain;" width="100" height="100">
+                    <div class="uk-card-media-top uk-margin-small-bottom">
+                        {{ .svg | safeHTML }}
                     </div>
                     <div class="uk-card-body" style="padding:15px;">
                         <h3 class="uk-card-title uk-h3" style="font-size: 1.2rem;">{{ .heading }}</h3>
