@@ -81,3 +81,9 @@ force = true
 from = "/portfolio/karina-crisp-summit-realty/"
 status = 301
 to = "/portfolio/karina-crisp/"
+
+[[redirects]]
+force = true
+from = "/portfolio/oc-generators/"
+status = 301
+to = "/portfolio/"
