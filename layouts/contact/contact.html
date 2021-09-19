@@ -9,6 +9,8 @@
                 <div class="uk-width-large">
                     <h2 class="uk-h3">Give us a call, email or text and find out how we can help you</h2>
                     <p>Whether you're an existing client or someone who needs help getting started, we'll walk you through everything you may need to get your website running.</p>
+                    <a href="sms:{{ $contact.phone }}" class="uk-button uk-button-primary">Send us a text</a>
+                    <a href="https://calendly.com/hungry-ram" class="uk-button-secondary uk-button">Book a call</a>
                 </div>
             </div>
             <div class="uk-width-1-2@s">
@@ -20,7 +22,7 @@
                         <li><a href="tel:{{ $contact.cell }}" class="uk-link-text"><strong>Direct: </strong>{{ $contact.cell }}</a></li>
                         <li><a href="https://g.page/hungry-ram?share" target="_blank" class="uk-link-text">{{ $contact.address }}, {{ $contact.city }}, {{ $contact.state }} {{ $contact.zip_code }}</a></li>
                     </ul>
-                    <a href="sms:{{ $contact.phone }}" class="uk-button uk-button-primary">Send us a text</a>
+
                 </div>
             </div>
         </div>
