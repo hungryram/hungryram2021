@@ -51,25 +51,20 @@
             </div>
         </div>
         <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
-            <ul class="uk-slider-items uk-grid" uk-height-match="target: .uk-card">
+            <ul class="uk-slider-items uk-grid">
                 {{ range shuffle (where .Site.RegularPages "Type" "portfolio") }}
                 {{ if .Params.review }}
                 <li class="uk-width-1-2@s">
-                    <div class="uk-panel">
-                        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" style="box-shadow: none;border:1px solid #ededed;border-radius:5px" uk-grid>
-                            <div class="uk-card-media-left uk-cover-container">
-                                <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}" uk-cover>
-                                <canvas height="200"></canvas>
-                            </div>
+                        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-1@s" style="box-shadow: none;border:1px solid #ededed;border-radius:5px" uk-grid>
                             <div>
                                 <div class="uk-card-body">
-                                    <h3 class="uk-card-title uk-margin-remove uk-h5">{{ .Params.client_name }}</h3>
-                                    <h4 class="uk-h5 uk-dark accent" style="margin-top: 5px;">{{ .Title }}</h4>
-                                    <p>{{ .Params.review }}</p>
+                                    <p>"{{ .Params.review }}"</p>
+                                    <h3 class="uk-card-title uk-margin-remove uk-h6">&#8212;{{ .Params.client_name }}</h3>
+                                    <h4 class="uk-h6 uk-dark" style="margin-top: 5px;">{{ .Title }}</h4>
+                                    <a href="{{ .Permalink }}" class="accent">View case study</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </li>
                 {{ end }}
                 {{ end }}
