@@ -96,3 +96,5 @@ fields:
     max: 
     labelField: 
   label: Points
+pages:
+- content/locations/orange-county.md
