@@ -1,8 +1,4 @@
-[[redirects]]
-force = true
-from = "/customers/*"
-status = 301
-to = "/portfolio"
+############### REGULAR PAGES REDIRECT ###############
 
 [[redirects]]
 force = true
@@ -16,6 +12,27 @@ from = "/real-estate-websites/"
 status = 301
 to = "/agent-idx-websites"
 
+############### CASE STUDIES REDIRECT ###############
+
+[[redirects]]
+force = true
+from = "/customers/*"
+status = 301
+to = "/portfolio"
+
+
+[[redirects]]
+force = true
+from = "/portfolio/karina-crisp-summit-realty/"
+status = 301
+to = "/portfolio/karina-crisp/"
+
+[[redirects]]
+force = true
+from = "/portfolio/oc-generators/"
+status = 301
+to = "/portfolio/"
+
 [[redirects]]
 force = true
 from = "/projects/*"
@@ -24,21 +41,11 @@ to = "/portfolio"
 
 [[redirects]]
 force = true
-from = "/pricing/"
+from = "/customers/yoori-park-luxury-estates/"
 status = 301
-to = "/faq"
+to = "/portfolio/yoori-park-luxury-estates/"
 
-[[redirects]]
-force = true
-from = "/jamstack-website-design/"
-status = 301
-to = "/custom-website-design"
-
-[[redirects]]
-force = true
-from = "/jamstack-website-design/"
-status = 301
-to = "/custom-website-design"
+############### SERVICES REDIRECT ###############
 
 [[redirects]]
 force = true
@@ -78,12 +85,20 @@ to = "/services/custom-website-design/"
 
 [[redirects]]
 force = true
-from = "/portfolio/karina-crisp-summit-realty/"
+from = "/pricing/"
 status = 301
-to = "/portfolio/karina-crisp/"
+to = "/faq"
 
 [[redirects]]
 force = true
-from = "/portfolio/oc-generators/"
+from = "/jamstack-website-design/"
 status = 301
-to = "/portfolio/"
+to = "/custom-website-design"
+
+############### BLOG REDIRECT ###############
+
+[[redirects]]
+force = true
+from = "/blog/my-blog/"
+status = 301
+to = "/blog/moving-away-from-wordpress"
