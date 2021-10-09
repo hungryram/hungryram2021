@@ -6,7 +6,7 @@ hero:
   image: https://res.cloudinary.com/hungryram19/image/upload/v1627958655/hungryram/backdrop_pb13su.jpg
 featured_blocks:
 - heading: More Secure Than Traditional Websites
-  body: Benefit from a site more secure and safer than Wordpress. Our websites are
+  body: Benefit from a site more secure and safer than WordPress. Our websites are
     accessed only through secure connections and static files.
   svg: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-2{fill:#42a5f5!important}</style></defs><g
     id="Protection"><path class="cls-2" d="M35 4a3 3 0 0 1-3-3 1 1 0 0 0-1-1H17a1
@@ -25,7 +25,7 @@ featured_blocks:
     1.15 0 0 0 .33.21z"/></g></svg>
 - heading: Increased Website Performance and Speed
   body: Unlike most websites, we took out the need for a database.. now your website
-    is served faster than sites with database.
+    is served faster than sites with databases.
   svg: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:#424242}.cls-2{fill:#42a5f5}</style></defs><g
     id="Globe"><path class="cls-1" d="M39.93 9.64a.43.43 0 0 0 0-.07 18 18 0 0 0-31.78
     0 .43.43 0 0 0 0 .07A17.84 17.84 0 0 0 6 18a17.5 17.5 0 0 0 .65 4.77A3.92 3.92
@@ -69,7 +69,7 @@ text_and_image:
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952379/hungryram/webdesign9_vwqt4o.jpg
     image_alt: Real Estate Agent Websites
     body: Grow your real estate business with a website built differently than others.
-      Leverage built in IDX tools to manage your leads, listings, and more.
+      Leverage built-in IDX tools to manage your leads, listings, and more.
     link: "/agent-idx-websites/"
     video_link: https://res.cloudinary.com/hungryram19/video/upload/v1631951951/hungryram/yagerre-team.mp4
     title: A different type of real estate website
@@ -85,9 +85,7 @@ text_and_image:
   - heading: Ecommerce Website Design
     image: https://res.cloudinary.com/hungryram19/image/upload/v1627952417/hungryram/webdesign8_srpdyg.jpg
     image_alt: df
-    body: Built on the most popular ecommerce platform, Shopify offers a one stop
-      shop for merchants to sell their products easily. Fully equipped with a POS
-      that is manageable on any device.
+    body: Built on the most popular e-commerce platform, Shopify offers a one-stop-shop for merchants to sell their products easily. Fully equipped with a POS that is manageable on any device.
     link: "/ecommerce-website-design"
     video_link: https://res.cloudinary.com/hungryram19/video/upload/v1628031193/hungryram/ka-intimacy_sgo1pk.mp4
     title: 'Partnered with the the #1 ecommerce platform'
@@ -98,9 +96,7 @@ image_banner:
     experience for your customers.
 work:
   heading: Recent Work
-  body: We've designed websites for clients all over United States. There are many
-    reason our clients refer their friends and family to us. View our recent web design
-    case studies for various businesses ranging from real estate to franchised restuarants.
+  body: We've designed websites for clients all over the United States. There are many reasons our clients refer their friends and family to us. View our recent web design case studies for various businesses ranging from real estate to franchised restaurants.
 closing:
   subtitle: How we can help you
   heading: Tell us about your business
