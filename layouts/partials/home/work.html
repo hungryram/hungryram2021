@@ -13,7 +13,7 @@
         <div class="uk-margin-large-top" uk-filter="target: .js-filter">
 
             <ul class="uk-subnav uk-subnav-pill">
-                <li><a href="/portfolio">All projects</a></li>
+                <li><a href="/portfolio">View more</a></li>
                 <li class="uk-active" uk-filter-control><a href="#">All Recent</a></li>
                 {{ $categories := slice }}
                 {{ range first 6 (where $.Site.RegularPages "Type" "portfolio") }}

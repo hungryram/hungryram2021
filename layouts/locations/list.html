@@ -1,8 +1,11 @@
 {{ define "main" }}
 <div class="uk-section">
-    <div class="uk-container">
+    <div class="uk-container uk-container-small uk-text-center md__content">
+        <h2>Primary Service Location</h2>
+        <p>Below are primary service areas that are local to Hungry Ram in Orange County. Although this list areas that are local to us, our clients have grown all across the United States. <a href="/contact">Contact</a> us and find out how your website performance can improve significantly without heavy resources like WordPress.</p>
+        <hr>
         {{ range .Pages }}
-        <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+            <a href="{{ .Permalink }}" class="uk-link-text uk-display-block uk-h4">{{ .Title }}</a>
         {{ end }}
     </div>
 </div>
