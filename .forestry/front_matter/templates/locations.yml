@@ -96,6 +96,11 @@ fields:
     max: 
     labelField: 
   label: Points
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
 pages:
 - content/locations/orange-county.md
 - content/locations/yorba-linda.md
