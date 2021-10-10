@@ -1,8 +1,10 @@
 +++
 body = "We're located in Yorba Linda! Delivering quality websites to businesses in Yorba Linda."
 heading = "The Best Web Design in Yorba Linda"
+meta_description = ""
 points = []
 title = "Yorba Linda"
+title_tag = "Yorba Linda Web Design | Hungry Ram Web Design"
 [first_intro]
 body = "Looking for websites that are high in performance and follow web industry standards? With over a decade of experience, Hungry Ram is the best in keeping up with the latest trend in website development. We have helped businesses in Yorba Linda and neighboring areas establish a professional online presence.\n\nEvery business has different goals and markets for unique audiences. This is why our first step to new businesses is to do research and development. Businesses in Yorba Linda may target audiences based on location, age, and many more variables. At Hungry Ram, we make sure that we spend the right amount of time for competitive research and analysis for the best website standards for a specific industry."
 heading = "Delivering modern, responsive web design services"
