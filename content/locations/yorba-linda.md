@@ -1,6 +1,5 @@
 +++
 body = "We're located in Yorba Linda! Delivering quality websites to businesses in Yorba Linda."
-draft = true
 heading = "The Best Web Design in Yorba Linda"
 points = []
 title = "Yorba Linda"
