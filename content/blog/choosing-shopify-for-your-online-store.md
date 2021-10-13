@@ -4,7 +4,7 @@ date = 2021-10-13T07:00:00Z
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1634142008/hungryram/e-commerce-shopify-store_pe5u8g.jpg"
 image_alt_tag = "Shopping online with e-commerce store"
 is_post = true
-meta_description = "We've designed and built online store from various platforms from Snipcart to Wordpress. Read more on why we use Shopify."
+meta_description = "We've designed and built online stores from various platforms like Snipcart and WordPress. Read more on why we use Shopify."
 title = "Choosing Shopify for Your Online Store"
 title_tag = "Why Shopify for Your Online Store - Hungry Ram Web Design"
 
