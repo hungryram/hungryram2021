@@ -64,7 +64,7 @@ Writing engaging, valuable content is not easy work. Most business owners who ha
 
 We know how important it is to be active on social media. This is the age of growing connections through social media and a lot of business owners are not taking advantage of growing their audience. Our follower count isn't huge but it's the quality of your followers that matters. Being active on social media and showing your business and the process of your business has worked for us, so why not give it a try! The commitment is the hard part.
 
-Social platforms like TikTok and Instagram are powerful for growing your audience for your business. To find out how businesses are succeeding, check out certain hashtags that relate to your business. For example you can search #realestate or #realtors.
+Social platforms like TikTok and Instagram are powerful for growing your audience for your business. To find out how businesses are succeeding, check out certain hashtags that relate to your business. For example, you can search #realestate or #realtors.
 
 Want to be more specific and find out how your local competitors are doing? Let's give the hashtag a more specific keyword. Let's go with #realtorincalifornia, or #losangelesrealestate. Observe other accounts and see how they're running their account. The type of designs and posts they're creating. This is all competitive analysis and a part of building a strong business.
 
