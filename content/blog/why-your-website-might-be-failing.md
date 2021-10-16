@@ -46,9 +46,9 @@ If you're unfamiliar with the [Search Console](https://search.google.com/search-
 
 ![](https://res.cloudinary.com/hungryram19/image/upload/v1634361697/hungryram/google_search_console_sitemap_ujwgkz.jpg)
 
-The second option is to Ping Google using the link below. Just replace the bolded example domain with the URL to your sitemap
+The second option is to Ping Google using the link below. Just replace everything from https://example.com/sitemap.xml with your own sitemap link.
 
-https://www.google.com/ping?sitemap=**https://example.com/sitemap.xml**
+[https://www.google.com/ping?sitemap=https://example.com/sitemap.xml](https://www.google.com/ping?sitemap=https://example.com/sitemap.xml "https://www.google.com/ping?sitemap=https://example.com/sitemap.xml")
 
 Once you enter this in the address bar, just hit enter and it'll be submitted.
 
