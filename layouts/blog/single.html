@@ -3,22 +3,13 @@
     <div class="uk-container">
         <div uk-grid>
             <div class="uk-width-3-4@s">
-                <div class="uk-card uk-card-body">
-                    <ul class="uk-list">
-                        <li class="uk-display-inline-block accent-svg"><span uk-icon="icon: tag"></span></li>
-                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                      <li class="uk-display-inline-block">
-                        <a href="/categories{{ $name | urlize | relURL }}" class="uk-margin-small-left inherit-color">{{ $name | humanize }}</a>
-                      </li>
-                      {{end}}
-                    
-                    </ul>
+                <div class="uk-card">
                     <div class="image-wrapper uk-margin-large">
                         {{ if .Params.featured_image }}
                         <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}">
                         {{ end }}
                     </div>
-                    <div class="blog-content">
+                    <div class="md__content">
                         {{ .Content }}
                     </div>
                 </div>
