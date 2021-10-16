@@ -58,7 +58,7 @@ These are just the simplest way to submitting a sitemap. There are more complica
 
 Writing relevant content that is related to your business will help your SEO. Making sure that the content is relevant to what people are searching for will help tremendously. For example, if you own a business selling bikes. It would be best to write content about biking events and where the best spots to ride would be. Anyone searching "best places to ride bikes", your post will now have the potential to be listed as a result, putting your website in the user's eye and eventually ranking you above your competitors.
 
-Writing engaging, valuable content is not easy work. Most business owners who have a sudden interest in starting a blog can get burnt out fairly quickly and run out of ideas. Hungry Ram has been helping businesses keep their website relevant by bringing in more targeted traffic through our SEO services which include blog writing. Want us to publish a few blog posts to see if we can write the perfect content for your business? [Contact us ]()and we'll help you get the traffic you need!
+Writing engaging, valuable content is not easy work. Most business owners who have a sudden interest in starting a blog can get burnt out fairly quickly and run out of ideas. Hungry Ram has been helping businesses keep their website relevant by bringing in more targeted traffic through our SEO services which include blog writing. Want us to publish a few blog posts to see if we can write the perfect content for your business? [Contact us ](/contact)and we'll help you get the traffic you need!
 
 ## Take Advantage of Your Social Media Presence
 
