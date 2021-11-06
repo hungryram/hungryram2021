@@ -41,6 +41,7 @@ fields:
   label: Is Post
   hidden: true
 pages:
+- content/blog/1-new-way-for-a-faster-website.md
 - content/blog/choosing-shopify-for-your-online-store.md
 - content/blog/google-analytics.md
 - content/blog/google-console.md
