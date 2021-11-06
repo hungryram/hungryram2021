@@ -9,7 +9,7 @@ title = "1 New Way for a Faster Website"
 title_tag = "1 New Way for a Faster Website - Hungry Ram Web Design"
 
 +++
-The website of your business is likely one of the most important factors to its success. You may have an excellent product or service, but if no one can access your website then you aren't going to be doing very well. One aspect that will greatly impact website traffic is website speed, which you should consider when looking for a web design company or hosting company. In this post, I'm going to outline some changes you can do to increase the speed of your website.
+The website of your business is likely one of the most important factors to its success. You may have an excellent product or service, but if no one can access your website then you aren't going to be doing very well. One aspect that will greatly impact website traffic is website speed, which you should consider when looking for a web design company or hosting company. In this post, I'm going to outline some changes you can do to increase the speed of your website. Towards the end, I will include one new alternative to a faster website that not a lot of people talk about.
 
 There are many reasons why website speed is important to user experience, including customer satisfaction ratings and sales conversions. Many studies have linked website speed to increased sales conversions, but website usability is also significantly affected by how quickly a company's website loads. One survey found that 80% of customers said they won't return to a site after a bad experience, which demonstrates how much of an impact website speed can have on your average conversion rate.
 
