@@ -9,14 +9,14 @@
                         <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}">
                         {{ end }}
                     </div>
-                    <div class="md__content">
+                    <div class="md__content blog__content">
                         {{ .Content }}
                     </div>
                 </div>
 
             </div>
             <div class="uk-width-expand@s">
-                <div class="uk-card uk-card-body">
+                <div class="uk-card">
                     <h5>Categories</h5>
                     <ul class="uk-list">
                         {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
@@ -25,6 +25,26 @@
                       </li>
                       {{end}}
                     </ul>
+                </div>
+                <div class="uk-card uk-padding-small uk-margin-medium-top" style="background:#eee">
+                    <h2 class="uk-h4">Do you want more traffic?</h2>
+                    <p>Get a professional to audit your website</p>
+                    <form name="Website URL" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thank-you">
+                        <div class="uk-margin" uk-margin>
+                            <div>
+                                <input class="uk-input uk-form-width-large" type="text" placeholder="Your website URL" name="website name">
+                            </div>
+                            <button class="uk-button uk-button-primary uk-width-1-1">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="uk-card uk-margin-medium-top">
+                    <h2 class="uk-h4">Recent Posts</h2>
+                    {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
+                        <a href="{{ .Permalink }}" class="uk-link-text">
+                            <h2 class="uk-h5">{{ .Title }}</h2>
+                        </a>
+                    {{ end }}
                 </div>
             </div>
         </div>
