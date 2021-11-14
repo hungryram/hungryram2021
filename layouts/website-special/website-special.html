@@ -15,42 +15,187 @@
                 </ul>
             </div>
             <div class="uk-width-1-2@s">
-                <div class="uk-card uk-card-default" style="padding: 30px;">
-                    <h3>Your <span class="accent">FREE</span> website starts after you sign up</h3>
-                    <form name="Website Special" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
-                        <input name="bot-field" type="hidden" />
-                        <input type="hidden" name="Subject" value="Website Contact Form">
-                        <input name="Link" type="hidden" value="{{ .Permalink }}" />
-                    
-                        <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Name" name="Name" required>
+                <ul class="uk-subnav uk-subnav-pill" uk-switcher>
+                    <li><a href="#">Single Agent</a></li>
+                    <li><a href="#">Broker/Team</a></li>
+                </ul>
+                
+                <ul class="uk-switcher uk-margin">
+                    <li>
+                        <div class="uk-card uk-card-default" style="padding: 30px;">
+                            <h3>Single Agent Onboard</h3>
+                            <form name="Website Special Agent" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/single-agent">
+                                <input name="bot-field" type="hidden" />
+                                <input type="hidden" name="Subject" value="Website Single Agent Special">
+                                <input name="Link" type="hidden" value="{{ .Permalink }}" />
+
+
+
+                                <ul uk-accordion>
+                                    <li class="uk-open">
+                                        <a class="uk-accordion-title" href="#">Contact Information</a>
+                                        <div class="uk-accordion-content">
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="Name" name="Name" required>
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="Phone" name="Phone" required>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Email" name="Email" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Website Information</a>
+                                        <div class="uk-accordion-content">
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Company Name" name="company">
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Website URL" name="domain">
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <div class="uk-margin" uk-margin>
+                                                        <div uk-form-custom="target: true">
+                                                            <input type="file">
+                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Agent Photo" name="agentphoto" disabled>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <div class="uk-margin" uk-margin>
+                                                        <div uk-form-custom="target: true">
+                                                            <input type="file">
+                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Logo" name="logo" disabled>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">MLS Board</a>
+                                        <div class="uk-accordion-content">
+                                            <p>MLS is an additional $20 and is optional. Free trial does not include MLS. Direct or pass-through fees may be applicable depending on your MLS board</p>
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-checkbox" type="checkbox" id="mlsdata" name="mlsdata"><label for="mlsdata"> I want MLS Data (IDX)</label>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Your MLS Board" name="mls">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                        
+                                <div class="uk-width-1-1">
+                                    <small></small>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <textarea class="uk-textarea" rows="5" placeholder="Questions and comments" name="comments"></textarea>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <button class="uk-button uk-button-secondary modal-button">Build my website</button>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <small>By submitting the form with your information above you are agreeing to our <a style="color:#2196f3" href="/legal/terms-and-conditions">Terms and Conditions</a> and <a style="color:#2196f3" href="/legal/privacy-policy">Privacy Policy</a></small>
+                                </div>
+                            </form>
                         </div>
-                        <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Phone" name="Phone" required>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default" style="padding: 30px;">
+                            <h3>Broker/Team Onboard</h3>
+                            <form name="Website Special BrokerTeam" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/broker-team">
+                                <input name="bot-field" type="hidden" />
+                                <input type="hidden" name="Subject" value="Website Special BrokerTeam">
+                                <input name="Link" type="hidden" value="{{ .Permalink }}" />
+
+
+
+                                <ul uk-accordion>
+                                    <li class="uk-open">
+                                        <a class="uk-accordion-title" href="#">Contact Information</a>
+                                        <div class="uk-accordion-content">
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="Name" name="Name" required>
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="Phone" name="Phone" required>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Email" name="Email" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Website Information</a>
+                                        <div class="uk-accordion-content">
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Company Name" name="company">
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Website URL" name="domain">
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <div class="uk-margin" uk-margin>
+                                                        <div uk-form-custom="target: true">
+                                                            <input type="file">
+                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Agent Photo" name="agentphoto" disabled>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <div class="uk-margin" uk-margin>
+                                                        <div uk-form-custom="target: true">
+                                                            <input type="file">
+                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Logo" name="logo" disabled>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">MLS Board</a>
+                                        <div class="uk-accordion-content">
+                                            <p>MLS is an additional $20 and is optional. Free trial does not include MLS. Direct or pass-through fees may be applicable depending on your MLS board</p>
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-checkbox" type="checkbox" id="mlsdata" name="mlsdata"><label for="mlsdata"> I want MLS Data (IDX)</label>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Your MLS Board" name="mls">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                        
+                                <div class="uk-width-1-1">
+                                    <small></small>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <textarea class="uk-textarea" rows="5" placeholder="Questions and comments" name="comments"></textarea>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <button class="uk-button uk-button-secondary modal-button">Build my website</button>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <small>By submitting the form with your information above you are agreeing to our <a style="color:#2196f3" href="/legal/terms-and-conditions">Terms and Conditions</a> and <a style="color:#2196f3" href="/legal/privacy-policy">Privacy Policy</a></small>
+                                </div>
+                            </form>
                         </div>
-                        <div class="uk-width-1-1">
-                            <input class="uk-input" type="text" placeholder="Email" name="Email" required>
-                        </div>
-                        <div class="uk-width-1-1">
-                            <select class="uk-select" name="package" required>
-                                <option value="single">Single Agent - $79/mo</option>
-                                <option value="teambroker">Team/Broker - $99/mo</option>
-                            </select>
-                        </div>
-                        <div class="uk-width-1-1">
-                            <small>*Direct or pass-through fees may be applicable depending on your MLS board</small>
-                        </div>
-                        <div class="uk-width-1-1">
-                            <textarea class="uk-textarea" rows="5" placeholder="Questions and comments" name="comments"></textarea>
-                        </div>
-                        <div class="uk-width-1-1">
-                            <button class="uk-button uk-button-secondary modal-button">Build my website</button>
-                        </div>
-                        <div class="uk-width-1-1">
-                            <small>By submitting the form with your information above you are agreeing to our <a style="color:#2196f3" href="/legal/terms-and-conditions">Terms and Conditions</a> and <a style="color:#2196f3" href="/legal/privacy-policy">Privacy Policy</a></small>
-                        </div>
-                    </form>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
