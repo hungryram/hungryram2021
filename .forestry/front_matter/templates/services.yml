@@ -82,6 +82,37 @@ fields:
         format: markdown
     label: Body
   label: Second Intro
+- name: blocks
+  type: field_group_list
+  fields:
+  - name: svg
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: svg
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Blocks
 - name: search_engine_optimization
   type: field_group
   config: {}
