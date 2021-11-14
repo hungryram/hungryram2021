@@ -30,6 +30,12 @@ p:empty {
     display: none;
 }
 
+a.uk-accordion-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+}
+
 .md__content a:not(.uk-button) {
     color: #2196f3;
     text-decoration: underline;

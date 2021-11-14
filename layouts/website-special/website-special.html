@@ -1,12 +1,12 @@
 {{ define "main" }}
-<div class="uk-section">
+<div class="uk-section website-special">
     <div class="uk-container">
         <div class="uk-grid uk-grid-large">
             <div class="uk-width-1-2@s uk-margin-medium-bottom">
-                <h3>Get exclusive savings on a website without any large investments</h3>
+                <h3>Get exclusive savings on a website without any large investments all <span class="accent">RISK FREE</span></h3>
                 <p>Experience the power of real estate websites built with modern tools to help the speed and flexibility of your website.</p>
+                <p>We deliver the fastest and most secure websites through a new development structure called jamstack. We are one of the few teams that have adopted this new development! So while your competitors are stuck on WordPress, our team will help you build a better website faster than ever before!</p>
                 <ul class="uk-list">
-                    <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>SSL security Installed</li>
                     <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>No contract cancel anytime</li>
                     <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>Superior support</li>
                     <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>Hosted on lightning fast servers</li>
@@ -24,7 +24,8 @@
                     <li>
                         <div class="uk-card uk-card-default" style="padding: 30px;">
                             <h3>Single Agent Onboard</h3>
-                            <form name="Website Special Agent" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/single-agent">
+                            <hr>
+                            <form name="Website Special Agent" method="POST" class="uk-margin-medium-top" netlify-honeypot="bot-field" data-netlify="true" action="/single-agent">
                                 <input name="bot-field" type="hidden" />
                                 <input type="hidden" name="Subject" value="Website Single Agent Special">
                                 <input name="Link" type="hidden" value="{{ .Permalink }}" />
@@ -56,7 +57,16 @@
                                                     <input class="uk-input" type="text" placeholder="Company Name" name="company">
                                                 </div>
                                                 <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Address" name="address">
+                                                </div>
+                                                <div class="uk-width-1-1">
                                                     <input class="uk-input" type="text" placeholder="Website URL" name="domain">
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="License #" name="license">
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="Office Number" name="office">
                                                 </div>
                                                 <div class="uk-width-1-1">
                                                     <div class="uk-margin" uk-margin>
@@ -74,13 +84,16 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="uk-width-1-1">
+                                                    <textarea class="uk-textarea" rows="5" placeholder="Company/agent bio" name="bio"></textarea>
+                                                </div>
                                             </div>
                                         </div>
                                     </li>
                                     <li>
                                         <a class="uk-accordion-title" href="#">MLS Board</a>
                                         <div class="uk-accordion-content">
-                                            <p>MLS is an additional $20 and is optional. Free trial does not include MLS. Direct or pass-through fees may be applicable depending on your MLS board</p>
+                                            <p>(Optional) MLS is an additional $20 and a $200 set up. Free trial does not include MLS. Direct or pass-through fees may be applicable depending on your MLS board</p>
                                             <div class="uk-grid-small" uk-grid>
                                                 <div class="uk-width-1-1">
                                                     <input class="uk-checkbox" type="checkbox" id="mlsdata" name="mlsdata"><label for="mlsdata"> I want MLS Data (IDX)</label>
@@ -97,7 +110,7 @@
                                     <small></small>
                                 </div>
                                 <div class="uk-width-1-1">
-                                    <textarea class="uk-textarea" rows="5" placeholder="Questions and comments" name="comments"></textarea>
+                                    <textarea class="uk-textarea" rows="5" placeholder="Additional Information and comments" name="comments"></textarea>
                                 </div>
                                 <div class="uk-width-1-1">
                                     <button class="uk-button uk-button-secondary modal-button">Build my website</button>
@@ -111,9 +124,10 @@
                     <li>
                         <div class="uk-card uk-card-default" style="padding: 30px;">
                             <h3>Broker/Team Onboard</h3>
-                            <form name="Website Special BrokerTeam" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/broker-team">
+                            <hr>
+                            <form name="Website Special Broker/Team" method="POST" class="uk-margin-medium-top" netlify-honeypot="bot-field" data-netlify="true" action="/broker-team">
                                 <input name="bot-field" type="hidden" />
-                                <input type="hidden" name="Subject" value="Website Special BrokerTeam">
+                                <input type="hidden" name="Subject" value="Website Special Broker Team">
                                 <input name="Link" type="hidden" value="{{ .Permalink }}" />
 
 
@@ -143,23 +157,35 @@
                                                     <input class="uk-input" type="text" placeholder="Company Name" name="company">
                                                 </div>
                                                 <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Address" name="address">
+                                                </div>
+                                                <div class="uk-width-1-1">
                                                     <input class="uk-input" type="text" placeholder="Website URL" name="domain">
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="License #" name="license">
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="Office Number" name="office">
                                                 </div>
                                                 <div class="uk-width-1-1">
                                                     <div class="uk-margin" uk-margin>
                                                         <div uk-form-custom="target: true">
-                                                            <input type="file">
-                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Agent Photo" name="agentphoto" disabled>
+                                                            <input type="file" name="photo">
+                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Agent Photo" name="photo" disabled>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="uk-width-1-1">
                                                     <div class="uk-margin" uk-margin>
                                                         <div uk-form-custom="target: true">
-                                                            <input type="file">
+                                                            <input type="file" name="logo">
                                                             <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Logo" name="logo" disabled>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <textarea class="uk-textarea" rows="5" placeholder="Company/agent bio" name="bio"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -167,7 +193,7 @@
                                     <li>
                                         <a class="uk-accordion-title" href="#">MLS Board</a>
                                         <div class="uk-accordion-content">
-                                            <p>MLS is an additional $20 and is optional. Free trial does not include MLS. Direct or pass-through fees may be applicable depending on your MLS board</p>
+                                            <p>(Optional) MLS is an additional $20 and a $200 set up. Free trial does not include MLS. Direct or pass-through fees may be applicable depending on your MLS board</p>
                                             <div class="uk-grid-small" uk-grid>
                                                 <div class="uk-width-1-1">
                                                     <input class="uk-checkbox" type="checkbox" id="mlsdata" name="mlsdata"><label for="mlsdata"> I want MLS Data (IDX)</label>
@@ -184,7 +210,7 @@
                                     <small></small>
                                 </div>
                                 <div class="uk-width-1-1">
-                                    <textarea class="uk-textarea" rows="5" placeholder="Questions and comments" name="comments"></textarea>
+                                    <textarea class="uk-textarea" rows="5" placeholder="Additional Information and comments" name="comments"></textarea>
                                 </div>
                                 <div class="uk-width-1-1">
                                     <button class="uk-button uk-button-secondary modal-button">Build my website</button>
@@ -198,6 +224,129 @@
                 </ul>
             </div>
         </div>
+    </div>
+</div>
+<div class="uk-section" style="background:#f8f8f8">
+    <div class="uk-container">
+        <h2>Some of our work</h2>
+        <hr>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid" uk-lightbox>
+                <li>
+                    <div class="uk-panel">
+                        <a href="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/kaiyager.png">
+                            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/kaiyager.png" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/dave2.png">
+                            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/dave2.png" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/dave1.png">
+                            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/dave1.png" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/erica-jackson.png">
+                            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/erica-jackson.png" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/karinacrisp.png">
+                            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/karinacrisp.png" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/gwb.jpg">
+                            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/gwb.jpg" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/listing.png">
+                            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1636883777/hungryram/website-special/listing.png" alt="">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        
+        </div>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-container">
+        <h2>Customer Reviews</h2>
+        <article class="uk-comment uk-comment-primary uk-margin-small-bottom">
+            <header class="uk-comment-header">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-comment-avatar" src="https://res.cloudinary.com/hungryram19/image/upload/v1636884453/hungryram/website-special/erica-jackson3.jpg" width="80" height="80" alt="">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Erica Jackson</a></h4>
+                        <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                            <li><a href="#">Complex Living Real Estate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="uk-comment-body">
+                <p>My experience with Ram was amazing. He is extremely professional, a great communicator and has been able to bring my vision to life. Not to mention, my custom website was very affordable and completed very quickly. I highly recommend Ram to anyone look for a high quality, professional website. Ram, I can’t thank you enough!</p>
+            </div>
+        </article>
+        <article class="uk-comment uk-comment-primary uk-margin-small-bottom">
+            <header class="uk-comment-header">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-comment-avatar" src="https://res.cloudinary.com/hungryram19/image/upload/v1636884601/hungryram/website-special/karina-crisp.jpg" width="80" height="80" alt="">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Karina Crisp</a></h4>
+                        <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                            <li><a href="#">eXp Realty</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="uk-comment-body">
+                <p>I've worked with several web designers in the past and Ram is by far the best I've ever worked with. He's quick, in constant communication, professional, and the quality of his work is phenomenal. I couldn't be happier with the outcome of my website!</p>
+            </div>
+        </article>
+        <article class="uk-comment uk-comment-primary uk-margin-small-bottom">
+            <header class="uk-comment-header">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-comment-avatar" src="https://res.cloudinary.com/hungryram19/image/upload/v1629843935/jacob-mitro/mitro-team/jacob-mitro_oc4jbe.jpg" width="80" height="80" alt="">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Jacob Mitro</a></h4>
+                        <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                            <li><a href="#">LIFE Realty</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="uk-comment-body">
+                <p>Ram was a pleasure to work with. He got our site up and running and was easy to work with in getting our revisions made. I'd recommend him to any agent looking to build a fully functional IDX site. Thanks Ram</p>
+            </div>
+        </article>
     </div>
 </div>
 {{ end }}
