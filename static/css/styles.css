@@ -18,6 +18,10 @@ body .uk-h1, body .uk-h2, body .uk-h3, body .uk-h4, body .uk-h5, body .uk-h6, bo
     font-weight: 600!important;
 }
 
+div.uk-overlay-primary {
+    background: rgb(34 34 34 / 70%);
+}
+
 body em {
     color: #333;
 }
@@ -77,6 +81,10 @@ div.uk-modal-header {
     background: transparent;
 }
 
+.hr-border {
+    border: 1px solid #e9e9e9;
+}
+
 button.uk-button.uk-button-primary,
 a.uk-button.uk-button-primary {
     background: #2196f3;
@@ -88,7 +96,7 @@ a.uk-button.uk-button-primary {
 }
 
 .accent {
-    color: #2196f3!important;
+    color: #1539CF!important;
 }
 
 svg {
