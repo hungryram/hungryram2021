@@ -26,6 +26,10 @@ html body {
     color: #333;
 }
 
+.svg__icons svg {
+    width: 150px;
+}
+
 p:empty {
     display: none;
 }

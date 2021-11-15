@@ -65,18 +65,19 @@
         </div>
     </div>
 </div>
-<div class="uk-section">
+{{ if .Params.blocks }}
+<div class="uk-section uk-section-small uk-light" style="background: #242427;">
     <div class="uk-container">
-        <div class="uk-child-width-1-3@s" uk-grid>
+        <div class="uk-child-width-1-3@s uk-grid-small" uk-grid>
             {{ range .Params.blocks }}
             <div>
-                <div class="uk-card uk-card-default">
+                <div class="uk-card">
                     <div class="uk-card-media-top">
                         <div class="uk-padding svg__icons">
                             {{ .svg | safeHTML }}
                         </div>
                     </div>
-                    <div class="uk-card-body" style="padding-top:10px">
+                    <div class="uk-card-body">
                         <h3 class="uk-h4 uk-text-bold">{{ .heading }}</h3>
                         <p>{{ .body }}</p>
                     </div>
@@ -86,6 +87,7 @@
         </div>
     </div>
 </div>
+{{ end }}
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid">
@@ -93,6 +95,10 @@
                 {{ .Content }}
             </div>
         </div>
+        <div class="uk-margin-medium-top">
+            <a href="#modal-signup" class="uk-button uk-button-primary" uk-toggle>Get started</a>
+        </div>
+
     </div>
 </div>
 {{ partial "global/closing" . }}
