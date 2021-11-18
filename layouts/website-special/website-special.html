@@ -1,11 +1,26 @@
-{{ define "main" }}
+{{ partial "global/head" . }}
+{{ $hero := .Site.Data.home.hero }}
+<div class="uk-cover-container" uk-height-viewport="offset-bottom:30" style="background: url(https://res.cloudinary.com/hungryram19/image/upload/v1636968077/hungryram/business-meet.jpg) no-repeat center;background-size:cover" uk-grid>    
+    <div class="uk-overlay-primary uk-position-cover"></div>
+    <div class="uk-position-top full-nav-wrapper" style="z-index: 2;">
+        {{ partial "global/navbar" . }}
+    </div>
+    <div class="hero-text uk-white uk-width-1-1@s uk-text-left uk-margin-large-top uk-position-center" style="z-index:1">
+        <div class="uk-width-3-5@s uk-padding">
+            <h1 class="uk-text-bold heading uk-margin-remove uk-white">Powerful Real estate IDX website</h1>
+            <p class="uk-white uk-text-large">Give your website an edge over your competitors with a brand new real estate platform</p>
+            <a href="https://calendly.com/hungry-ram" class="uk-button-primary uk-button">Schedule a call</a>
+        </div>
+    </div>
+    
+</div>
 <div class="uk-section website-special">
     <div class="uk-container">
         <div class="uk-grid uk-grid-large">
             <div class="uk-width-1-2@s uk-margin-medium-bottom">
-                <h3>Get exclusive savings on a website without any large investments all <span class="accent">RISK FREE</span></h3>
-                <p>Experience the power of real estate websites built with modern tools to help the speed and flexibility of your website.</p>
-                <p>We deliver the fastest and most secure websites through a new development structure called jamstack. We are one of the few teams that have adopted this new development! So while your competitors are stuck on WordPress, our team will help you build a better website faster than ever before!</p>
+                <h3><span class="accent">LIMITED TIME:</span> We're offering a risk free investment for your real estate business!</h3>
+                <p style="font-weight:600">Why? We want you to experience the next level in real estate websites.</p>
+                <p>With a free trial, you'll learn how everything works and get the guidance you need.</p>
                 <ul class="uk-list">
                     <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>No contract cancel anytime</li>
                     <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>Superior support</li>
@@ -15,27 +30,19 @@
                 </ul>
             </div>
             <div class="uk-width-1-2@s">
-                <ul class="uk-subnav uk-subnav-pill" uk-switcher>
-                    <li><a href="#">Single Agent</a></li>
-                    <li><a href="#">Broker/Team</a></li>
-                </ul>
-                
-                <ul class="uk-switcher uk-margin">
-                    <li>
                         <div class="uk-card uk-card-default" style="padding: 30px;">
-                            <h3>Single Agent Onboard</h3>
+                            <div class="uk-text-center">
+                                <h3 class="uk-margin-remove">Start for free today</h3>
+                                <h5 class="uk-margin-small-top"><span class="accent">FREE</span> site setup</h5>
+                                <p>Start your 7-day free trial. No credit card required.</p>
+                            </div>
                             <hr>
-                            <form name="Website Special Agent" method="POST" class="uk-margin-medium-top" netlify-honeypot="bot-field" data-netlify="true" action="/single-agent">
+                            <form name="Website Special Agent" method="POST" class="uk-margin-medium-top" netlify-honeypot="bot-field" data-netlify="true" action="/website-signup">
                                 <input name="bot-field" type="hidden" />
                                 <input type="hidden" name="Subject" value="Website Single Agent Special">
                                 <input name="Link" type="hidden" value="{{ .Permalink }}" />
 
-
-
-                                <ul uk-accordion>
-                                    <li class="uk-open">
-                                        <a class="uk-accordion-title" href="#">Contact Information</a>
-                                        <div class="uk-accordion-content">
+                                        <div>
                                             <div class="uk-grid-small" uk-grid>
                                                 <div class="uk-width-1-2@s">
                                                     <input class="uk-input" type="text" placeholder="Name" name="Name" required>
@@ -48,68 +55,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <a class="uk-accordion-title" href="#">Website Information</a>
-                                        <div class="uk-accordion-content">
-                                            <div class="uk-grid-small" uk-grid>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Company Name" name="company">
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Address" name="address">
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Website URL" name="domain">
-                                                </div>
-                                                <div class="uk-width-1-2@s">
-                                                    <input class="uk-input" type="text" placeholder="License #" name="license">
-                                                </div>
-                                                <div class="uk-width-1-2@s">
-                                                    <input class="uk-input" type="text" placeholder="Office Number" name="office">
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <div class="uk-margin" uk-margin>
-                                                        <div uk-form-custom="target: true">
-                                                            <input type="file" name="photo">
-                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Agent Photo" name="photo" disabled>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <div class="uk-margin" uk-margin>
-                                                        <div uk-form-custom="target: true">
-                                                            <input type="file" name="logo">
-                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Logo" name="logo" disabled>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <textarea class="uk-textarea" rows="5" placeholder="Company/agent bio" name="bio"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="uk-accordion-title" href="#">MLS Board</a>
-                                        <div class="uk-accordion-content">
-                                            <p>(Optional) MLS is an additional $20 and a $200 set up. Free trial does not include MLS. Direct or pass-through fees may be applicable depending on your MLS board. IDX Pricing will not be reflected on subscription.</p>
-                                            <div class="uk-grid-small" uk-grid>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-checkbox" type="checkbox" id="mlsdata" name="mlsdata"><label for="mlsdata"> I want MLS Data (IDX)</label>
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Your MLS Board" name="mls">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                        
-                                <div class="uk-width-1-1">
-                                    <small></small>
-                                </div>
-                                <div class="uk-width-1-1">
+                                <div class="uk-width-1-1 uk-margin-small">
                                     <textarea class="uk-textarea" rows="5" placeholder="Additional Information and comments" name="comments"></textarea>
                                 </div>
                                 <div class="uk-width-1-1">
@@ -120,108 +66,6 @@
                                 </div>
                             </form>
                         </div>
-                    </li>
-                    <li>
-                        <div class="uk-card uk-card-default" style="padding: 30px;">
-                            <h3>Broker/Team Onboard</h3>
-                            <hr>
-                            <form name="Website Special Broker/Team" method="POST" class="uk-margin-medium-top" netlify-honeypot="bot-field" data-netlify="true" action="/broker-team">
-                                <input name="bot-field" type="hidden" />
-                                <input type="hidden" name="Subject" value="Website Special Broker Team">
-                                <input name="Link" type="hidden" value="{{ .Permalink }}" />
-
-
-
-                                <ul uk-accordion>
-                                    <li class="uk-open">
-                                        <a class="uk-accordion-title" href="#">Contact Information</a>
-                                        <div class="uk-accordion-content">
-                                            <div class="uk-grid-small" uk-grid>
-                                                <div class="uk-width-1-2@s">
-                                                    <input class="uk-input" type="text" placeholder="Name" name="Name" required>
-                                                </div>
-                                                <div class="uk-width-1-2@s">
-                                                    <input class="uk-input" type="text" placeholder="Phone" name="Phone" required>
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Email" name="Email" required>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="uk-accordion-title" href="#">Website Information</a>
-                                        <div class="uk-accordion-content">
-                                            <div class="uk-grid-small" uk-grid>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Company Name" name="company">
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Address" name="address">
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Website URL" name="domain">
-                                                </div>
-                                                <div class="uk-width-1-2@s">
-                                                    <input class="uk-input" type="text" placeholder="License #" name="license">
-                                                </div>
-                                                <div class="uk-width-1-2@s">
-                                                    <input class="uk-input" type="text" placeholder="Office Number" name="office">
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <div class="uk-margin" uk-margin>
-                                                        <div uk-form-custom="target: true">
-                                                            <input type="file" name="photo">
-                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Agent Photo" name="photo" disabled>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <div class="uk-margin" uk-margin>
-                                                        <div uk-form-custom="target: true">
-                                                            <input type="file" name="logo">
-                                                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Upload Logo" name="logo" disabled>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <textarea class="uk-textarea" rows="5" placeholder="Company/agent bio" name="bio"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="uk-accordion-title" href="#">MLS Board</a>
-                                        <div class="uk-accordion-content">
-                                            <p>(Optional) MLS is an additional $20 and a $200 set up. Free trial does not include MLS. Direct or pass-through fees may be applicable depending on your MLS board. IDX Pricing will not be reflected on subscription.</p>
-                                            <div class="uk-grid-small" uk-grid>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-checkbox" type="checkbox" id="mlsdata" name="mlsdata"><label for="mlsdata"> I want MLS Data (IDX)</label>
-                                                </div>
-                                                <div class="uk-width-1-1">
-                                                    <input class="uk-input" type="text" placeholder="Your MLS Board" name="mls">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                        
-                                <div class="uk-width-1-1">
-                                    <small></small>
-                                </div>
-                                <div class="uk-width-1-1">
-                                    <textarea class="uk-textarea" rows="5" placeholder="Additional Information and comments" name="comments"></textarea>
-                                </div>
-                                <div class="uk-width-1-1">
-                                    <button class="uk-button uk-button-secondary modal-button">Build my website</button>
-                                </div>
-                                <div class="uk-width-1-1">
-                                    <small>By submitting the form with your information above you are agreeing to our <a style="color:#2196f3" href="/legal/terms-and-conditions">Terms and Conditions</a> and <a style="color:#2196f3" href="/legal/privacy-policy">Privacy Policy</a></small>
-                                </div>
-                            </form>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
@@ -349,4 +193,4 @@
         </article>
     </div>
 </div>
-{{ end }}
+{{ partial "global/footer" . }}
