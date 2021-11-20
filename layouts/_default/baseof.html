@@ -25,11 +25,12 @@
     <div class="uk-position-top full-nav-wrapper">
         {{ partial "global/navbar" . }}
     </div>
-    <div class="uk-margin-large-top uk-text-left">
+    <div class="uk-margin-large-top uk-text-left uk-padding">
     <h1 class="uk-text-uppercase uk-white uk-text-center uk-h2 uk-margin-medium-top" style="color: #fff;">{{ .Title }}</h1>
     {{ partial "templates/breadcrumbs" . }}
     </div>
 </div>
+
 {{ end }}
 <main>
 {{ block "main" . }}

@@ -61,6 +61,12 @@ ul.uk-breadcrumb>*>* {
     font-size: .775rem;
 }
 
+@media screen and (max-width: 800px) {
+    ul.uk-breadcrumb {
+        display: none;
+    }
+}
+
 ul.uk-breadcrumb>:nth-child(n+2):not(.uk-first-column)::before {
     margin: 0 10px 0 calc(10px - 4px);
 }
@@ -171,6 +177,15 @@ form textarea.uk-textarea::placeholder {
 }
 
 /* NAVBAR */
+
+
+nav > div.uk-navbar-right > a > svg {
+    color: #fff;
+}
+
+#body > div > div.uk-position-top.full-nav-wrapper > div.uk-sticky.undefined.uk-sticky-below.uk-sticky-fixed > nav > div.uk-navbar-right > a > svg {
+    color: #000;
+}
 
 div.top-navbar ul.uk-navbar-nav>li>a {
     min-height: 50px;

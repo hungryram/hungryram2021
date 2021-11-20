@@ -42,7 +42,7 @@
                     <h2 class="uk-h4">Recent Posts</h2>
                     {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
                         <a href="{{ .Permalink }}" class="uk-link-text">
-                            <h2 class="uk-h5">{{ .Title }}</h2>
+                            <h4 class="uk-h5 uk-text-light">{{ .Title }}</h4>
                         </a>
                     {{ end }}
                 </div>

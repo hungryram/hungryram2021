@@ -4,19 +4,20 @@
 
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <div class="uk-text-center uk-dark uk-margin-medium">
-            <h2 class="uk-h3">Overtake your competitors with blazing-fast websites!</h2>
+            <h2 class="uk-h3">Find out how our websites are different</h2>
+            <p>Built entirely different from your average websites. Give your website the edge it needs to outrank your competitors</p>
         </div>
         <form name="Modal Sign Up" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
             <input name="bot-field" type="hidden" />
             <input type="hidden" name="Subject" value="Website Contact Form">
             <div class="uk-width-1-2@s">
-                <input class="uk-input" type="text" placeholder="Name" name="Name">
+                <input class="uk-input" type="text" placeholder="Name*" name="Name" required>
             </div>
             <div class="uk-width-1-2@s">
-                <input class="uk-input" type="text" placeholder="Phone" name="Phone">
+                <input class="uk-input" type="text" placeholder="Phone*" name="Phone" required>
             </div>
             <div class="uk-width-1-1">
-                <input class="uk-input" type="text" placeholder="Email" name="Email">
+                <input class="uk-input" type="text" placeholder="Email*" name="Email" required>
             </div>
             <div class="uk-width-1-1">
                 <textarea class="uk-textarea" rows="3" placeholder="Your Message" name="Message"></textarea>
