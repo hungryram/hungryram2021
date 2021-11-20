@@ -1,6 +1,6 @@
 +++
 categories = ["Real Estate"]
-date = ""
+date = 2021-11-19T08:00:00Z
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1637389430/hungryram/real-estate-branding_orpo9e.jpg"
 image_alt_tag = "real estate brand awareness"
 is_post = true
