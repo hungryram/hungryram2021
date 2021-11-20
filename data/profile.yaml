@@ -10,9 +10,9 @@ social_media:
   tiktok: ''
   youtube: ''
 contact_information:
-  phone: (657) 549-5082
+  phone: "(657) 549-5082"
   name: Ram Dettmer
-  cell: (951) 454-2650
+  cell: "(951) 454-2650"
   address: '5511 Mirage St #1007'
   email: ram@hungryram.com
   city: Yorba Linda
@@ -20,9 +20,10 @@ contact_information:
   zip_code: "92887"
   license: ''
 search_engine_optimization:
-  title_tag: Orange County Website Design - Hungry Ram Web Design
-  meta_description: Based in Orange County, specializing in modern development for
-    the web. Providing the best websites for real estate and small businesses.
+  title_tag: Orange County Web Design - Hungry Ram Web Design
+  meta_description: We deliver the highest-performing SEO website designs for real
+    estate and small businesses to help stand out from local competitors. Find out
+    how our sites are different.
   twitter_card:
     twitter_username: ''
   facebook:
