@@ -1,22 +1,54 @@
 {{ define "main" }}
 <div class="uk-section uk-section-small" id="blog-wrapper">
     <div class="uk-container">
-        <div uk-grid>
-            <div class="uk-width-3-4@s">
+        <div class="uk-grid-large" uk-grid>
+            <div class="uk-width-2-3@s">
                 <div class="uk-card">
-                    <div class="image-wrapper uk-margin-large">
-                        {{ if .Params.featured_image }}
-                        <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}">
+                    <div class="uk-margin-large-top uk-text-left blog-title">
+                        <div class="blog-crumbs">
+                            {{ partial "templates/breadcrumbs" . }}
+                        </div>
+                        <h1 class="uk-h2 uk-margin-medium-top">{{ .Title }}</h1>
+                        <div class="uk-margin-medium-bottom">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle" width="40" height="40" src="https://res.cloudinary.com/hungryram19/image/upload/v1608578269/hungryram/0_mr7riv.jpg">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-h5 uk-margin-remove-bottom">Ram Dettmer</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top"><time>{{ time.Format "January 2, 2006" .Date }}</time></p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ if .Params.intro }}
+                        <div class="uk-margin-medium-bottom md__content blog__content">
+                            <p>{{ .Params.intro }}</p>
+                        </div>
                         {{ end }}
                     </div>
-                    <div class="md__content blog__content">
+                    {{ if .Params.featured_image }}
+                    <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}">
+                    {{ end }}
+                    <div class="md__content blog__content uk-margin-medium-top">
                         {{ .Content }}
                     </div>
                 </div>
 
             </div>
             <div class="uk-width-expand@s">
-                <div class="uk-card">
+                <div>
+                    <div class="uk-card">
+                        <div class="uk-card-media-top">
+                            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1637540007/hungryram/newramdettmer.jpg" alt="Ram Dettmer">
+                        </div>
+                        <div class="uk-margin-medium-top">
+                            <h3 class="uk-h5">About Ram Dettmer</h3>
+                            <p class="uk-text-default">Ram started his career in 2012 building websites for a variety of industries across the country. Primarily focused on real estate and small businesses, his work has been featured  on IHomefinder, one of the largest IDX providers for real estate.</p>
+                            <a href="/about" class="uk-button uk-button-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-card uk-margin-medium-top">
                     <h5>Categories</h5>
                     <ul class="uk-list">
                         {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
@@ -26,18 +58,7 @@
                       {{end}}
                     </ul>
                 </div>
-                <div class="uk-card uk-padding-small uk-margin-medium-top" style="background:#eee">
-                    <h2 class="uk-h4">Do you want more traffic?</h2>
-                    <p>Get a professional to audit your website</p>
-                    <form name="Website URL" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thank-you">
-                        <div class="uk-margin" uk-margin>
-                            <div>
-                                <input class="uk-input uk-form-width-large" type="text" placeholder="Your website URL" name="website name">
-                            </div>
-                            <button class="uk-button uk-button-primary uk-width-1-1">Submit</button>
-                        </div>
-                    </form>
-                </div>
+
                 <div class="uk-card uk-margin-medium-top">
                     <h2 class="uk-h4">Recent Posts</h2>
                     {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
@@ -51,4 +72,5 @@
         
     </div>
 </div>
+{{ partial "global/closing" . }}
 {{ end }}

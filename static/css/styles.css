@@ -61,8 +61,19 @@ ul.uk-breadcrumb>*>* {
     font-size: .775rem;
 }
 
+div.blog-crumbs .uk-breadcrumb li a {
+    color: #2196f3;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 800px) {
+    div.blog-title h1 {
+        font-size: 45px;
+    }
+}
+
 @media screen and (max-width: 800px) {
-    ul.uk-breadcrumb {
+    ul.uk-breadcrumb:not(.blog-crumbs ul) {
         display: none;
     }
 }
@@ -367,9 +378,6 @@ a.link-black {
 
 /* BLOG */
 
-#blog-wrapper h1 {
-    line-height: 70px;
-}
 
 #blog-wrapper img {
     border-radius: 5px;
