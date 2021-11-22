@@ -82,9 +82,9 @@ If you're using WordPress and haven't updated the core files recently then updat
 
 ## The importance of page speed
 
-Page speed is very important for your real estate website, or just any website. So why is speed so important? 
+Page speed is very important for your real estate website, or just any website. So why is speed so important?
 
-Speed is important because it tells Google how fast your website loads and if the user will get frustrated with waiting for a page to load. Speed also affects time on site, which means people may not stay on your real estate website as long if it takes forever to open. This increases your bounce rate, telling Google that you're website is slow, or not providing the information visitors want.
+Speed is important because it tells Google how fast your website loads and if the user will get frustrated with waiting for a page to load. Speed also affects time on site, which means people may not stay on your real estate website as long if it takes forever to open. This increases your bounce rate, telling Google that your website is slow, or not providing the information visitors want.
 
 For real estate websites, it's very hard to optimize your website for speed because so many factors are involved in real estate. Your website can be heavily bogged down by additional resources your site may need, like an IDX.
 
@@ -130,4 +130,4 @@ Security plays an even bigger role in whether or not you rank high on Google bec
 
 With these two factors in mind, you will be able to outrank your competition and increase conversions rates. Speed and security will help you make your real estate business more successful!
 
-If you are looking to switch to a more reliable real estate website that focuses on speed and security, contact our team and we'll show you how well your site will perform.
+If you are looking to switch to a more reliable real estate website that focuses on speed and security, [contact our team](/contact) and we'll show you how well your site will perform.
