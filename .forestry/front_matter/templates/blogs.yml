@@ -7,6 +7,15 @@ fields:
   config:
     required: false
   label: Blog Title
+- name: intro
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Intro
 - name: date
   type: datetime
   label: Date Published
