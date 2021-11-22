@@ -3,6 +3,7 @@ categories = ["Real Estate", "SEO"]
 date = 2021-11-21T08:00:00Z
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1637532430/hungryram/lady-in-white-working_cwwa78.jpg"
 image_alt_tag = "Business woman working"
+intro = "An important aspect in real estate marketing is getting your website to rank well with Google. This article will cover the two important ranking factors in SEO."
 is_post = true
 meta_description = "Discover the importance of speed and security when it comes to real estate websites. You'll also learn why these factors are so important for your website's ranking in search engines."
 title = "The 2 Important Factors in Real Estate SEO"
