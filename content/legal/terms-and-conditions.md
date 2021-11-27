@@ -11,6 +11,11 @@ The information provided by us on this website is not in any way a recommendatio
 
 Users will agree to not use this site or the content for any illegal or prohibited purposes that could damage, disable, overburden or impair the sites resources that the website relies on.
 
+##### Free website deal
+
+We offer some promotion for a free website setup. This only applies to real estate websites. This website promotion covers the setup fee and not the monthly fee. The monthly fee varies if you are a single agent, brokerage, and team. Single agents monthly maintenance is $49/mo. Brokerage/teams is $69/mo. IDX is an additional $30/mo. Additional MLS data fees and setup fees may apply. This varies differently across MLS boards.
+
+
 ##### Website Materials
 
 The information maintained on the website is intended to provide information to visitors about our services and products and may change without notice. Services and products in our website may not be available in all locations.
