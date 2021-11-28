@@ -1,43 +1,74 @@
 {{ partial "global/head" . }}
-<div class="uk-section uk-section-large" style="background: url(https://res.cloudinary.com/hungryram19/image/upload/v1637982803/hungryram/website-special/background-special-2.jpg) no-repeat center;background-size:cover" id="signup-2">
-    <div class="uk-container uk-light uk-text-center uk-margin-medium-bottom">
-        <a class="uk-navbar-item uk-logo" href="/">
-            <img src="https://res.cloudinary.com/hungryram19/image/upload/v1631939763/hungryram/large-hungry-ram-whitelogo_lo33ll.png" alt="Hungry Ram" width="200">
-        </a>
-        <h1>Get Your Free Real Estate Website</h1>
-        <p>Sign up today and claim your FREE website setup. We're covering up to $10 of your monthly MLS data fee and giving you a free website setup!<br> The ULTIMATE real estate website deal</p>
+{{ $hero := .Site.Data.home.hero }}
+<div class="uk-cover-container" uk-height-viewport="offset-bottom:20" style="background: url(https://res.cloudinary.com/hungryram19/image/upload/v1636968077/hungryram/business-meet.jpg) no-repeat center;background-size:cover" uk-grid>    
+    <div class="uk-overlay-primary uk-position-cover"></div>
+    <div class="uk-position-top full-nav-wrapper" style="z-index: 2;">
+        {{ partial "global/navbar" . }}
     </div>
-    <div class="uk-container uk-container-small">
-        <div class="uk-card uk-card-default uk-padding">
-            <form name="Website Special 2" method="POST" class="uk-margin-medium-top" netlify-honeypot="bot-field" data-netlify="true" action="/website-signup">
-                <input name="bot-field" type="hidden" />
-                <input type="hidden" name="Subject" value="Website Single Agent Special">
-                <input name="Link" type="hidden" value="{{ .Permalink }}" />
+    <div class="hero-text uk-white uk-width-1-1@s uk-text-left uk-margin-large-top uk-position-center uk-text-center@s" style="z-index:1">
+        <div class="uk-padding">
+            <h1 class="uk-text-bold heading uk-margin-remove uk-white">Start your 2022 with a FREE real estate website</h1>
+                <p>Give your business an edge over your competitors with the fastest website on the market<br> Built entirely different from your average real estate websites.</p>
+            
+            <div class="uk-margin-medium-top">
+                <a href="#website-signup" class="uk-button-primary uk-button" uk-scroll>Learn more</a>
+            </div>
+        </div>
+    </div>
     
-                        <div>
-                            <div class="uk-grid-small" uk-grid>
-                                <div class="uk-width-1-2@s">
-                                    <input class="uk-input" type="text" placeholder="Name" name="Name" required>
-                                </div>
-                                <div class="uk-width-1-2@s">
-                                    <input class="uk-input" type="text" placeholder="Phone" name="Phone" required>
+</div>
+<div class="uk-section website-special">
+    <div class="uk-container">
+        <div class="uk-grid uk-grid-large">
+            <div class="uk-width-1-2@s uk-margin-medium-bottom">
+                <h3>Increase your leads with a high performing website</h3>
+                <p>The most effective way to get a high ranking on search engines is by providing visitors with fast and secure website. Our websites are SEO friendly and score the highest in the Google PageSpeed score!</p>
+                <p style="font-weight:600">Start maximizing your leads with our modern real estate websites</p>
+
+                <ul class="uk-list">
+                    <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>No contract cancel anytime</li>
+                    <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>Superior support</li>
+                    <li><span uk-icon="check" class="uk-icon-button uk-margin-small-right"></span>Search Engine Optimized</li>
+                </ul>
+            </div>
+            <div class="uk-width-1-2@s" id="website-signup">
+                        <div class="uk-card uk-card-default" style="padding: 30px;">
+                            <div class="uk-text-center">
+                                <h3 class="uk-margin-remove">Step up your real estate website</h3>
+                                <h5 class="uk-margin-small-top">Get a site that converts</h5>
+                                <p>Are you interested in learning more about our websites? Fill out the form below.</p>
+                            </div>
+                            <hr>
+                            <form name="Website Special Agent" method="POST" class="uk-margin-medium-top" netlify-honeypot="bot-field" data-netlify="true" action="/website-signup">
+                                <input name="bot-field" type="hidden" />
+                                <input type="hidden" name="Subject" value="Website Single Agent Special">
+                                <input name="Link" type="hidden" value="{{ .Permalink }}" />
+
+                                        <div>
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="Name" name="Name" required>
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <input class="uk-input" type="text" placeholder="Phone" name="Phone" required>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <input class="uk-input" type="text" placeholder="Email" name="Email" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                <div class="uk-width-1-1 uk-margin-small">
+                                    <textarea class="uk-textarea" rows="5" placeholder="Additional Information and comments" name="comments"></textarea>
                                 </div>
                                 <div class="uk-width-1-1">
-                                    <input class="uk-input" type="text" placeholder="Email" name="Email" required>
+                                    <button class="uk-button uk-button-secondary modal-button uk-text-default">Send</button>
                                 </div>
-                            </div>
+                                <div class="uk-width-1-1">
+                                    <small>By submitting the form with your information above you are agreeing to our <a style="color:#2196f3" href="/legal/terms-and-conditions">Terms and Conditions</a> and <a style="color:#2196f3" href="/legal/privacy-policy">Privacy Policy</a></small>
+                                </div>
+                            </form>
                         </div>
-                <div class="uk-width-1-1 uk-margin-small">
-                    <textarea class="uk-textarea" rows="5" placeholder="Additional Information and comments" name="comments"></textarea>
-                </div>
-                <div class="uk-width-1-1">
-                    <button class="uk-button uk-button-secondary modal-button">Submit</button>
-                </div>
-                <div class="uk-width-1-1 uk-text-center">
-                    <p class="uk-text-small uk-margin-small-top">By submitting the form with your information above you are agreeing to our <a style="color:#2196f3" href="/legal/terms-and-conditions">Terms and Conditions</a> and <a style="color:#2196f3" href="/legal/privacy-policy">Privacy Policy</a></p>
-                    <p class="uk-text-small uk-text-center">Start your 7-day free trial. No credit card required. We are offering a free real estate website. After the 7-day trial, it is $49/mo for single agents and $69 for teams/brokers. IDX is an additional $30/mo. Data fee is charged through your MLS. We cover up to $10/mo for your data fee.</p>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>
@@ -103,9 +134,6 @@
             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
         
         </div>
-        <div class="uk-margin-medium-top uk-text-center">
-            <a href="#signup-2" class="uk-button uk-button-primary" uk-scroll>Claim offer</a>
-        </div>
     </div>
 </div>
 <div class="uk-section">
@@ -165,31 +193,6 @@
                 <p>Ram was a pleasure to work with. He got our site up and running and was easy to work with in getting our revisions made. I'd recommend him to any agent looking to build a fully functional IDX site. Thanks Ram</p>
             </div>
         </article>
-        <div class="uk-margin-medium-top uk-text-center">
-            <a href="#signup-2" class="uk-button uk-button-primary" uk-scroll>Claim offer</a>
-        </div>
     </div>
 </div>
-
-
-
-
-{{ $social := .Site.Data.profile.social_media }}
-{{ $contact := .Site.Data.profile.contact_information }}
-<footer class="footer">
-    <div class="uk-container uk-padding">
-        <div class="uk-grid">
-            <div class="uk-width-1-1@s">
-                <p class="uk-light uk-text-small">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}</p>
-                <ul class="hr-legals uk-padding-remove">
-                    {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
-                    <li class="uk-light uk-text-small uk-display-inline uk-margin-medium-right"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                    {{ end }}
-                  </ul>
-            </div>
-        </div>
-    </div>
-</footer>
-
-</body>
-</html>
+{{ partial "global/footer" . }}
