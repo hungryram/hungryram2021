@@ -12,7 +12,7 @@ title_tag = "How should your real estate website look? | Hungry Ram"
 +++
 What should real estate websites look like? This is a question that many realtors ask themselves when they are in the planning stages of their realty website. There are so many different ways to design real estate web pages, and there isn't really a set rule of how realtors can go about designing their real estate websites. Many times it comes down to the personal preference on what their real estate webpages should look like or what an ideal real estate website would consist of.
 
-Below I'll outline some items that your real estate website may need and some tips on how to design an IDX real estate website. But if you want a real estate website that already has an amazing design, is cheap, and easy to set up, then you'll want to check out the vesper design. Vesper is one of our most fluid templates that allow easy customization and has the highest-performing real estate website.
+Below I'll outline some items that your real estate website may need and some tips on how to design an IDX real estate website. But if you want a real estate website that already has an amazing design, is cheap, and easy to set up, then you'll want to check out the [vesper design](https://vesper.netlify.app/). Vesper is one of our most fluid templates that allow easy customization and has the highest-performing real estate website.
 
 So let's get started with how your real estate website should look.
 
