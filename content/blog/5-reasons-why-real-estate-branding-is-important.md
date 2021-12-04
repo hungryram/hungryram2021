@@ -3,6 +3,7 @@ categories = ["Real Estate"]
 date = 2021-11-19T08:00:00Z
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1637389430/hungryram/real-estate-branding_orpo9e.jpg"
 image_alt_tag = "real estate brand awareness"
+intro = ""
 is_post = true
 meta_description = "It's difficult to sell houses if no one knows who you are or how experienced you are. Branding your real estate business will translate into more leads for your business."
 title = "5 Reasons Why Real Estate Branding Is Important"
@@ -77,4 +78,4 @@ Remember, branding is important to scale your business! The sooner you get brand
 
 You want to make sure that your site looks professional and inviting so that people will visit again and again. The hardest part about creating an online brand is making sure that your site looks inviting and professional. You don't want to look like one of those "build-it-yourself" sites, but you also don't want to spend hours trying to figure out how to create the perfect brand for yourself.
 
-We've created websites for [agents]() and [brokers](/services/broker-idx-websites/) all over the country. If you need help with establishing your online branding or getting started with building a new website, let our team develop a strategy for you. [Get in touch](/contact) with our experts today.
+We've created websites for [agents](https://www.hungryram.com/services/agent-idx-websites/) and [brokers](/services/broker-idx-websites/) all over the country. If you need help with establishing your online branding or getting started with building a new website, let our team develop a strategy for you. [Get in touch](/contact) with our experts today.
