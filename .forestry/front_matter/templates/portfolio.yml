@@ -60,6 +60,7 @@ fields:
   template: seo
   label: SEO
 pages:
+- content/portfolio/ka-intimacy.md
 - content/portfolio/rn-insurance.md
 - content/portfolio/top-marq-media.md
 - content/portfolio/wallstreet-realty.md
