@@ -44,6 +44,8 @@ This also means that all real estate web pages should be easy to navigate. Visit
 
 Another important real estate website functionality is an IDX feed. This allows visitors to view real estate listings on your site from different Multiple Listing Services (MLS). This is a great feature to include on your real estate web pages as it gives potential visitors a wider range of properties to choose from.
 
+We partnered up with [iHomefinder](https://www.ihomefinder.com/blog/web-developer-resources/partner-spotlight-hungry-ram/) to bring our clients the best IDX tools needed to grow their real estate business. All our [IDX websites](/services/agent-idx-websites/) are integrated with iHomefinders versatile software for user-friendly searches and property management.
+
 Sometimes agents can opt-out of having an IDX, but can miss a lot of opportunities to capture leads. IDX has useful tools to grow your website and one of our IDX partners is IHomefinder. IHomefinder is one of the largest IDX providers in the market, and Hungry Ram is listed as a trusted partner on their website!
 
 An IDX website is a real estate agent's best friend. By having an IDX website, you can offer potential clients a wider range of real estate listings to view on your site. This can help increase the chances that they will find a property that they are interested in and will eventually turn into a sale.
@@ -82,4 +84,4 @@ Make sure you also include real estate news on your website. This will show that
 
 ## Conclusion
 
-By following these tips, you can create a real estate website that will help you grow your business! Want to invest your time into your business? Let us build your website for you! Hungry Ram has all the resources to build real estate websites to help you maximize leads. [Contact ](/contact)our team today!
+By following these tips, you can create a real estate website that will help you grow your business! Want to invest your time into your business? Let us build your website for you! Hungry Ram has all the resources to build [real estate websites](https://www.hungryram.com/services/agent-idx-websites/) to help you maximize leads. [Contact ](/contact)our team today!
