@@ -22,7 +22,7 @@
                         </div>
                         {{ if .Params.intro }}
                         <div class="uk-margin-medium-bottom md__content blog__content">
-                            <p>{{ .Params.intro }}</p>
+                            {{ .Params.intro | markdownify }}
                         </div>
                         {{ end }}
                     </div>
