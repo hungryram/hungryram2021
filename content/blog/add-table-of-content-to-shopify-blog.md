@@ -209,3 +209,5 @@ I hope this article allowed you to implement a table of content to your blog art
 [Let me know](/contact) if this has worked for you. If it has, please share this article with others.
 
 If you can improve the script, please do and I will update it.
+
+If you would like to take a look at how I implemented the table of content for my client. Check out her [KA Intimacy blog](https://ka-intimacy.com/blogs/learn "KA Intimacy blog").
