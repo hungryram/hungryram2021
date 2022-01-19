@@ -27,19 +27,27 @@ Why?
 
 Based on the video on the [table of content generator](https://cardboardcathomes.com/blogs/behind-the-scenes/a-tool-to-add-a-table-of-contents-to-your-shopify-blog-post "table of content generator") page, it would look like you'd have to manually do this for every blog post, and go through old ones to add it in.
 
-Also, this would create a mess as your blog grows, leaving trails of messy code and javascript code in every blog post.
+Also, this would create extra code within each editor that can become a bit messy.
 
 This would lead to time consumption and is not something I want to do for every blog post I have.
 
+I tested out the tool and it worked great.
+
+But I needed something that will do it automatically without injecting any extra code into the editor, and without having to individually add it to every article, new or old.
+
+And if I ever need it removed, I can remove it from a single file, whereas the tool by Cardboardcat will need it removed manually for each blog post.
+
 ## Finding a Solution
 
-So obviously it seems like no one has a free table of content solution or plugin that can be used for a Shopify store.
+So obviously it seems like no one has an easy free table of content solution or plugin that can be used for a Shopify store.
 
 I figured I can take some time out of the day to find a way to quickly put something together.
 
 Well, a few hours had passed by while I tried coming up with conditional statements using Javascript.
 
 Finally, I remembered that the same [content management system](https://forestry.io/ "Forestry.io") that I use for my clients automatically generated ID's to heading tags based on the text inside.
+
+This gave me an idea of using anchor linking ID's to create same page linking.
 
 To summarize..
 
