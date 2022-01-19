@@ -16,3 +16,8 @@ fields:
     schema:
       format: markdown
   label: Meta Description
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
