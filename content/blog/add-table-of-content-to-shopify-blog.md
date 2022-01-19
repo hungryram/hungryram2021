@@ -1,7 +1,7 @@
 +++
 categories = ["Tips and Tricks"]
 date = 2022-01-18T08:00:00Z
-featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1642565043/hungryram/shopify-free-table-of-content_obopad.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1642568139/hungryram/shopify-table-of-content-free_sdh7zy.jpg"
 image_alt_tag = "Free Shopify table of content"
 intro = "Blogging is an important part of online marketing, but it can be hard to work with some content management software like Shopify.\n\nInstalling a plugin just for a basic feature adds to more of your monthly Shopify costs, and can potentially slow down your e-commerce site.\n\nWhile working on SEO for one of my clients, I found out Shopify didn't provide it out of the box. The solution was to come up with a piece of javascript or liquid condition that would generate a table of content automatically based on heading tags.\n\nIt took me a while to find the right method, so I thought this article could be helpful for some of you."
 is_post = true
@@ -206,6 +206,6 @@ This will increase SEO on a website by making your content more accessible to vi
 
 I hope this article allowed you to implement a table of content to your blog article on Shopify.
 
-I'd love to hear if this has worked for you. If it has, please share this article with others.
+[Let me know](/contact) if this has worked for you. If it has, please share this article with others.
 
 If you can improve the script, please do and I will update it.
