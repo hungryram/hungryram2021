@@ -11,7 +11,7 @@ title_tag = "Add Table of Content to Shopify Blog | Hungry Ram Web Design"
 url = "blog/shopify-table-of-content"
 
 +++
-I recently started working on building up content for our new SEO client KA Intimacy.
+I recently started working on building up content for our new SEO client [KA Intimacy](https://ka-intimacy.com/ "KA Intimacy").
 
 While optimizing the blog page, I considered adding a table of content to make it easier for users to navigate to different sections of the blog post they're interested in.
 
