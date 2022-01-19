@@ -8,7 +8,7 @@ is_post = true
 meta_description = "Add a table of content on Shopify for free without any plugins. This article will walk you through how to automatically generate table of contents for your Shopify blog articles."
 title = "Add Table of Content to Shopify Blog"
 title_tag = "Add Table of Content to Shopify Blog | Hungry Ram Web Design"
-url = "shopify-table-of-content"
+url = "blog/shopify-table-of-content"
 
 +++
 I recently started working on building up content for our new SEO client KA Intimacy.
