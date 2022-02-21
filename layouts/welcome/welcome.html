@@ -1,0 +1,36 @@
+{{ define "main" }}
+<style>
+    ul.uk-breadcrumb {
+    display: none;
+}
+</style>
+    <div class="uk-section">
+        <div class="uk-flex uk-flex-center uk-text-center">
+            <div>
+                <div class="uk-container uk-text-center">
+                    <h2 class="uk-h3">We use the newest web technologies to build websites</h2>
+                    <p>Interested in what we do? Enter your email and stay up-to-date!</p>
+                    <form name="Website Interest" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small uk-text-center uk-flex-center" uk-grid action="/successful">
+                        <div class="uk-margin uk-text-center">
+                            <div uk-form-custom="target: true">
+                                <input class="uk-input uk-width-medium" type="text" placeholder="Email" name="email" required>
+                            </div>
+                            <button class="uk-button uk-button-secondary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="uk-container uk-container-small uk-margin-medium">
+            <div class="uk-flex-center uk-flex uk-text-center">
+
+                <div class="uk-width-large uk-child-width-1-1 uk-grid-small" uk-grid>
+                    <a href="/portfolio" class="uk-button uk-button-primary">View Portfolio</a>
+                    <a href="/portfolio" class="uk-button uk-button-primary">Visit Home Page</a>
+                    <a href="/portfolio" class="uk-button uk-button-primary">Real Estate Websites</a>
+                    <a href="/portfolio" class="uk-button uk-button-primary">Small Business Websites</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}
